@@ -1,0 +1,593 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Operational:AD8620 U400
+U 1 1 60658028
+P 5100 1750
+F 0 "U400" H 5100 2117 50  0000 C CNN
+F 1 "TLV9052" H 5100 2026 50  0000 C CNN
+F 2 "Samacsys:SOT65P280X110-8N" H 5100 1750 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf" H 5100 1750 50  0001 C CNN
+	1    5100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:AD8620 U400
+U 2 1 6065BD11
+P 5250 2500
+F 0 "U400" H 5250 2867 50  0000 C CNN
+F 1 "TLV9052" H 5250 2776 50  0000 C CNN
+F 2 "Samacsys:SOT65P280X110-8N" H 5250 2500 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf" H 5250 2500 50  0001 C CNN
+	2    5250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:AD8620 U400
+U 3 1 6065DD7B
+P 6350 2050
+F 0 "U400" H 6308 2096 50  0000 L CNN
+F 1 "TLV9052" H 6308 2005 50  0000 L CNN
+F 2 "Samacsys:SOT65P280X110-8N" H 6350 2050 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf" H 6350 2050 50  0001 C CNN
+	3    6350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04 RN400
+U 1 1 6066295B
+P 2600 3150
+F 0 "RN400" V 2183 3150 50  0000 C CNN
+F 1 "220k" V 2274 3150 50  0000 C CNN
+F 2 "Samacsys:742C083103JP" V 2875 3150 50  0001 C CNN
+F 3 "~" H 2600 3150 50  0001 C CNN
+	1    2600 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN401
+U 1 1 60665373
+P 3900 3150
+F 0 "RN401" V 3483 3150 50  0000 C CNN
+F 1 "220R" V 3574 3150 50  0000 C CNN
+F 2 "Samacsys:742C083103JP" V 4175 3150 50  0001 C CNN
+F 3 "~" H 3900 3150 50  0001 C CNN
+	1    3900 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN402
+U 1 1 60668339
+P 4550 3150
+F 0 "RN402" V 4133 3150 50  0000 C CNN
+F 1 "220k" V 4224 3150 50  0000 C CNN
+F 2 "Samacsys:742C083103JP" V 4825 3150 50  0001 C CNN
+F 3 "~" H 4550 3150 50  0001 C CNN
+	1    4550 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Operational:AD8620 U401
+U 1 1 6067BDAF
+P 5400 3900
+F 0 "U401" H 5400 4267 50  0000 C CNN
+F 1 "TLV9052" H 5400 4176 50  0000 C CNN
+F 2 "Samacsys:SOT65P280X110-8N" H 5400 3900 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf" H 5400 3900 50  0001 C CNN
+	1    5400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:AD8620 U401
+U 2 1 6067BDB5
+P 5400 4750
+F 0 "U401" H 5400 5117 50  0000 C CNN
+F 1 "TLV9052" H 5400 5026 50  0000 C CNN
+F 2 "Samacsys:SOT65P280X110-8N" H 5400 4750 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf" H 5400 4750 50  0001 C CNN
+	2    5400 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:AD8620 U401
+U 3 1 6067BDBB
+P 6350 4200
+F 0 "U401" H 6308 4246 50  0000 L CNN
+F 1 "TLV9052" H 6308 4155 50  0000 L CNN
+F 2 "Samacsys:SOT65P280X110-8N" H 6350 4200 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf" H 6350 4200 50  0001 C CNN
+	3    6350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R400
+U 1 1 6067C207
+P 2700 2450
+F 0 "R400" V 2493 2450 50  0000 C CNN
+F 1 "0603 4.7k" V 2584 2450 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" V 2630 2450 50  0001 C CNN
+F 3 "~" H 2700 2450 50  0001 C CNN
+	1    2700 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R401
+U 1 1 6067D633
+P 2700 3800
+F 0 "R401" V 2493 3800 50  0000 C CNN
+F 1 "0603 4.7k" V 2584 3800 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" V 2630 3800 50  0001 C CNN
+F 3 "~" H 2700 3800 50  0001 C CNN
+	1    2700 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R405
+U 1 1 6067DA2A
+P 3900 3800
+F 0 "R405" V 3693 3800 50  0000 C CNN
+F 1 "0603 47k" V 3784 3800 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" V 3830 3800 50  0001 C CNN
+F 3 "~" H 3900 3800 50  0001 C CNN
+	1    3900 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R403
+U 1 1 6067E85C
+P 3500 4050
+F 0 "R403" V 3293 4050 50  0000 C CNN
+F 1 "0603 47k" V 3384 4050 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" V 3430 4050 50  0001 C CNN
+F 3 "~" H 3500 4050 50  0001 C CNN
+	1    3500 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R404
+U 1 1 6067F2AA
+P 3900 2450
+F 0 "R404" V 3693 2450 50  0000 C CNN
+F 1 "0603 47k" V 3784 2450 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" V 3830 2450 50  0001 C CNN
+F 3 "~" H 3900 2450 50  0001 C CNN
+	1    3900 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R402
+U 1 1 6067FBF4
+P 3500 2150
+F 0 "R402" V 3293 2150 50  0000 C CNN
+F 1 "0603 47k" V 3384 2150 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" V 3430 2150 50  0001 C CNN
+F 3 "~" H 3500 2150 50  0001 C CNN
+	1    3500 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C402
+U 1 1 60681241
+P 3150 2450
+F 0 "C402" V 2898 2450 50  0000 C CNN
+F 1 "0603 1nF" V 2989 2450 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" H 3188 2300 50  0001 C CNN
+F 3 "~" H 3150 2450 50  0001 C CNN
+	1    3150 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C400
+U 1 1 60682368
+P 1950 2700
+F 0 "C400" H 2065 2746 50  0000 L CNN
+F 1 "0603 100nF" H 2065 2655 50  0000 L CNN
+F 2 "Samacsys:RESC1608X55N" H 1988 2550 50  0001 C CNN
+F 3 "~" H 1950 2700 50  0001 C CNN
+	1    1950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C401
+U 1 1 60682BB6
+P 1950 3750
+F 0 "C401" H 2065 3796 50  0000 L CNN
+F 1 "0603 100nF" H 2065 3705 50  0000 L CNN
+F 2 "Samacsys:RESC1608X55N" H 1988 3600 50  0001 C CNN
+F 3 "~" H 1950 3750 50  0001 C CNN
+	1    1950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C CD400
+U 1 1 60683446
+P 6700 2050
+F 0 "CD400" H 6815 2096 50  0000 L CNN
+F 1 "0603 100nF" H 6815 2005 50  0000 L CNN
+F 2 "Samacsys:RESC1608X55N" H 6738 1900 50  0001 C CNN
+F 3 "~" H 6700 2050 50  0001 C CNN
+	1    6700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C CD401
+U 1 1 60683B85
+P 6700 4200
+F 0 "CD401" H 6815 4246 50  0000 L CNN
+F 1 "0603 100nF" H 6815 4155 50  0000 L CNN
+F 2 "Samacsys:RESC1608X55N" H 6738 4050 50  0001 C CNN
+F 3 "~" H 6700 4200 50  0001 C CNN
+	1    6700 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C404
+U 1 1 60684251
+P 4800 2250
+F 0 "C404" H 4915 2296 50  0000 L CNN
+F 1 "0603 1nF" H 4915 2205 50  0000 L CNN
+F 2 "Samacsys:RESC1608X55N" H 4838 2100 50  0001 C CNN
+F 3 "~" H 4800 2250 50  0001 C CNN
+	1    4800 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C405
+U 1 1 60684A1A
+P 4500 4500
+F 0 "C405" H 4615 4546 50  0000 L CNN
+F 1 "0603 1nF" H 4615 4455 50  0000 L CNN
+F 2 "Samacsys:RESC1608X55N" H 4538 4350 50  0001 C CNN
+F 3 "~" H 4500 4500 50  0001 C CNN
+	1    4500 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2400 4950 2400
+Wire Wire Line
+	2550 2450 2550 2000
+Wire Wire Line
+	2550 3800 2550 4200
+Wire Wire Line
+	4800 1850 4250 1850
+Wire Wire Line
+	5100 4000 4850 4000
+Wire Wire Line
+	4050 2450 4150 2450
+Wire Wire Line
+	4150 2450 4150 1650
+Wire Wire Line
+	4150 1650 4800 1650
+Wire Wire Line
+	4050 3800 4150 3800
+Wire Wire Line
+	2400 3050 2300 3050
+Wire Wire Line
+	2300 3050 2300 3150
+Wire Wire Line
+	2300 3150 2400 3150
+Wire Wire Line
+	2300 3150 2250 3150
+Connection ~ 2300 3150
+Text GLabel 2250 3150 0    50   Input ~ 0
+VSS
+Wire Wire Line
+	2400 2950 2400 2650
+Wire Wire Line
+	2400 3250 2400 3500
+Wire Wire Line
+	2800 3050 2900 3050
+Wire Wire Line
+	2900 3050 2900 2950
+Wire Wire Line
+	2900 2950 2800 2950
+Wire Wire Line
+	2800 3150 2900 3150
+Wire Wire Line
+	2900 3150 2900 3250
+Wire Wire Line
+	2900 3250 2800 3250
+Wire Wire Line
+	2900 2950 2900 2550
+Wire Wire Line
+	2900 2550 1950 2550
+Connection ~ 2900 2950
+Wire Wire Line
+	2900 3250 2900 3900
+Wire Wire Line
+	2900 3900 1950 3900
+Connection ~ 2900 3250
+Wire Wire Line
+	1950 2850 2300 2850
+Wire Wire Line
+	2300 2850 2300 3050
+Connection ~ 2300 3050
+Wire Wire Line
+	1950 3600 2300 3600
+Wire Wire Line
+	2300 3600 2300 3150
+Wire Wire Line
+	1950 2550 1750 2550
+Connection ~ 1950 2550
+Wire Wire Line
+	1950 3900 1750 3900
+Connection ~ 1950 3900
+Wire Wire Line
+	4150 2450 4150 2950
+Wire Wire Line
+	4150 2950 4100 2950
+Connection ~ 4150 2450
+Wire Wire Line
+	4100 3050 4150 3050
+Wire Wire Line
+	4150 3050 4150 2950
+Connection ~ 4150 2950
+Wire Wire Line
+	4100 3150 4150 3150
+Wire Wire Line
+	4150 3150 4150 3250
+Wire Wire Line
+	4150 3800 5100 3800
+Wire Wire Line
+	4100 3250 4150 3250
+Connection ~ 4150 3250
+Wire Wire Line
+	4150 3250 4150 3800
+Wire Wire Line
+	3700 3150 3550 3150
+Wire Wire Line
+	3550 3150 3550 3100
+Wire Wire Line
+	3550 3050 3700 3050
+Wire Wire Line
+	3550 3100 3500 3100
+Connection ~ 3550 3100
+Wire Wire Line
+	3550 3100 3550 3050
+Text GLabel 3500 3100 0    50   Input ~ 0
+VSS
+Wire Wire Line
+	3700 3250 3650 3250
+Wire Wire Line
+	3650 3250 3650 2950
+Wire Wire Line
+	3650 2950 3700 2950
+Wire Wire Line
+	3650 2950 3500 2950
+Connection ~ 3650 2950
+Text GLabel 3500 2950 0    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	5400 1750 5400 2000
+Wire Wire Line
+	5400 2000 4350 2000
+Wire Wire Line
+	4350 2000 4350 2950
+Wire Wire Line
+	5700 3900 5700 3450
+Wire Wire Line
+	5700 3450 4350 3450
+Wire Wire Line
+	4350 3450 4350 3250
+Wire Wire Line
+	4800 2100 4750 2100
+Wire Wire Line
+	4500 4350 4450 4350
+Text GLabel 4750 2100 0    50   Input ~ 0
+VSS
+Text GLabel 4450 4350 0    50   Input ~ 0
+VSS
+Connection ~ 4800 2400
+Wire Wire Line
+	4950 2600 4950 2800
+Wire Wire Line
+	4950 2800 5550 2800
+Wire Wire Line
+	5550 2800 5550 2500
+Wire Wire Line
+	5100 4850 5100 5050
+Wire Wire Line
+	5100 5050 5700 5050
+Wire Wire Line
+	5700 5050 5700 4750
+Wire Wire Line
+	4800 2400 4800 2950
+Wire Wire Line
+	4750 2950 4800 2950
+Wire Wire Line
+	4350 3050 4350 2950
+Connection ~ 4350 2950
+Wire Wire Line
+	4350 3150 4350 3250
+Connection ~ 4350 3250
+Connection ~ 4150 3800
+Wire Wire Line
+	4750 3050 4850 3050
+Wire Wire Line
+	4850 3050 4850 2600
+Wire Wire Line
+	4850 2600 4250 2600
+Wire Wire Line
+	4250 2600 4250 1850
+Connection ~ 4250 1850
+Wire Wire Line
+	4750 3150 4850 3150
+Wire Wire Line
+	4850 3150 4850 4000
+Connection ~ 4850 4000
+Wire Wire Line
+	4850 4000 4150 4000
+Wire Wire Line
+	4500 4650 4800 4650
+Wire Wire Line
+	4750 3250 4800 3250
+Wire Wire Line
+	4800 3250 4800 4650
+Connection ~ 4800 4650
+Wire Wire Line
+	4800 4650 5100 4650
+Wire Wire Line
+	5700 5050 5800 5050
+Connection ~ 5700 5050
+Wire Wire Line
+	5550 2800 5650 2800
+Connection ~ 5550 2800
+Wire Wire Line
+	6250 3900 6700 3900
+Wire Wire Line
+	6700 3900 6700 4050
+Wire Wire Line
+	6250 4500 6700 4500
+Wire Wire Line
+	6700 4500 6700 4350
+Wire Wire Line
+	6250 2350 6700 2350
+Wire Wire Line
+	6700 2350 6700 2200
+Wire Wire Line
+	6250 1750 6700 1750
+Wire Wire Line
+	6700 1750 6700 1900
+Text GLabel 6250 1750 0    50   Input ~ 0
+VCC3V3
+Text GLabel 6250 3900 0    50   Input ~ 0
+VCC3V3
+Text GLabel 6250 2350 0    50   Input ~ 0
+VSS
+Text GLabel 6250 4500 0    50   Input ~ 0
+VSS
+Text HLabel 6150 2800 2    50   Input ~ 0
+K1_OUT
+Text HLabel 6350 5050 2    50   Input ~ 0
+K2_OUT
+Text HLabel 2550 4200 0    50   Input ~ 0
+K2_IN
+Text HLabel 1250 3900 0    50   Input ~ 0
+K2_OUT
+Text HLabel 1250 2550 0    50   Input ~ 0
+K1_OUT
+Text HLabel 2550 2000 0    50   Input ~ 0
+K1_IN
+Wire Wire Line
+	3300 2450 3500 2450
+Wire Wire Line
+	3500 2300 3500 2450
+Connection ~ 3500 2450
+Wire Wire Line
+	3500 2450 3750 2450
+Wire Wire Line
+	3500 1850 3500 2000
+Wire Wire Line
+	3500 1850 4250 1850
+Wire Wire Line
+	3500 4300 4150 4300
+Wire Wire Line
+	4150 4300 4150 4000
+Wire Wire Line
+	3300 3800 3500 3800
+Wire Wire Line
+	3500 3900 3500 3800
+Connection ~ 3500 3800
+Wire Wire Line
+	3500 3800 3750 3800
+Wire Wire Line
+	3500 4200 3500 4300
+$Comp
+L Device:C C403
+U 1 1 60681B1D
+P 3150 3800
+F 0 "C403" V 2898 3800 50  0000 C CNN
+F 1 "0603 1nF" V 2989 3800 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" H 3188 3650 50  0001 C CNN
+F 3 "~" H 3150 3800 50  0001 C CNN
+	1    3150 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 3500 3000 3800
+Wire Wire Line
+	2850 2450 3000 2450
+Wire Wire Line
+	2400 3500 3000 3500
+Wire Wire Line
+	2850 3800 3000 3800
+Connection ~ 3000 3800
+Wire Wire Line
+	3000 2650 3000 2450
+Wire Wire Line
+	2400 2650 3000 2650
+Connection ~ 3000 2450
+$Comp
+L Device:R R408
+U 1 1 61AE0FC0
+P 1600 2550
+F 0 "R408" V 1393 2550 50  0000 C CNN
+F 1 "0603 1k" V 1484 2550 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" V 1530 2550 50  0001 C CNN
+F 3 "~" H 1600 2550 50  0001 C CNN
+	1    1600 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R409
+U 1 1 61AE162D
+P 1600 3900
+F 0 "R409" V 1393 3900 50  0000 C CNN
+F 1 "0603 1k" V 1484 3900 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" V 1530 3900 50  0001 C CNN
+F 3 "~" H 1600 3900 50  0001 C CNN
+	1    1600 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R406
+U 1 1 61AE23FF
+P 5800 2800
+F 0 "R406" V 5593 2800 50  0000 C CNN
+F 1 "0603 1k" V 5684 2800 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" V 5730 2800 50  0001 C CNN
+F 3 "~" H 5800 2800 50  0001 C CNN
+	1    5800 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R407
+U 1 1 61AE2D37
+P 5950 5050
+F 0 "R407" V 5743 5050 50  0000 C CNN
+F 1 "0603 1k" V 5834 5050 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" V 5880 5050 50  0001 C CNN
+F 3 "~" H 5950 5050 50  0001 C CNN
+	1    5950 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 2800 6150 2800
+Wire Wire Line
+	6100 5050 6350 5050
+Wire Wire Line
+	1450 3900 1250 3900
+Wire Wire Line
+	1450 2550 1250 2550
+Text Notes 5550 2950 0    50   ~ 0
+FIT FOR KNOCK
+Text Notes 5700 5200 0    50   ~ 0
+FIT FOR KNOCK
+Text Notes 1200 2700 0    50   ~ 0
+FIT FOR ANALOG
+Text Notes 1200 4050 0    50   ~ 0
+FIT FOR ANALOG
+$EndSCHEMATC

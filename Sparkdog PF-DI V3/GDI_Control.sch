@@ -1,0 +1,405 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Rabbit~ECU~Schematic~Symbols:SN74AHCT08 U902
+U 1 1 609C324B
+P 7400 2350
+F 0 "U902" H 7600 3315 50  0000 C CNN
+F 1 "SN74AHCT08" H 7600 3224 50  0000 C CNN
+F 2 "Samacsys:SOP65P640X110-14N" H 7400 2350 50  0001 C CNN
+F 3 "" H 7400 2350 50  0001 C CNN
+	1    7400 2350
+	1    0    0    -1  
+$EndComp
+Text HLabel 4400 2100 0    50   Input ~ 0
+SIGAB_HV_EN
+Wire Wire Line
+	4400 2100 5700 2100
+Wire Wire Line
+	5800 2200 5800 2100
+Wire Wire Line
+	5800 2000 5800 1650
+Wire Wire Line
+	5800 1650 7300 1650
+Wire Wire Line
+	5700 2100 5700 1550
+Wire Wire Line
+	5700 1550 7000 1550
+Wire Wire Line
+	7000 1550 7000 1950
+Wire Wire Line
+	7000 1950 7300 1950
+Connection ~ 5700 2100
+Wire Wire Line
+	5700 2100 5800 2100
+Text GLabel 6400 2000 2    50   Input ~ 0
+VCC5V
+Connection ~ 5800 2100
+$Comp
+L Rabbit~ECU~Schematic~Symbols:SN74AHCT02 U900
+U 1 1 609BF869
+P 5900 2700
+F 0 "U900" H 6100 3665 50  0000 C CNN
+F 1 "SN74AHCT02" H 6100 3574 50  0000 C CNN
+F 2 "Samacsys:SOP65P640X110-14N" H 5900 2700 50  0001 C CNN
+F 3 "" H 5900 2700 50  0001 C CNN
+	1    5900 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 5800 2650 0    50   Input ~ 0
+VSS
+Text GLabel 7300 2300 0    50   Input ~ 0
+VSS
+Text GLabel 7900 1650 2    50   Input ~ 0
+VCC5V
+Text HLabel 4400 2400 0    50   Input ~ 0
+SIGAB_LV_EN
+Wire Wire Line
+	5800 2400 5800 2500
+Connection ~ 5800 2400
+Wire Wire Line
+	4750 2500 4400 2500
+Text HLabel 4400 2500 0    50   Output ~ 0
+SIGA_LV_EN
+Wire Wire Line
+	5800 2300 4850 2300
+Wire Wire Line
+	4850 2300 4850 2600
+Wire Wire Line
+	4850 2600 4400 2600
+Text HLabel 4400 2600 0    50   Output ~ 0
+SIGB_LV_EN
+Text HLabel 4400 2850 0    50   Input ~ 0
+SIGAB_PEAK
+Wire Wire Line
+	4400 2850 6800 2850
+Wire Wire Line
+	6800 2850 6800 2600
+Wire Wire Line
+	6800 1750 7300 1750
+Wire Wire Line
+	7300 2050 6800 2050
+Connection ~ 6800 2050
+Wire Wire Line
+	6800 2050 6800 1750
+Wire Wire Line
+	6800 2600 6400 2600
+Connection ~ 6800 2600
+Wire Wire Line
+	6800 2600 6800 2050
+Text HLabel 4400 2950 0    50   Input ~ 0
+SIGAB_PWM
+Wire Wire Line
+	4400 2950 6700 2950
+Wire Wire Line
+	6700 2950 6700 2500
+Wire Wire Line
+	6400 2500 6700 2500
+Wire Wire Line
+	6400 2100 6500 2100
+Wire Wire Line
+	6500 2100 6500 3050
+Wire Wire Line
+	6500 3050 4400 3050
+Wire Wire Line
+	6400 2200 6400 2300
+Text HLabel 4400 3050 0    50   Output ~ 0
+SIGAB_LS_EN
+$Comp
+L Device:C CD900
+U 1 1 609CB719
+P 4250 1700
+F 0 "CD900" H 4365 1746 50  0000 L CNN
+F 1 "0603 100nF" H 4365 1655 50  0000 L CNN
+F 2 "Samacsys:RESC1608X55N" H 4288 1550 50  0001 C CNN
+F 3 "~" H 4250 1700 50  0001 C CNN
+	1    4250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C CD901
+U 1 1 609CC3DE
+P 4950 1700
+F 0 "CD901" H 5065 1746 50  0000 L CNN
+F 1 "0603 100nF" H 5065 1655 50  0000 L CNN
+F 2 "Samacsys:RESC1608X55N" H 4988 1550 50  0001 C CNN
+F 3 "~" H 4950 1700 50  0001 C CNN
+	1    4950 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 4950 1550
+Wire Wire Line
+	4950 1550 5050 1550
+Wire Wire Line
+	4250 1550 4950 1550
+Wire Wire Line
+	4250 1850 4950 1850
+Connection ~ 4950 1850
+Wire Wire Line
+	4950 1850 5050 1850
+Text GLabel 5050 1550 2    50   Input ~ 0
+VCC5V
+Text GLabel 5050 1850 2    50   Input ~ 0
+VSS
+Wire Wire Line
+	7300 1850 6900 1850
+Wire Wire Line
+	6900 1850 6900 3150
+Wire Wire Line
+	6900 3150 4400 3150
+Text HLabel 4400 3250 0    50   Output ~ 0
+SIGA_HV_EN
+Text HLabel 4400 3150 0    50   Output ~ 0
+SIGB_HV_EN
+Wire Wire Line
+	4400 3250 7000 3250
+Wire Wire Line
+	7000 3250 7000 2150
+Wire Wire Line
+	7000 2150 7300 2150
+Wire Wire Line
+	7900 1650 7900 1750
+Connection ~ 7900 1750
+Wire Wire Line
+	7900 1750 7900 1850
+$Comp
+L Rabbit~ECU~Schematic~Symbols:SN74AHCT08 U903
+U 1 1 609DC2A2
+P 7400 4850
+F 0 "U903" H 7600 5815 50  0000 C CNN
+F 1 "SN74AHCT08" H 7600 5724 50  0000 C CNN
+F 2 "Samacsys:SOP65P640X110-14N" H 7400 4850 50  0001 C CNN
+F 3 "" H 7400 4850 50  0001 C CNN
+	1    7400 4850
+	1    0    0    -1  
+$EndComp
+Text HLabel 4400 4600 0    50   Input ~ 0
+SIGCD_HV_EN
+Wire Wire Line
+	4400 4600 5700 4600
+Wire Wire Line
+	5800 4700 5800 4600
+Wire Wire Line
+	5800 4500 5800 4150
+Wire Wire Line
+	5800 4150 7300 4150
+Wire Wire Line
+	5700 4600 5700 4050
+Wire Wire Line
+	5700 4050 7000 4050
+Wire Wire Line
+	7000 4050 7000 4450
+Wire Wire Line
+	7000 4450 7300 4450
+Connection ~ 5700 4600
+Wire Wire Line
+	5700 4600 5800 4600
+Text GLabel 6400 4500 2    50   Input ~ 0
+VCC5V
+Connection ~ 5800 4600
+$Comp
+L Rabbit~ECU~Schematic~Symbols:SN74AHCT02 U901
+U 1 1 609DC2B5
+P 5900 5200
+F 0 "U901" H 6100 6165 50  0000 C CNN
+F 1 "SN74AHCT02" H 6100 6074 50  0000 C CNN
+F 2 "Samacsys:SOP65P640X110-14N" H 5900 5200 50  0001 C CNN
+F 3 "" H 5900 5200 50  0001 C CNN
+	1    5900 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 5800 5150 0    50   Input ~ 0
+VSS
+Text GLabel 7300 4800 0    50   Input ~ 0
+VSS
+Text GLabel 7900 4150 2    50   Input ~ 0
+VCC5V
+Text HLabel 4400 4900 0    50   Input ~ 0
+SIGCD_LV_EN
+Wire Wire Line
+	5800 4900 5800 5000
+Connection ~ 5800 4900
+Wire Wire Line
+	4750 5000 4400 5000
+Text HLabel 4400 5000 0    50   Output ~ 0
+SIGC_LV_EN
+Wire Wire Line
+	5800 4800 4850 4800
+Wire Wire Line
+	4850 4800 4850 5100
+Wire Wire Line
+	4850 5100 4400 5100
+Text HLabel 4400 5100 0    50   Output ~ 0
+SIGD_LV_EN
+Text HLabel 4400 5350 0    50   Input ~ 0
+SIGCD_PEAK
+Wire Wire Line
+	4400 5350 6800 5350
+Wire Wire Line
+	6800 5350 6800 5100
+Wire Wire Line
+	6800 4250 7300 4250
+Wire Wire Line
+	7300 4550 6800 4550
+Connection ~ 6800 4550
+Wire Wire Line
+	6800 4550 6800 4250
+Wire Wire Line
+	6800 5100 6400 5100
+Connection ~ 6800 5100
+Wire Wire Line
+	6800 5100 6800 4550
+Text HLabel 4400 5450 0    50   Input ~ 0
+SIGCD_PWM
+Wire Wire Line
+	4400 5450 6700 5450
+Wire Wire Line
+	6700 5450 6700 5000
+Wire Wire Line
+	6400 5000 6700 5000
+Wire Wire Line
+	6400 4600 6500 4600
+Wire Wire Line
+	6500 4600 6500 5550
+Wire Wire Line
+	6500 5550 4400 5550
+Wire Wire Line
+	6400 4700 6400 4800
+Text HLabel 4400 5550 0    50   Output ~ 0
+SIGCD_LS_EN
+$Comp
+L Device:C CD902
+U 1 1 609DC2DE
+P 4250 4200
+F 0 "CD902" H 4365 4246 50  0000 L CNN
+F 1 "0603 100nF" H 4365 4155 50  0000 L CNN
+F 2 "Samacsys:RESC1608X55N" H 4288 4050 50  0001 C CNN
+F 3 "~" H 4250 4200 50  0001 C CNN
+	1    4250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C CD903
+U 1 1 609DC2E4
+P 4950 4200
+F 0 "CD903" H 5065 4246 50  0000 L CNN
+F 1 "0603 100nF" H 5065 4155 50  0000 L CNN
+F 2 "Samacsys:RESC1608X55N" H 4988 4050 50  0001 C CNN
+F 3 "~" H 4950 4200 50  0001 C CNN
+	1    4950 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 4950 4050
+Wire Wire Line
+	4950 4050 5050 4050
+Wire Wire Line
+	4250 4050 4950 4050
+Wire Wire Line
+	4250 4350 4950 4350
+Connection ~ 4950 4350
+Wire Wire Line
+	4950 4350 5050 4350
+Text GLabel 5050 4050 2    50   Input ~ 0
+VCC5V
+Text GLabel 5050 4350 2    50   Input ~ 0
+VSS
+Wire Wire Line
+	7300 4350 6900 4350
+Wire Wire Line
+	6900 4350 6900 5650
+Wire Wire Line
+	6900 5650 4400 5650
+Text HLabel 4400 5750 0    50   Output ~ 0
+SIGC_HV_EN
+Text HLabel 4400 5650 0    50   Output ~ 0
+SIGD_HV_EN
+Wire Wire Line
+	4400 5750 7000 5750
+Wire Wire Line
+	7000 5750 7000 4650
+Wire Wire Line
+	7000 4650 7300 4650
+Wire Wire Line
+	7900 4150 7900 4250
+Connection ~ 7900 4250
+Wire Wire Line
+	7900 4250 7900 4350
+Wire Wire Line
+	7900 4350 8000 4350
+Wire Wire Line
+	8000 4350 8000 4550
+Wire Wire Line
+	8000 4550 7900 4550
+Connection ~ 7900 4350
+Wire Wire Line
+	7900 4650 7900 4550
+Connection ~ 7900 4550
+Wire Wire Line
+	6400 2300 6400 2400
+Connection ~ 6400 2300
+Wire Wire Line
+	6400 4900 6400 4800
+Connection ~ 6400 4800
+Wire Wire Line
+	4750 4900 5800 4900
+Wire Wire Line
+	4400 4900 4750 4900
+Connection ~ 4750 4900
+Wire Wire Line
+	4750 4900 4750 5000
+Wire Wire Line
+	4750 2400 5800 2400
+Wire Wire Line
+	4400 2400 4750 2400
+Connection ~ 4750 2400
+Wire Wire Line
+	4750 2400 4750 2500
+Text HLabel 8200 2050 2    50   Input ~ 0
+SIG_PUMP_PWM
+Wire Wire Line
+	7900 2050 7950 2050
+Wire Wire Line
+	7950 2050 7950 2150
+Wire Wire Line
+	7950 2150 7900 2150
+Connection ~ 7950 2050
+Wire Wire Line
+	7950 2050 8200 2050
+Wire Wire Line
+	7900 2250 8200 2250
+Text HLabel 8200 2250 2    50   Output ~ 0
+SIG_PUMP_PWMS
+Wire Wire Line
+	5800 2650 5800 2605
+Connection ~ 5800 2605
+Wire Wire Line
+	5800 2605 5800 2600
+Wire Wire Line
+	7300 2300 7300 2255
+Connection ~ 7300 2255
+Wire Wire Line
+	7300 2255 7300 2250
+Wire Wire Line
+	7300 4800 7300 4755
+Connection ~ 7300 4755
+Wire Wire Line
+	7300 4755 7300 4750
+Wire Wire Line
+	5800 5150 5800 5105
+Connection ~ 5800 5105
+Wire Wire Line
+	5800 5105 5800 5100
+$EndSCHEMATC
