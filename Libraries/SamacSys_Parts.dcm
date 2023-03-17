@@ -1,0 +1,165 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP LM5160QPWPRQ1
+D Voltage Regulators - Switching Regulators Wide Input 65V, 1.5A Synchronous Buck / Fly-Buck? Converter 14-HTSSOP -40 to 125
+K
+F http://www.ti.com/lit/gpn/lm5160-q1
+$ENDCMP
+#
+$CMP LM2577SX-ADJ_NOPB
+D SIMPLE SWITCHER&#174; 3.5V to 40V, 3A Low Component Count Step-Up Regulator
+K
+F http://www.ti.com/lit/gpn/LM2577
+$ENDCMP
+#
+$CMP L6206PD013TR
+D Dual Full Bridge Motor Driver 48V 36-Pin PowerSO T/R
+K
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/6e/e7/d6/58/65/53/48/2a/CD00002346.pdf/files/CD00002346.pdf/jcr:content/translations/en.CD00002346.pdf
+$ENDCMP
+#
+$CMP TL331SN4T3G
+D Analog Comparators LOW POWER SINGLE COMPARAT
+K
+F https://www.onsemi.com/pub/Collateral/TL331-D.PDF
+$ENDCMP
+#
+$CMP BD433M5FP-CE2
+D ROHM - BD433M5FP-CE2 - LDO, FIXED, AUTO, 3.3V, 0.5A, TO252-3
+K
+F 
+$ENDCMP
+#
+$CMP 74AHC14PW,118
+D 74AHC(T)14 - Hex inverting Schmitt trigger@en-us
+K
+F https://componentsearchengine.com/Datasheets/1/74AHC14PW,118.pdf
+$ENDCMP
+#
+$CMP BZX84C5V1LT1G
+D 250 mW 5.1 V +/-5% Zener Diode Voltage Regulator
+K
+F http://www.onsemi.com/pub/Collateral/BZX84C2V4LT1-D.PDF
+$ENDCMP
+#
+$CMP IRF7907TRPBF
+D IRF7907TRPBF Dual N-Channel MOSFET, 9.1 A, 11 A, 30 V HEXFET, 8-Pin SOIC Infineon
+K
+F https://www.infineon.com/dgdl/irf7907pbf.pdf?fileId=5546d462533600a40153560c992e1d39
+$ENDCMP
+#
+$CMP TLV809EA29DCKR
+D Supervisory Circuits Low-power 3-pin voltage supervisor (reset IC) with active-low, push-pull reset 3-SC70 -40 to 125
+K
+F https://www.ti.com/lit/ds/symlink/tlv809e.pdf?ts=1605772627929&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FsearchTerm%253DTLV809EA29DCKR
+$ENDCMP
+#
+$CMP M50-3610542R
+D HARWIN - M50-3610542R - CONNECTOR, HEADER, 10POS, 2ROW, 1.27MM
+K
+F https://cdn.harwin.com/pdfs/M50-361.pdf
+$ENDCMP
+#
+$CMP SSM-106-L-SV
+D Samtec SSM Series 2.54mm 6 Way 1 Row Straight PCB Socket Surface Mount Board to Board
+K
+F http://suddendocs.samtec.com/catalog_english/ssm_sm.pdf
+$ENDCMP
+#
+$CMP RC0603FR-071KL
+D GENERAL PURPOSE CHIP RESISTORS
+K
+F http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf
+$ENDCMP
+#
+$CMP RC0805FR-071KL
+D GENERAL PURPOSE CHIP RESISTORS
+K
+F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf
+$ENDCMP
+#
+$CMP 865090340001
+D Wurth Elektronik 4.7uF 16 V dc Aluminium Electrolytic Capacitor, WCAP-ASLU Series 1000h 5.5 (Dia.) x 3.85mm
+K
+F 
+$ENDCMP
+#
+$CMP BZG03C33-HM3-08
+D Zener Diodes Uni-direc 300W Pppm SMA (DO-214AC)
+K
+F https://www.arrow.com/en/products/bzg03c33-hm3-08/vishay
+$ENDCMP
+#
+$CMP EEE-TP70471M
+D Aluminum Electrolytic Capacitors - SMD 70VDC 470uF 20% SMD AEC-Q200 High Ripple
+K
+F https://componentsearchengine.com/Datasheets/1/EEE-TP70471M.pdf
+$ENDCMP
+#
+$CMP CR2512-F_-4R70ELF
+D Thick Film Resistors - SMD Res 2512 4R7 1% 1W TCR200
+K
+F 
+$ENDCMP
+#
+$CMP RCC12061K00JNEA
+D Thick Film Resistors - SMD 1 Kohms 5% 200ppm
+K
+F https://www.vishay.com/docs/20066/rcce3.pdf
+$ENDCMP
+#
+$CMP 742C083221JPTR
+D Resistor Networks & Arrays 220ohms 50V 5%
+K
+F https://www.ctscorp.com/wp-content/uploads/74x.pdf
+$ENDCMP
+#
+$CMP M50-3530642
+D Headers & Wire Housings 6 WAY SIL VERT PC TAIL P/HDR
+K
+F https://cdn.harwin.com/pdfs/M50-353.pdf
+$ENDCMP
+#
+$CMP M50-3530842
+D Headers & Wire Housings 8 WAY SIL VERT PC TAIL P/HDR
+K
+F https://componentsearchengine.com/Datasheets/1/M50-3530842.pdf
+$ENDCMP
+#
+$CMP SN74AHCT02PWR
+D Texas Instruments SN74AHCT02PWR, NOR Quad 2 Input NOR, 4.5  5.5 V, 14-Pin TSSOP
+K
+F http://www.ti.com/lit/gpn/sn74ahct02
+$ENDCMP
+#
+$CMP ECS-040-18-5PX-JES-TR
+D Crystals 4MHz 18pF ESR 150 20ppm -40C +125C
+K
+F https://ecsxtal.com/store/pdf/csm-7x.pdf
+$ENDCMP
+#
+$CMP TCAN334GDR
+D 3.3-V CAN Transceivers with CAN FD (Flexible Data Rate)
+K
+F http://www.ti.com/lit/gpn/tcan334g
+$ENDCMP
+#
+$CMP SRN8040TA-470M
+D BOURNS - SRN8040TA-470M - INDUCTOR, AEC-Q200, 47UH, 2A, 20%
+K
+F https://componentsearchengine.com/Datasheets/2/SRN8040TA-470M.pdf
+$ENDCMP
+#
+$CMP TLV9052IDDFR
+D Operational Amplifiers - Op Amps Dual 5MHz, 15V/us high slew-rate, RRIO op amp 8-SOT-23-THIN -40 to 125
+K
+F https://www.ti.com/lit/gpn/TLV9052
+$ENDCMP
+#
+#End Doc Library

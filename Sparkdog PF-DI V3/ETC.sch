@@ -1,0 +1,1949 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R500
+U 1 1 60C22272
+P 1675 4350
+F 0 "R500" V 1468 4350 50  0000 C CNN
+F 1 "0603 100k" V 1559 4350 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" V 1605 4350 50  0001 C CNN
+F 3 "~" H 1675 4350 50  0001 C CNN
+	1    1675 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1525 4350 1075 4350
+Text Label 1075 4350 0    50   ~ 0
+ETC_ENA_s
+Text GLabel 2875 6250 0    50   Input ~ 0
+VSS
+Wire Wire Line
+	1075 4750 1525 4750
+$Comp
+L Device:R R501
+U 1 1 60C251DB
+P 1675 4750
+F 0 "R501" V 1468 4750 50  0000 C CNN
+F 1 "0603 100k" V 1559 4750 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" V 1605 4750 50  0001 C CNN
+F 3 "~" H 1675 4750 50  0001 C CNN
+	1    1675 4750
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1825 4750 2725 4750
+Text Label 1475 4750 2    50   ~ 0
+ETC_ENB_s
+Wire Wire Line
+	2075 4550 2725 4550
+Wire Wire Line
+	2075 4650 2725 4650
+Wire Wire Line
+	2725 4250 2075 4250
+Wire Wire Line
+	2075 4150 2725 4150
+Text Label 2075 4650 0    50   ~ 0
+ETC_IN2B_s
+Text Label 2075 4550 0    50   ~ 0
+ETC_IN1B_s
+Text Label 2075 4150 0    50   ~ 0
+ETC_IN1A_s
+Text Label 2075 4250 0    50   ~ 0
+ETC_IN2A_s
+Text GLabel 3325 5450 3    50   Input ~ 0
+VSS
+Text GLabel 3525 5450 3    50   Input ~ 0
+VSS
+Text GLabel 3225 5450 3    50   Input ~ 0
+VSS
+Wire Wire Line
+	3425 3950 3425 3900
+Wire Wire Line
+	4650 3900 4650 4150
+$Comp
+L Transistor_FET:SUD19P06-60 U501
+U 1 1 60C296B5
+P 4750 3700
+F 0 "U501" H 4955 3654 50  0000 L CNN
+F 1 "SUD19P06-60" H 4955 3745 50  0000 L CNN
+F 2 "Sparkdog PF-DI V3:MDAC-TO-252-3" H 4945 3625 50  0001 L CIN
+F 3 "https://www.vishay.com/docs/69253/sud19p06.pdf" H 4750 3700 50  0001 C CNN
+	1    4750 3700
+	-1   0    0    1   
+$EndComp
+Connection ~ 4650 3900
+Wire Wire Line
+	4650 3500 5750 3500
+Text GLabel 5850 3500 2    50   Input ~ 0
+VCC12VPP
+$Comp
+L Device:R R506
+U 1 1 60C2C4C7
+P 5500 3700
+F 0 "R506" V 5625 3675 50  0000 C CNN
+F 1 "0603 10k" V 5700 3750 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" V 5430 3700 50  0001 C CNN
+F 3 "~" H 5500 3700 50  0001 C CNN
+	1    5500 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 3700 5750 3700
+Wire Wire Line
+	5750 3700 5750 3500
+Connection ~ 5750 3500
+Wire Wire Line
+	5750 3500 5850 3500
+Wire Wire Line
+	4950 3700 5350 3700
+Text Label 5300 3700 2    50   ~ 0
+ETC_PEN
+$Comp
+L Device:C CD501
+U 1 1 60C2E688
+P 4900 4150
+F 0 "CD501" V 4648 4150 50  0000 C CNN
+F 1 "0603 100nF" V 4739 4150 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" H 4938 4000 50  0001 C CNN
+F 3 "~" H 4900 4150 50  0001 C CNN
+	1    4900 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP CD500
+U 1 1 60C2EB80
+P 4900 4600
+F 0 "CD500" V 5155 4600 50  0000 C CNN
+F 1 "CAP4mm 4.7uF" V 5064 4600 50  0000 C CNN
+F 2 "Samacsys:CAPAE1700X1700N" H 4938 4450 50  0001 C CNN
+F 3 "~" H 4900 4600 50  0001 C CNN
+	1    4900 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 4150 4650 4150
+Connection ~ 4650 4150
+Wire Wire Line
+	4650 4150 4650 4600
+Wire Wire Line
+	4650 4600 4750 4600
+Wire Wire Line
+	5050 4600 5150 4600
+Wire Wire Line
+	5150 4600 5150 4150
+Wire Wire Line
+	5150 4150 5050 4150
+Text GLabel 5150 4150 2    50   Input ~ 0
+VSS
+$Comp
+L Device:R R502
+U 1 1 60C33709
+P 2925 5950
+F 0 "R502" H 3125 6050 50  0000 L CNN
+F 1 "2512 0.1R" H 3575 5950 50  0000 L CNN
+F 2 "Samacsys:RESC6331X75N" V 2855 5950 50  0001 C CNN
+F 3 "~" H 2925 5950 50  0001 C CNN
+	1    2925 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R503
+U 1 1 60C33EAB
+P 3025 5950
+F 0 "R503" H 3575 6050 50  0000 L CNN
+F 1 "2512 0.1R" H 3125 5950 50  0000 L CNN
+F 2 "Samacsys:RESC6331X75N" V 2955 5950 50  0001 C CNN
+F 3 "~" H 3025 5950 50  0001 C CNN
+	1    3025 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2925 6100 2925 6250
+Wire Wire Line
+	3025 6100 3025 6250
+Text GLabel 3425 5450 3    50   Input ~ 0
+VSS
+Text Label 3025 5800 1    50   ~ 0
+ETC_IFB_s
+Text Label 2925 5800 1    50   ~ 0
+ETC_IFA_s
+Wire Wire Line
+	4425 4850 3925 4850
+Text Label 4375 4750 2    50   ~ 0
+ETC_O2A_s
+Text Label 4375 4850 2    50   ~ 0
+ETC_O2B_s
+Text Label 3975 4550 0    50   ~ 0
+ETC_O1B_s
+$Comp
+L Device:C CD502
+U 1 1 60C6B184
+P 3325 3450
+F 0 "CD502" H 2725 3550 50  0000 L CNN
+F 1 "0603 100nF" H 2725 3450 50  0000 L CNN
+F 2 "Samacsys:RESC1608X55N" H 3363 3300 50  0001 C CNN
+F 3 "~" H 3325 3450 50  0001 C CNN
+	1    3325 3450
+	1    0    0    -1  
+$EndComp
+Text Label 7275 4225 2    50   ~ 0
+ETC_ENA_s
+Text Label 7275 4425 2    50   ~ 0
+ETC_ENB_s
+$Comp
+L Device:D D502
+U 1 1 60C9333E
+P 7575 4225
+F 0 "D502" H 7575 4008 50  0000 C CNN
+F 1 "0805 1N4148" H 7575 4099 50  0000 C CNN
+F 2 "Samacsys:RESC2012X60N" H 7575 4225 50  0001 C CNN
+F 3 "~" H 7575 4225 50  0001 C CNN
+	1    7575 4225
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D503
+U 1 1 60C93A8F
+P 7575 4425
+F 0 "D503" H 7575 4575 50  0000 C CNN
+F 1 "0805 1N4148" H 7575 4675 50  0000 C CNN
+F 2 "Samacsys:RESC2012X60N" H 7575 4425 50  0001 C CNN
+F 3 "~" H 7575 4425 50  0001 C CNN
+	1    7575 4425
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7425 4225 6875 4225
+Wire Wire Line
+	7425 4425 6875 4425
+Wire Wire Line
+	7725 4425 7925 4425
+$Comp
+L Device:R_Pack04 RN501
+U 1 1 60C9C21A
+P 8575 4425
+F 0 "RN501" V 8158 4425 50  0000 C CNN
+F 1 "1206 10k" V 8249 4425 50  0000 C CNN
+F 2 "Samacsys:742C083103JP" V 8850 4425 50  0001 C CNN
+F 3 "~" H 8575 4425 50  0001 C CNN
+	1    8575 4425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7725 4225 8375 4225
+Wire Wire Line
+	8375 4325 7925 4325
+Wire Wire Line
+	7925 4325 7925 4425
+$Comp
+L Rabbit~ECU~Schematic~Symbols:Dual_Trans_Array_NPN U503
+U 1 1 60CA1B1B
+P 9975 4375
+F 0 "U503" H 10150 4850 50  0000 C CNN
+F 1 "Dual_Trans_Array_NPN" H 10150 4759 50  0000 C CNN
+F 2 "Sparkdog PF-DI V3:SOT-363-6" H 9975 4375 50  0001 C CNN
+F 3 "" H 9975 4375 50  0001 C CNN
+	1    9975 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8775 4325 8775 4225
+Wire Wire Line
+	9875 4225 9725 4225
+Wire Wire Line
+	9725 4225 9725 4325
+Wire Wire Line
+	9725 4325 9875 4325
+Connection ~ 9725 4225
+Wire Wire Line
+	9725 4225 8775 4225
+Text GLabel 9875 4125 0    50   Input ~ 0
+VSS
+Text GLabel 10875 4325 2    50   Input ~ 0
+VSS
+Wire Wire Line
+	10425 4125 10875 4125
+Text Label 10875 4125 2    50   ~ 0
+ETC_PEN
+$Comp
+L SamacSys_Parts:TL331SN4T3G U502
+U 1 1 60CAE552
+P 8525 5375
+F 0 "U502" H 9025 5640 50  0000 C CNN
+F 1 "TL331SN4T3G" H 9025 5549 50  0000 C CNN
+F 2 "Samacsys:SOT95P275X110-5N" H 9375 5475 50  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/TL331-D.PDF" H 9375 5375 50  0001 L CNN
+F 4 "Analog Comparators LOW POWER SINGLE COMPARAT" H 9375 5275 50  0001 L CNN "Description"
+F 5 "1.1" H 9375 5175 50  0001 L CNN "Height"
+F 6 "863-TL331SN4T3G" H 9375 5075 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/TL331SN4T3G?qs=5aG0NVq1C4zC%252B71FkOI2HA%3D%3D" H 9375 4975 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ON Semiconductor" H 9375 4875 50  0001 L CNN "Manufacturer_Name"
+F 9 "TL331SN4T3G" H 9375 4775 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8525 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04 RN500
+U 1 1 60CB048C
+P 6875 5575
+F 0 "RN500" V 6458 5575 50  0000 C CNN
+F 1 "1206 180k" V 6549 5575 50  0000 C CNN
+F 2 "Samacsys:742C083103JP" V 7150 5575 50  0001 C CNN
+F 3 "~" H 6875 5575 50  0001 C CNN
+	1    6875 5575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6675 5475 6675 5575
+Text GLabel 6675 5475 0    50   Input ~ 0
+VSS
+Wire Wire Line
+	6675 5375 6075 5375
+Wire Wire Line
+	6675 5675 6475 5675
+Wire Wire Line
+	7075 5375 7075 5475
+Wire Wire Line
+	7075 5575 7075 5675
+Connection ~ 7075 5375
+Connection ~ 7075 5575
+Text GLabel 8525 5475 0    50   Input ~ 0
+VSS
+$Comp
+L Device:R R508
+U 1 1 60CC4F32
+P 7825 5825
+F 0 "R508" H 7895 5871 50  0000 L CNN
+F 1 "0603 820k" H 7895 5780 50  0000 L CNN
+F 2 "Samacsys:RESC1608X55N" V 7755 5825 50  0001 C CNN
+F 3 "~" H 7825 5825 50  0001 C CNN
+	1    7825 5825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7825 5575 7825 5675
+Text GLabel 7825 4875 2    50   Input ~ 0
+VSS
+Text GLabel 7825 6025 2    50   Input ~ 0
+VSS
+Wire Wire Line
+	7825 5975 7825 6025
+Text GLabel 10275 5475 2    50   Input ~ 0
+VCC5V
+$Comp
+L Device:R R510
+U 1 1 60CD0187
+P 9875 5375
+F 0 "R510" V 9668 5375 50  0000 C CNN
+F 1 "0603 470k" V 9759 5375 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" V 9805 5375 50  0001 C CNN
+F 3 "~" H 9875 5375 50  0001 C CNN
+	1    9875 5375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9525 5475 10175 5475
+Wire Wire Line
+	9525 5375 9575 5375
+Wire Wire Line
+	10025 5375 10175 5375
+Wire Wire Line
+	10175 5375 10175 5475
+Connection ~ 10175 5475
+Wire Wire Line
+	10175 5475 10275 5475
+Wire Wire Line
+	10425 4225 10525 4225
+Wire Wire Line
+	10525 4225 10525 5125
+Wire Wire Line
+	10525 5125 9575 5125
+Wire Wire Line
+	9575 5125 9575 5375
+Connection ~ 9575 5375
+Wire Wire Line
+	9575 5375 9725 5375
+Wire Wire Line
+	10425 4325 10875 4325
+Text Label 6475 5675 2    50   ~ 0
+ETC_VFB_s
+Text Label 6475 5375 2    50   ~ 0
+ETC_VFF_s
+Wire Wire Line
+	7075 5575 7225 5575
+Wire Wire Line
+	7075 5375 7225 5375
+Connection ~ 7825 5575
+Wire Wire Line
+	7825 5575 8375 5575
+$Comp
+L Device:C C506
+U 1 1 60CF15C6
+P 7225 5825
+F 0 "C506" H 7340 5871 50  0000 L CNN
+F 1 "0805 10uF" H 7340 5780 50  0000 L CNN
+F 2 "Samacsys:RESC2012X60N" H 7263 5675 50  0001 C CNN
+F 3 "~" H 7225 5825 50  0001 C CNN
+	1    7225 5825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C505
+U 1 1 60CF250D
+P 7225 5125
+F 0 "C505" H 7340 5171 50  0000 L CNN
+F 1 "0805 10uF" H 7340 5080 50  0000 L CNN
+F 2 "Samacsys:RESC2012X60N" H 7263 4975 50  0001 C CNN
+F 3 "~" H 7225 5125 50  0001 C CNN
+	1    7225 5125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7825 4875 7225 4875
+Wire Wire Line
+	7225 4875 7225 4975
+Wire Wire Line
+	7225 5975 7225 6025
+Wire Wire Line
+	7225 6025 7825 6025
+Wire Wire Line
+	7225 5675 7225 5575
+Connection ~ 7225 5575
+Wire Wire Line
+	7225 5575 7825 5575
+Wire Wire Line
+	7225 5275 7225 5375
+Connection ~ 7225 5375
+$Comp
+L Device:R R507
+U 1 1 60D15177
+P 6475 5875
+F 0 "R507" H 6545 5921 50  0000 L CNN
+F 1 "0603 47k" H 6545 5830 50  0000 L CNN
+F 2 "Samacsys:RESC1608X55N" V 6405 5875 50  0001 C CNN
+F 3 "~" H 6475 5875 50  0001 C CNN
+	1    6475 5875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6475 5725 6475 5675
+Wire Wire Line
+	6475 5675 6075 5675
+$Comp
+L Device:D D504
+U 1 1 60D1980A
+P 6775 6275
+F 0 "D504" H 6775 6492 50  0000 C CNN
+F 1 "0805 1N4148" H 6775 6401 50  0000 C CNN
+F 2 "Samacsys:RESC2012X60N" H 6775 6275 50  0001 C CNN
+F 3 "~" H 6775 6275 50  0001 C CNN
+	1    6775 6275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6475 6025 6475 6275
+Wire Wire Line
+	6475 6275 6625 6275
+Wire Wire Line
+	6925 6275 7075 6275
+Text HLabel 1325 5750 0    50   Input ~ 0
+ETC_ENA
+Text HLabel 1325 5850 0    50   Input ~ 0
+ETC_ENB
+Text HLabel 1325 5950 0    50   Input ~ 0
+ETC_IN1A
+Text HLabel 1325 6050 0    50   Input ~ 0
+ETC_IN1B
+Text HLabel 1325 6150 0    50   Input ~ 0
+ETC_IN2A
+Text HLabel 1325 6250 0    50   Input ~ 0
+ETC_IN2B
+Text HLabel 1325 6550 0    50   Output ~ 0
+ETC_O2A
+Text HLabel 1325 6650 0    50   Output ~ 0
+ETC_O2B
+Text HLabel 1325 6350 0    50   Output ~ 0
+ETC_O1A
+Text HLabel 1325 6450 0    50   Output ~ 0
+ETC_O1B
+Text HLabel 1325 5550 0    50   Input ~ 0
+ETC_VFF
+Text HLabel 1325 5650 0    50   Input ~ 0
+ETC_VFB
+Text HLabel 1325 5350 0    50   Output ~ 0
+ETC_IFA
+Text HLabel 1325 5450 0    50   Output ~ 0
+ETC_IFB
+Wire Wire Line
+	1325 6350 1975 6350
+Wire Wire Line
+	1975 6450 1325 6450
+Wire Wire Line
+	1325 6550 1975 6550
+Wire Wire Line
+	1975 6650 1325 6650
+Wire Wire Line
+	1325 5950 1975 5950
+Wire Wire Line
+	1975 6050 1325 6050
+Wire Wire Line
+	1325 6150 1975 6150
+Wire Wire Line
+	1975 6250 1325 6250
+Wire Wire Line
+	1325 5850 1975 5850
+Wire Wire Line
+	1975 5750 1325 5750
+Wire Wire Line
+	1325 5650 1975 5650
+Wire Wire Line
+	1975 5550 1325 5550
+Wire Wire Line
+	1325 5450 1975 5450
+Wire Wire Line
+	1975 5350 1325 5350
+Connection ~ 6475 5675
+Text Label 1875 6050 2    50   ~ 0
+ETC_IN1B_s
+Text Label 1875 5950 2    50   ~ 0
+ETC_IN1A_s
+Text Label 1875 6150 2    50   ~ 0
+ETC_IN2A_s
+Text Label 1875 6250 2    50   ~ 0
+ETC_IN2B_s
+Text Label 1875 6350 2    50   ~ 0
+ETC_O1A_s
+Text Label 1875 6450 2    50   ~ 0
+ETC_O1B_s
+Text Label 1875 6550 2    50   ~ 0
+ETC_O2A_s
+Text Label 1875 6650 2    50   ~ 0
+ETC_O2B_s
+Text Label 1875 5750 2    50   ~ 0
+ETC_ENA_s
+Text Label 1875 5850 2    50   ~ 0
+ETC_ENB_s
+Text Label 1875 5550 2    50   ~ 0
+ETC_VFF_s
+Text Label 1875 5650 2    50   ~ 0
+ETC_VFB_s
+Text Label 1875 5450 2    50   ~ 0
+ETC_IFB_s
+Text Label 1875 5350 2    50   ~ 0
+ETC_IFA_s
+Wire Wire Line
+	7075 5675 7075 6275
+Connection ~ 7075 5675
+$Comp
+L Device:R R509
+U 1 1 609C1E0B
+P 9075 6025
+F 0 "R509" V 8868 6025 50  0000 C CNN
+F 1 "0603 5M" V 8959 6025 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" V 9005 6025 50  0001 C CNN
+F 3 "~" H 9075 6025 50  0001 C CNN
+	1    9075 6025
+	0    1    1    0   
+$EndComp
+Connection ~ 8775 4225
+Wire Wire Line
+	9575 5375 9575 6025
+Wire Wire Line
+	9575 6025 9225 6025
+Wire Wire Line
+	8375 6025 8375 5575
+Connection ~ 8375 5575
+Wire Wire Line
+	8375 5575 8525 5575
+Wire Wire Line
+	8375 6025 8925 6025
+$Comp
+L Device:R R512
+U 1 1 60A01DF1
+P 4100 6950
+F 0 "R512" V 3900 6900 50  0000 C CNN
+F 1 "0805 0R" V 4000 6950 50  0000 C CNN
+F 2 "Samacsys:RESC2012X60N" V 4030 6950 50  0001 C CNN
+F 3 "~" H 4100 6950 50  0001 C CNN
+	1    4100 6950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R504
+U 1 1 60A02750
+P 4850 7400
+F 0 "R504" V 4850 8250 50  0000 C CNN
+F 1 "0805 0R" V 4850 8600 50  0000 C CNN
+F 2 "Samacsys:RESC2012X60N" V 4780 7400 50  0001 C CNN
+F 3 "~" H 4850 7400 50  0001 C CNN
+	1    4850 7400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R505
+U 1 1 60A02D7A
+P 4850 7600
+F 0 "R505" V 4850 8450 50  0000 C CNN
+F 1 "0805 0R" V 4850 8800 50  0000 C CNN
+F 2 "Samacsys:RESC2012X60N" V 4780 7600 50  0001 C CNN
+F 3 "~" H 4850 7600 50  0001 C CNN
+	1    4850 7600
+	0    1    1    0   
+$EndComp
+Text Label 4650 6600 2    50   ~ 0
+ETC_O1A
+Text Label 3900 6600 2    50   ~ 0
+ETC_O2A
+Text Label 4650 6950 2    50   ~ 0
+ETC_O1B
+Text Label 3900 6950 2    50   ~ 0
+ETC_O2B
+Text Label 5400 7400 2    50   ~ 0
+ETC_IN1A_s
+Text Label 4600 7400 2    50   ~ 0
+ETC_IN2A
+Text Label 5400 7600 2    50   ~ 0
+ETC_IN1B_s
+Text Label 4600 7600 2    50   ~ 0
+ETC_IN2B
+Wire Wire Line
+	3950 6600 3350 6600
+Wire Wire Line
+	3200 6950 3500 6950
+Wire Wire Line
+	4200 7600 4700 7600
+Wire Wire Line
+	5000 7600 5450 7600
+Wire Wire Line
+	5450 7400 5000 7400
+$Comp
+L Device:R R511
+U 1 1 60A033B6
+P 4100 6600
+F 0 "R511" V 3875 6500 50  0000 C CNN
+F 1 "0805 0R" V 3975 6575 50  0000 C CNN
+F 2 "Samacsys:RESC2012X60N" V 4030 6600 50  0001 C CNN
+F 3 "~" H 4100 6600 50  0001 C CNN
+	1    4100 6600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7225 5375 8525 5375
+Text Notes 10475 3825 2    50   ~ 0
+TODO CHANGE TO FET
+Wire Wire Line
+	8775 4325 8775 4425
+Connection ~ 8775 4325
+Wire Wire Line
+	8375 4425 8375 4525
+Text GLabel 8775 4525 2    50   Input ~ 0
+VSS
+Wire Wire Line
+	2925 6250 3025 6250
+$Comp
+L Driver_Motor:L298P U500
+U 1 1 638EFAD4
+P 3325 4650
+F 0 "U500" H 2925 5450 50  0000 C CNN
+F 1 "L298P" H 2925 5350 50  0000 C CNN
+F 2 "Sparkdog PF-DI V3:SOIC127P1420X360-21N" H 3475 4900 50  0001 C CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf" H 3475 4900 50  0001 C CNN
+	1    3325 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3225 5350 3225 5450
+Wire Wire Line
+	3325 5350 3325 5450
+Wire Wire Line
+	3425 5350 3425 5450
+Wire Wire Line
+	3525 5350 3525 5450
+Wire Wire Line
+	1825 4350 2725 4350
+Text GLabel 3325 3250 0    50   Input ~ 0
+VSS
+Wire Wire Line
+	3325 3250 3325 3300
+Text GLabel 3275 3700 0    50   Input ~ 0
+VCC5V
+Wire Wire Line
+	3275 3700 3325 3700
+Wire Wire Line
+	3325 3700 3325 3600
+Wire Wire Line
+	2925 5350 2925 5800
+Wire Wire Line
+	3025 5350 3025 5800
+Wire Wire Line
+	2875 6250 2925 6250
+Connection ~ 2925 6250
+Text Label 3975 4450 0    50   ~ 0
+ETC_O1A_s
+Wire Wire Line
+	3925 4750 4425 4750
+Wire Wire Line
+	3925 4550 4425 4550
+Wire Wire Line
+	3925 4450 4425 4450
+$Comp
+L Diode:B120-E3 D500
+U 1 1 63AE4158
+P 3050 6600
+F 0 "D500" H 3050 6817 50  0000 C CNN
+F 1 "B120-E3" H 3050 6726 50  0000 C CNN
+F 2 "Samacsys:DIOM5127X229N" H 3050 6425 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 3050 6600 50  0001 C CNN
+	1    3050 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:B120-E3 D501
+U 1 1 63AE5B10
+P 3050 6950
+F 0 "D501" H 3050 7167 50  0000 C CNN
+F 1 "B120-E3" H 3050 7076 50  0000 C CNN
+F 2 "Samacsys:DIOM5127X229N" H 3050 6775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 3050 6950 50  0001 C CNN
+	1    3050 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:B120-E3 D509
+U 1 1 63AE6743
+P 5200 6600
+F 0 "D509" H 5200 6817 50  0000 C CNN
+F 1 "B120-E3" H 5200 6726 50  0000 C CNN
+F 2 "Samacsys:DIOM5127X229N" H 5200 6425 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 5200 6600 50  0001 C CNN
+	1    5200 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:B120-E3 D510
+U 1 1 63AE6C46
+P 5200 6950
+F 0 "D510" H 5200 7167 50  0000 C CNN
+F 1 "B120-E3" H 5200 7076 50  0000 C CNN
+F 2 "Samacsys:DIOM5127X229N" H 5200 6775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 5200 6950 50  0001 C CNN
+	1    5200 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 6600 2650 6600
+Wire Wire Line
+	2650 6600 2650 6950
+Wire Wire Line
+	2900 6950 2650 6950
+Text GLabel 2600 6950 0    50   Input ~ 0
+VCC12VPP
+Wire Wire Line
+	4700 7400 4200 7400
+Wire Wire Line
+	4250 6600 4700 6600
+Wire Wire Line
+	4250 6950 4850 6950
+Wire Wire Line
+	5350 6950 5600 6950
+Wire Wire Line
+	5350 6600 5600 6600
+Wire Wire Line
+	5600 6950 5600 6600
+Text GLabel 5650 6600 2    50   Input ~ 0
+VSS
+Wire Wire Line
+	5600 6600 5650 6600
+Connection ~ 5600 6600
+Wire Wire Line
+	4700 6600 4700 5950
+Wire Wire Line
+	4700 5950 5050 5950
+Connection ~ 4700 6600
+Wire Wire Line
+	4700 6600 5050 6600
+Wire Wire Line
+	4850 6950 4850 6250
+Connection ~ 4850 6950
+Wire Wire Line
+	4850 6950 5050 6950
+$Comp
+L Diode:B120-E3 D508
+U 1 1 63B5633A
+P 5200 6250
+F 0 "D508" H 5200 6033 50  0000 C CNN
+F 1 "B120-E3" H 5200 6124 50  0000 C CNN
+F 2 "Samacsys:DIOM5127X229N" H 5200 6075 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 5200 6250 50  0001 C CNN
+	1    5200 6250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 6250 5050 6250
+Text GLabel 5650 6250 2    50   Input ~ 0
+VCC12VPP
+$Comp
+L Diode:B120-E3 D507
+U 1 1 63B6823E
+P 5200 5950
+F 0 "D507" H 5200 5733 50  0000 C CNN
+F 1 "B120-E3" H 5200 5824 50  0000 C CNN
+F 2 "Samacsys:DIOM5127X229N" H 5200 5775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 5200 5950 50  0001 C CNN
+	1    5200 5950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5350 6250 5600 6250
+Wire Wire Line
+	5350 5950 5600 5950
+Wire Wire Line
+	5600 5950 5600 6250
+Connection ~ 5600 6250
+Wire Wire Line
+	5600 6250 5650 6250
+$Comp
+L Diode:B120-E3 D505
+U 1 1 63B857C2
+P 3050 7300
+F 0 "D505" H 3050 7083 50  0000 C CNN
+F 1 "B120-E3" H 3050 7174 50  0000 C CNN
+F 2 "Samacsys:DIOM5127X229N" H 3050 7125 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 3050 7300 50  0001 C CNN
+	1    3050 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:B120-E3 D506
+U 1 1 63B9F26F
+P 3050 7650
+F 0 "D506" H 3050 7433 50  0000 C CNN
+F 1 "B120-E3" H 3050 7524 50  0000 C CNN
+F 2 "Samacsys:DIOM5127X229N" H 3050 7475 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 3050 7650 50  0001 C CNN
+	1    3050 7650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3200 7300 3350 7300
+Wire Wire Line
+	3350 7300 3350 6600
+Connection ~ 3350 6600
+Wire Wire Line
+	3350 6600 3200 6600
+Wire Wire Line
+	3200 7650 3500 7650
+Wire Wire Line
+	3500 7650 3500 6950
+Connection ~ 3500 6950
+Wire Wire Line
+	3500 6950 3950 6950
+Wire Wire Line
+	2900 7300 2650 7300
+Wire Wire Line
+	2650 7300 2650 7650
+Wire Wire Line
+	2650 7650 2900 7650
+Wire Wire Line
+	2600 7300 2650 7300
+Connection ~ 2650 7300
+Text GLabel 2600 7300 0    50   Input ~ 0
+VSS
+Wire Wire Line
+	2600 6950 2650 6950
+Connection ~ 2650 6950
+$Comp
+L SamacSys_Parts:74HC238PW-Q100J U505
+U 1 1 63FBCD28
+P 4025 975
+F 0 "U505" H 4100 1250 50  0000 C CNN
+F 1 "74HC238PW-Q100J" H 4375 1150 50  0000 C CNN
+F 2 "SOP65P640X110-16N" H 4875 1075 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT238_Q100.pdf" H 4875 975 50  0001 L CNN
+F 4 "74HC(T)238-Q100 - 3-to-8 line decoder/demultiplexer@en-us" H 4875 875 50  0001 L CNN "Description"
+F 5 "1.1" H 4875 775 50  0001 L CNN "Height"
+F 6 "Nexperia" H 4875 675 50  0001 L CNN "Manufacturer_Name"
+F 7 "74HC238PW-Q100J" H 4875 575 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "771-74HC238PW-Q100J" H 4875 475 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC238PW-Q100J?qs=cbprxTG2Yq8Ko4E8%2FdEPVg%3D%3D" H 4875 375 50  0001 L CNN "Mouser Price/Stock"
+	1    4025 975 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:74HC238PW-Q100J U506
+U 1 1 63FBDDB2
+P 4025 2425
+F 0 "U506" H 4100 2700 50  0000 C CNN
+F 1 "74HC238PW-Q100J" H 4375 2600 50  0000 C CNN
+F 2 "SOP65P640X110-16N" H 4875 2525 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT238_Q100.pdf" H 4875 2425 50  0001 L CNN
+F 4 "74HC(T)238-Q100 - 3-to-8 line decoder/demultiplexer@en-us" H 4875 2325 50  0001 L CNN "Description"
+F 5 "1.1" H 4875 2225 50  0001 L CNN "Height"
+F 6 "Nexperia" H 4875 2125 50  0001 L CNN "Manufacturer_Name"
+F 7 "74HC238PW-Q100J" H 4875 2025 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "771-74HC238PW-Q100J" H 4875 1925 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Nexperia/74HC238PW-Q100J?qs=cbprxTG2Yq8Ko4E8%2FdEPVg%3D%3D" H 4875 1825 50  0001 L CNN "Mouser Price/Stock"
+	1    4025 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:CD4043BPWR U507
+U 1 1 63FBECD9
+P 6625 875
+F 0 "U507" H 6875 1150 50  0000 C CNN
+F 1 "CD4043BPWR" H 7025 1050 50  0000 C CNN
+F 2 "SOP65P640X120-16N" H 7675 975 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/cd4043b" H 7675 875 50  0001 L CNN
+F 4 "Texas Instruments CD4043BPWR, Quad SR Type Latch, Transparent, 3 State, 3  18 V, 16-Pin TSSOP" H 7675 775 50  0001 L CNN "Description"
+F 5 "1.2" H 7675 675 50  0001 L CNN "Height"
+F 6 "595-CD4043BPWR" H 7675 575 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD4043BPWR?qs=pt%2FIv5r0EPdQkUmIPHn3Cw%3D%3D" H 7675 475 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 7675 375 50  0001 L CNN "Manufacturer_Name"
+F 9 "CD4043BPWR" H 7675 275 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6625 875 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:CD4043BPWR U508
+U 1 1 63FBFEB8
+P 6600 2350
+F 0 "U508" H 6875 2625 50  0000 C CNN
+F 1 "CD4043BPWR" H 7025 2525 50  0000 C CNN
+F 2 "SOP65P640X120-16N" H 7650 2450 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/cd4043b" H 7650 2350 50  0001 L CNN
+F 4 "Texas Instruments CD4043BPWR, Quad SR Type Latch, Transparent, 3 State, 3  18 V, 16-Pin TSSOP" H 7650 2250 50  0001 L CNN "Description"
+F 5 "1.2" H 7650 2150 50  0001 L CNN "Height"
+F 6 "595-CD4043BPWR" H 7650 2050 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD4043BPWR?qs=pt%2FIv5r0EPdQkUmIPHn3Cw%3D%3D" H 7650 1950 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 7650 1850 50  0001 L CNN "Manufacturer_Name"
+F 9 "CD4043BPWR" H 7650 1750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:SN74HCS164QPWRQ1 U504
+U 1 1 63FC0B40
+P 1275 1225
+F 0 "U504" H 1825 1490 50  0000 C CNN
+F 1 "SN74HCS164QPWRQ1" H 1825 1399 50  0000 C CNN
+F 2 "SOP65P640X120-14N" H 2225 1325 50  0001 L CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74hcs164-q1.pdf?ts=1620805501016&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74HCS164-Q1%253FkeyMatch%253DSN74HCS164QPWRQ1%2526tisearch%253Dsearch-everything%2526usecase%253DOPN" H 2225 1225 50  0001 L CNN
+F 4 "Counter Shift Registers Automotive 8-bit serial-in/parallel-out shift register 14-TSSOP -40 to 125" H 2225 1125 50  0001 L CNN "Description"
+F 5 "1.2" H 2225 1025 50  0001 L CNN "Height"
+F 6 "595-SN74HCS164QPWRQ1" H 2225 925 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74HCS164QPWRQ1?qs=sPbYRqrBIVmxPcTsvD4S9A%3D%3D" H 2225 825 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 2225 725 50  0001 L CNN "Manufacturer_Name"
+F 9 "SN74HCS164QPWRQ1" H 2225 625 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1275 1225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2375 1525 2725 1525
+Wire Wire Line
+	2375 1625 2725 1625
+Entry Wire Line
+	2725 1525 2825 1625
+Entry Wire Line
+	2725 1625 2825 1725
+Wire Wire Line
+	1275 1625 1075 1625
+Wire Wire Line
+	1275 1725 1075 1725
+Entry Wire Line
+	975  1525 1075 1625
+Entry Wire Line
+	975  1625 1075 1725
+Wire Wire Line
+	3325 3700 3325 3950
+Connection ~ 3325 3700
+$Comp
+L SamacSys_Parts:ZXMS6004DN8-13 U509
+U 1 1 64080BAB
+P 9225 850
+F 0 "U509" H 9775 1115 50  0000 C CNN
+F 1 "ZXMS6004DN8-13" H 9775 1024 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 10175 950 50  0001 L CNN
+F 3 "" H 10175 850 50  0001 L CNN
+F 4 "MOSFET Dual 60V N-Ch FET 500mOhm 1.3A 120mJ" H 10175 750 50  0001 L CNN "Description"
+F 5 "1.75" H 10175 650 50  0001 L CNN "Height"
+F 6 "621-ZXMS6004DN8-13" H 10175 550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/ZXMS6004DN8-13?qs=W66WzN12R3YH%252BpRyFoT8Rg%3D%3D" H 10175 450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Diodes Inc." H 10175 350 50  0001 L CNN "Manufacturer_Name"
+F 9 "ZXMS6004DN8-13" H 10175 250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9225 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:ZXMS6004DN8-13 U510
+U 1 1 640816FB
+P 9225 1600
+F 0 "U510" H 9775 1865 50  0000 C CNN
+F 1 "ZXMS6004DN8-13" H 9775 1774 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 10175 1700 50  0001 L CNN
+F 3 "" H 10175 1600 50  0001 L CNN
+F 4 "MOSFET Dual 60V N-Ch FET 500mOhm 1.3A 120mJ" H 10175 1500 50  0001 L CNN "Description"
+F 5 "1.75" H 10175 1400 50  0001 L CNN "Height"
+F 6 "621-ZXMS6004DN8-13" H 10175 1300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/ZXMS6004DN8-13?qs=W66WzN12R3YH%252BpRyFoT8Rg%3D%3D" H 10175 1200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Diodes Inc." H 10175 1100 50  0001 L CNN "Manufacturer_Name"
+F 9 "ZXMS6004DN8-13" H 10175 1000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9225 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:ZXMS6004DN8-13 U511
+U 1 1 640829D3
+P 9225 2350
+F 0 "U511" H 9775 2615 50  0000 C CNN
+F 1 "ZXMS6004DN8-13" H 9775 2524 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 10175 2450 50  0001 L CNN
+F 3 "" H 10175 2350 50  0001 L CNN
+F 4 "MOSFET Dual 60V N-Ch FET 500mOhm 1.3A 120mJ" H 10175 2250 50  0001 L CNN "Description"
+F 5 "1.75" H 10175 2150 50  0001 L CNN "Height"
+F 6 "621-ZXMS6004DN8-13" H 10175 2050 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/ZXMS6004DN8-13?qs=W66WzN12R3YH%252BpRyFoT8Rg%3D%3D" H 10175 1950 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Diodes Inc." H 10175 1850 50  0001 L CNN "Manufacturer_Name"
+F 9 "ZXMS6004DN8-13" H 10175 1750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9225 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:ZXMS6004DN8-13 U512
+U 1 1 6408370F
+P 9225 3100
+F 0 "U512" H 9775 3365 50  0000 C CNN
+F 1 "ZXMS6004DN8-13" H 9775 3274 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 10175 3200 50  0001 L CNN
+F 3 "" H 10175 3100 50  0001 L CNN
+F 4 "MOSFET Dual 60V N-Ch FET 500mOhm 1.3A 120mJ" H 10175 3000 50  0001 L CNN "Description"
+F 5 "1.75" H 10175 2900 50  0001 L CNN "Height"
+F 6 "621-ZXMS6004DN8-13" H 10175 2800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/ZXMS6004DN8-13?qs=W66WzN12R3YH%252BpRyFoT8Rg%3D%3D" H 10175 2700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Diodes Inc." H 10175 2600 50  0001 L CNN "Manufacturer_Name"
+F 9 "ZXMS6004DN8-13" H 10175 2500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9225 3100
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	8775 850  8875 950 
+Entry Wire Line
+	8775 1050 8875 1150
+Entry Wire Line
+	8775 1600 8875 1700
+Entry Wire Line
+	8775 1800 8875 1900
+Entry Wire Line
+	8775 2350 8875 2450
+Entry Wire Line
+	8775 2550 8875 2650
+Entry Wire Line
+	8775 3100 8875 3200
+Entry Wire Line
+	8775 3300 8875 3400
+Wire Wire Line
+	8875 1700 9225 1700
+Wire Wire Line
+	9225 1900 8875 1900
+Wire Wire Line
+	8875 2450 9225 2450
+Wire Wire Line
+	9225 2650 8875 2650
+Wire Wire Line
+	8875 3200 9225 3200
+Wire Wire Line
+	10325 850  10325 950 
+Wire Wire Line
+	10325 1050 10325 1150
+Wire Wire Line
+	10325 1600 10325 1700
+Wire Wire Line
+	10325 1800 10325 1900
+Wire Wire Line
+	10325 2350 10325 2450
+Wire Wire Line
+	10325 2550 10325 2650
+Wire Wire Line
+	10325 3100 10325 3200
+Wire Wire Line
+	10325 3300 10325 3400
+Wire Wire Line
+	10325 850  10750 850 
+Connection ~ 10325 850 
+Wire Wire Line
+	10325 1050 10750 1050
+Connection ~ 10325 1050
+Wire Wire Line
+	10325 1600 10750 1600
+Connection ~ 10325 1600
+Wire Wire Line
+	10325 1800 10750 1800
+Connection ~ 10325 1800
+Wire Wire Line
+	10325 2350 10750 2350
+Connection ~ 10325 2350
+Wire Wire Line
+	10325 2550 10750 2550
+Connection ~ 10325 2550
+Wire Wire Line
+	10325 3100 10750 3100
+Connection ~ 10325 3100
+Wire Wire Line
+	10325 3300 10750 3300
+Connection ~ 10325 3300
+Wire Wire Line
+	9225 850  9125 850 
+Wire Wire Line
+	9125 850  9125 1050
+Wire Wire Line
+	9225 3300 9125 3300
+Connection ~ 9125 3300
+Wire Wire Line
+	9125 3300 9125 3625
+Wire Wire Line
+	9225 3100 9125 3100
+Connection ~ 9125 3100
+Wire Wire Line
+	9125 3100 9125 3300
+Wire Wire Line
+	9225 2550 9125 2550
+Connection ~ 9125 2550
+Wire Wire Line
+	9125 2550 9125 3100
+Wire Wire Line
+	9225 2350 9125 2350
+Connection ~ 9125 2350
+Wire Wire Line
+	9125 2350 9125 2550
+Wire Wire Line
+	9225 1800 9125 1800
+Connection ~ 9125 1800
+Wire Wire Line
+	9125 1800 9125 2350
+Wire Wire Line
+	9225 1600 9125 1600
+Connection ~ 9125 1600
+Wire Wire Line
+	9125 1600 9125 1800
+Wire Wire Line
+	9225 1050 9125 1050
+Connection ~ 9125 1050
+Wire Wire Line
+	9125 1050 9125 1600
+Text GLabel 9125 3625 2    50   Input ~ 0
+VSS
+Text Label 8875 950  0    50   ~ 0
+PIN1
+Text Label 8875 1150 0    50   ~ 0
+PIN2
+Text Label 8875 1700 0    50   ~ 0
+PIN3
+Text Label 8875 1900 0    50   ~ 0
+PIN4
+Text Label 8875 2450 0    50   ~ 0
+PIN5
+Text Label 8875 2650 0    50   ~ 0
+PIN6
+Text Label 8875 3200 0    50   ~ 0
+PIN7
+Text Label 8875 3400 0    50   ~ 0
+PIN8
+Wire Wire Line
+	7825 1475 8075 1475
+Wire Wire Line
+	7825 1575 8075 1575
+Wire Wire Line
+	6625 875  6350 875 
+Wire Wire Line
+	6625 975  6350 975 
+Wire Wire Line
+	6600 2350 6350 2350
+Wire Wire Line
+	6600 2450 6350 2450
+Wire Wire Line
+	7800 2950 8075 2950
+Wire Wire Line
+	7800 3050 8075 3050
+Entry Wire Line
+	6250 775  6350 875 
+Entry Wire Line
+	6250 875  6350 975 
+Entry Wire Line
+	6250 2250 6350 2350
+Entry Wire Line
+	6250 2350 6350 2450
+Entry Wire Line
+	8075 1475 8175 1575
+Entry Wire Line
+	8075 1575 8175 1675
+Entry Wire Line
+	8075 2950 8175 3050
+Entry Wire Line
+	8075 3050 8175 3150
+Text Label 6425 875  0    50   ~ 0
+PIN1
+Text Label 6425 975  0    50   ~ 0
+PIN2
+Text Label 6425 2350 0    50   ~ 0
+PIN3
+Text Label 6425 2450 0    50   ~ 0
+PIN4
+Text Label 7850 1475 0    50   ~ 0
+PIN5
+Text Label 7850 1575 0    50   ~ 0
+PIN6
+Text Label 7825 2950 0    50   ~ 0
+PIN7
+Text Label 7825 3050 0    50   ~ 0
+PIN8
+Wire Wire Line
+	6625 1575 6575 1575
+Wire Wire Line
+	6600 3050 6575 3050
+Wire Wire Line
+	7825 875  7900 875 
+Wire Wire Line
+	7800 2350 7900 2350
+Text GLabel 6575 1575 0    50   Input ~ 0
+VSS
+Text GLabel 6575 3050 0    50   Input ~ 0
+VSS
+Wire Wire Line
+	3425 3900 4650 3900
+Wire Bus Line
+	6250 3300 8175 3300
+Connection ~ 8175 3300
+Wire Bus Line
+	8175 3300 8775 3300
+Wire Wire Line
+	8875 950  9225 950 
+Wire Wire Line
+	9225 1150 8875 1150
+Wire Wire Line
+	7825 1375 8275 1375
+Wire Wire Line
+	6625 1075 6150 1075
+Wire Wire Line
+	6625 1475 6150 1475
+Wire Wire Line
+	7800 2450 8275 2450
+Wire Wire Line
+	7800 2850 8275 2850
+Entry Wire Line
+	8275 2850 8375 2950
+Entry Wire Line
+	8275 2450 8375 2550
+Entry Wire Line
+	8275 1375 8375 1475
+Entry Wire Line
+	8275 975  8375 1075
+Text Label 7850 975  0    50   ~ 0
+RES4
+Text Label 7850 1375 0    50   ~ 0
+RES3
+Text Label 7825 2450 0    50   ~ 0
+RES8
+Text Label 7825 2850 0    50   ~ 0
+RES7
+Text Label 6425 1075 0    50   ~ 0
+RES1
+Text Label 6425 1475 0    50   ~ 0
+RES2
+Text Label 6425 2550 0    50   ~ 0
+RES5
+Text Label 6425 2950 0    50   ~ 0
+RES6
+Wire Wire Line
+	6600 2550 6150 2550
+Wire Wire Line
+	6600 2950 6150 2950
+Entry Wire Line
+	6050 2450 6150 2550
+Entry Wire Line
+	6050 2850 6150 2950
+Entry Wire Line
+	6050 1375 6150 1475
+Entry Wire Line
+	6050 975  6150 1075
+Wire Wire Line
+	6625 1375 6150 1375
+Entry Wire Line
+	5850 1075 5950 1175
+Entry Wire Line
+	5850 1175 5950 1275
+Wire Wire Line
+	6625 1275 6350 1275
+Wire Wire Line
+	6350 1275 6350 1725
+Text Label 6425 1175 0    50   ~ 0
+SET1
+Text Label 6425 1375 0    50   ~ 0
+SET2
+Wire Wire Line
+	6600 2850 6150 2850
+Wire Wire Line
+	6150 2850 6150 2750
+Entry Wire Line
+	5850 2550 5950 2650
+Entry Wire Line
+	5850 2650 5950 2750
+Text Label 6425 2650 0    50   ~ 0
+SET5
+Text Label 6425 2850 0    50   ~ 0
+SET6
+Wire Wire Line
+	7800 2550 8275 2550
+Wire Wire Line
+	8275 2550 8275 2650
+Text Label 7825 2550 0    50   ~ 0
+SET8
+Text Label 7825 2750 0    50   ~ 0
+SET7
+Wire Wire Line
+	7825 1075 8275 1075
+Wire Wire Line
+	8275 1075 8275 1175
+Wire Wire Line
+	7825 1275 8475 1275
+Wire Wire Line
+	8275 1175 8475 1175
+Wire Wire Line
+	7800 2750 8475 2750
+Wire Wire Line
+	8275 2650 8475 2650
+Entry Wire Line
+	8475 1175 8575 1275
+Entry Wire Line
+	8475 2750 8575 2850
+Entry Wire Line
+	8475 2650 8575 2750
+Entry Wire Line
+	8475 1275 8575 1375
+Wire Wire Line
+	6150 2750 5950 2750
+Wire Wire Line
+	6600 2650 5950 2650
+Wire Wire Line
+	6625 1175 5950 1175
+Wire Wire Line
+	6150 1275 5950 1275
+Wire Wire Line
+	6150 1375 6150 1275
+$Comp
+L Device:C CD506
+U 1 1 648CD69C
+P 7900 700
+F 0 "CD506" H 7625 700 50  0000 C CNN
+F 1 "0603 100nF" H 7475 600 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" H 7938 550 50  0001 C CNN
+F 3 "~" H 7900 700 50  0001 C CNN
+	1    7900 700 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C CD507
+U 1 1 648FF9D3
+P 7900 2125
+F 0 "CD507" H 8375 1900 50  0000 C CNN
+F 1 "0603 100nF" H 8225 1800 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" H 7938 1975 50  0001 C CNN
+F 3 "~" H 7900 2125 50  0001 C CNN
+	1    7900 2125
+	-1   0    0    1   
+$EndComp
+Text GLabel 7900 2300 2    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	7900 2350 7900 2275
+Wire Wire Line
+	7900 1975 7800 1975
+Text GLabel 7900 850  2    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	7825 975  8275 975 
+Wire Wire Line
+	7900 850  7900 875 
+Wire Wire Line
+	7900 550  7800 550 
+Text GLabel 7800 550  0    50   Input ~ 0
+VSS
+Text GLabel 7800 1975 0    50   Input ~ 0
+VSS
+Wire Wire Line
+	6600 2750 6350 2750
+Wire Wire Line
+	6350 2750 6350 3200
+Text GLabel 6350 1725 2    50   Input ~ 0
+VCC3V3
+Text GLabel 6350 3200 2    50   Input ~ 0
+VCC3V3
+$Comp
+L Device:C CD504
+U 1 1 649E09FA
+P 5150 800
+F 0 "CD504" H 5550 700 50  0000 C CNN
+F 1 "0603 100nF" H 5700 625 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" H 5188 650 50  0001 C CNN
+F 3 "~" H 5150 800 50  0001 C CNN
+	1    5150 800 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 650  5050 650 
+Text GLabel 5050 650  0    50   Input ~ 0
+VSS
+$Comp
+L Device:C CD505
+U 1 1 649F21CE
+P 5150 2250
+F 0 "CD505" H 5550 2150 50  0000 C CNN
+F 1 "0603 100nF" H 5700 2075 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" H 5188 2100 50  0001 C CNN
+F 3 "~" H 5150 2250 50  0001 C CNN
+	1    5150 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 2100 5050 2100
+Text GLabel 5050 2100 0    50   Input ~ 0
+VSS
+Wire Wire Line
+	5025 975  5150 975 
+Wire Wire Line
+	5150 975  5150 950 
+Wire Wire Line
+	5025 2425 5150 2425
+Wire Wire Line
+	5150 2425 5150 2400
+Text GLabel 5150 950  2    50   Input ~ 0
+VCC3V3
+Text GLabel 5150 2400 2    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	5025 1075 5375 1075
+Wire Wire Line
+	5025 1175 5375 1175
+Wire Wire Line
+	5025 1275 5375 1275
+Wire Wire Line
+	5025 1375 5375 1375
+Wire Wire Line
+	5025 1475 5375 1475
+Wire Wire Line
+	5025 1575 5375 1575
+Wire Wire Line
+	5025 1675 5375 1675
+Wire Wire Line
+	5025 2525 5375 2525
+Wire Wire Line
+	5025 2625 5375 2625
+Wire Wire Line
+	5025 2725 5375 2725
+Wire Wire Line
+	5025 2825 5375 2825
+Wire Wire Line
+	5025 2925 5375 2925
+Wire Wire Line
+	5025 3025 5375 3025
+Wire Wire Line
+	5025 3125 5375 3125
+Entry Wire Line
+	5375 3125 5475 3225
+Entry Wire Line
+	5375 3025 5475 3125
+Entry Wire Line
+	5375 2925 5475 3025
+Entry Wire Line
+	5375 2825 5475 2925
+Entry Wire Line
+	5375 2725 5475 2825
+Entry Wire Line
+	5375 2625 5475 2725
+Entry Wire Line
+	5375 2525 5475 2625
+Entry Wire Line
+	5375 1075 5475 1175
+Entry Wire Line
+	5375 1175 5475 1275
+Entry Wire Line
+	5375 1275 5475 1375
+Entry Wire Line
+	5375 1375 5475 1475
+Entry Wire Line
+	5375 1475 5475 1575
+Entry Wire Line
+	5375 1575 5475 1675
+Entry Wire Line
+	5375 1675 5475 1775
+Wire Bus Line
+	5475 1775 5850 1775
+Connection ~ 5850 1775
+Text Label 7850 1075 0    50   ~ 0
+SET4
+Text Label 7850 1275 0    50   ~ 0
+SET3
+Text Label 5075 1175 0    50   ~ 0
+SET1
+Text Label 5075 1075 0    50   ~ 0
+SET2
+Text Label 5075 1275 0    50   ~ 0
+SET3
+Text Label 5075 1375 0    50   ~ 0
+SET4
+Text Label 5075 1475 0    50   ~ 0
+SET5
+Text Label 5075 1575 0    50   ~ 0
+SET6
+Text Label 5075 1675 0    50   ~ 0
+SET7
+Text Label 3825 1575 0    50   ~ 0
+SET8
+Wire Wire Line
+	4025 1575 3600 1575
+Entry Wire Line
+	3500 1475 3600 1575
+Wire Bus Line
+	5475 1775 5475 1875
+Wire Bus Line
+	5475 1875 3500 1875
+Wire Bus Line
+	3500 1875 3500 1475
+Connection ~ 5475 1775
+Text Label 5075 2525 0    50   ~ 0
+RES1
+Text Label 5075 2625 0    50   ~ 0
+RES2
+Text Label 5075 2725 0    50   ~ 0
+RES3
+Text Label 5075 2825 0    50   ~ 0
+RES4
+Text Label 5075 2925 0    50   ~ 0
+RES5
+Text Label 5075 3025 0    50   ~ 0
+RES6
+Text Label 5075 3125 0    50   ~ 0
+RES7
+Text Label 3800 3025 0    50   ~ 0
+RES8
+Wire Wire Line
+	4025 3025 3600 3025
+Entry Wire Line
+	3500 2925 3600 3025
+Wire Bus Line
+	3500 2925 3500 3325
+Wire Bus Line
+	3500 3325 5475 3325
+Wire Bus Line
+	5475 3325 6050 3325
+Text Label 2550 1525 0    50   ~ 0
+QF
+Text Label 2550 1625 0    50   ~ 0
+QE
+Text Label 1150 1425 0    50   ~ 0
+QA
+Text Label 1150 1525 0    50   ~ 0
+QB
+Entry Wire Line
+	3400 1075 3500 1175
+Entry Wire Line
+	3400 975  3500 1075
+Entry Wire Line
+	3400 875  3500 975 
+Wire Wire Line
+	4025 975  3500 975 
+Wire Wire Line
+	4025 1075 3500 1075
+Wire Wire Line
+	4025 1175 3500 1175
+Entry Wire Line
+	3400 2325 3500 2425
+Entry Wire Line
+	3400 2425 3500 2525
+Entry Wire Line
+	3400 2525 3500 2625
+Wire Wire Line
+	4025 2625 3500 2625
+Wire Wire Line
+	4025 2525 3500 2525
+Wire Wire Line
+	4025 2425 3500 2425
+Text Label 3575 975  0    50   ~ 0
+QC
+Text Label 3575 2425 0    50   ~ 0
+QD
+Wire Wire Line
+	1275 1425 1075 1425
+Wire Wire Line
+	1275 1525 1075 1525
+Entry Wire Line
+	975  1325 1075 1425
+Entry Wire Line
+	975  1425 1075 1525
+Text Label 1150 1625 0    50   ~ 0
+QC
+Text Label 1150 1725 0    50   ~ 0
+QD
+Text Label 3575 1175 0    50   ~ 0
+QA
+Text Label 3575 1075 0    50   ~ 0
+QB
+Text Label 3575 2525 0    50   ~ 0
+QE
+Text Label 3575 2625 0    50   ~ 0
+QF
+Connection ~ 5475 3325
+Wire Wire Line
+	4025 1275 3775 1275
+Wire Wire Line
+	3775 1275 3775 1375
+Wire Wire Line
+	3775 1675 4025 1675
+Wire Wire Line
+	4025 1375 3775 1375
+Connection ~ 3775 1375
+Wire Wire Line
+	3775 1375 3775 1675
+Wire Wire Line
+	4025 2725 3775 2725
+Wire Wire Line
+	3775 2725 3775 2825
+Wire Wire Line
+	3775 3125 4025 3125
+Wire Wire Line
+	4025 2825 3775 2825
+Connection ~ 3775 2825
+Wire Wire Line
+	3775 2825 3775 3125
+Text GLabel 3775 3125 0    50   Input ~ 0
+VSS
+Text GLabel 3775 1675 0    50   Input ~ 0
+VSS
+Wire Wire Line
+	4025 1475 3675 1475
+Wire Wire Line
+	3675 1475 3675 1375
+Wire Wire Line
+	3675 1375 2925 1375
+Wire Wire Line
+	4025 2925 3675 2925
+Wire Wire Line
+	3675 2925 3675 2800
+Wire Wire Line
+	3675 2800 2925 2800
+Text Label 2975 1375 0    50   ~ 0
+ETC_IN2A
+Text Label 2950 2800 0    50   ~ 0
+ETC_IN2B
+Wire Wire Line
+	1275 1825 1225 1825
+Text GLabel 1225 1825 0    50   Input ~ 0
+VSS
+$Comp
+L Device:C CD503
+U 1 1 6502AFA0
+P 2450 1075
+F 0 "CD503" H 2575 725 50  0000 C CNN
+F 1 "0603 100nF" H 2400 825 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" H 2488 925 50  0001 C CNN
+F 3 "~" H 2450 1075 50  0001 C CNN
+	1    2450 1075
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 925  2350 925 
+Text GLabel 2450 1225 2    50   Input ~ 0
+VCC3V3
+Connection ~ 2825 675 
+Wire Bus Line
+	2825 675  3400 675 
+Wire Bus Line
+	975  675  2825 675 
+Wire Wire Line
+	2375 1225 2450 1225
+Text GLabel 2350 925  0    50   Input ~ 0
+VSS
+Wire Wire Line
+	9225 3400 8875 3400
+Wire Wire Line
+	1275 1325 1150 1325
+Wire Wire Line
+	1275 1225 1150 1225
+Wire Wire Line
+	1150 925  1150 1225
+Connection ~ 1150 1225
+Wire Wire Line
+	1150 1225 1150 1325
+Text HLabel 1150 925  2    50   Input ~ 0
+MOSI
+Wire Wire Line
+	2450 1225 2450 1725
+Wire Wire Line
+	2450 1725 2375 1725
+Connection ~ 2450 1225
+Wire Wire Line
+	2375 1825 2450 1825
+Text HLabel 2450 1825 2    50   Input ~ 0
+SCLK
+Text HLabel 1000 3775 0    50   Output ~ 0
+IO_PWM1
+Text HLabel 1000 3650 0    50   Output ~ 0
+IO_PWM2
+Text HLabel 1000 3525 0    50   Output ~ 0
+IO_PWM3
+Text HLabel 1000 3400 0    50   Output ~ 0
+IO_PWM4
+Text HLabel 1000 3275 0    50   Output ~ 0
+IO_PWM5
+Text HLabel 1000 3150 0    50   Output ~ 0
+IO_PWM6
+Text HLabel 1000 3025 0    50   Output ~ 0
+IO_PWM7
+Text HLabel 1000 2900 0    50   Output ~ 0
+IO_PWM8
+Text Label 10425 850  0    50   ~ 0
+PWM1
+Text Label 10425 1050 0    50   ~ 0
+PWM2
+Text Label 10425 1600 0    50   ~ 0
+PWM3
+Text Label 10425 1800 0    50   ~ 0
+PWM4
+Text Label 10425 2350 0    50   ~ 0
+PWM5
+Text Label 10425 2550 0    50   ~ 0
+PWM6
+Text Label 10425 3100 0    50   ~ 0
+PWM7
+Text Label 10425 3300 0    50   ~ 0
+PWM8
+Wire Wire Line
+	1000 3775 1650 3775
+Wire Wire Line
+	1650 3650 1000 3650
+Wire Wire Line
+	1000 3525 1650 3525
+Wire Wire Line
+	1650 3400 1000 3400
+Wire Wire Line
+	1000 3275 1650 3275
+Wire Wire Line
+	1650 3150 1000 3150
+Wire Wire Line
+	1000 3025 1650 3025
+Wire Wire Line
+	1000 2900 1650 2900
+Text Label 1175 2900 0    50   ~ 0
+PWM8
+Text Label 1175 3025 0    50   ~ 0
+PWM7
+Text Label 1175 3150 0    50   ~ 0
+PWM6
+Text Label 1175 3275 0    50   ~ 0
+PWM5
+Text Label 1175 3400 0    50   ~ 0
+PWM4
+Text Label 1175 3525 0    50   ~ 0
+PWM3
+Text Label 1175 3650 0    50   ~ 0
+PWM2
+Text Label 1175 3775 0    50   ~ 0
+PWM1
+$Comp
+L Device:D_Zener D511
+U 1 1 663B8A07
+P 1800 2900
+F 0 "D511" H 2125 2925 50  0000 C CNN
+F 1 "D_Zener" H 2400 2925 50  0000 C CNN
+F 2 "" H 1800 2900 50  0001 C CNN
+F 3 "~" H 1800 2900 50  0001 C CNN
+	1    1800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D512
+U 1 1 663B8F2A
+P 1800 3025
+F 0 "D512" H 2125 3050 50  0000 C CNN
+F 1 "D_Zener" H 2400 3050 50  0000 C CNN
+F 2 "" H 1800 3025 50  0001 C CNN
+F 3 "~" H 1800 3025 50  0001 C CNN
+	1    1800 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D513
+U 1 1 663B9770
+P 1800 3150
+F 0 "D513" H 2125 3175 50  0000 C CNN
+F 1 "D_Zener" H 2400 3175 50  0000 C CNN
+F 2 "" H 1800 3150 50  0001 C CNN
+F 3 "~" H 1800 3150 50  0001 C CNN
+	1    1800 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D514
+U 1 1 663B9DFF
+P 1800 3275
+F 0 "D514" H 2125 3300 50  0000 C CNN
+F 1 "D_Zener" H 2400 3300 50  0000 C CNN
+F 2 "" H 1800 3275 50  0001 C CNN
+F 3 "~" H 1800 3275 50  0001 C CNN
+	1    1800 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D515
+U 1 1 663BA49D
+P 1800 3400
+F 0 "D515" H 2125 3425 50  0000 C CNN
+F 1 "D_Zener" H 2400 3425 50  0000 C CNN
+F 2 "" H 1800 3400 50  0001 C CNN
+F 3 "~" H 1800 3400 50  0001 C CNN
+	1    1800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D516
+U 1 1 663BAB4F
+P 1800 3525
+F 0 "D516" H 2125 3550 50  0000 C CNN
+F 1 "D_Zener" H 2400 3550 50  0000 C CNN
+F 2 "" H 1800 3525 50  0001 C CNN
+F 3 "~" H 1800 3525 50  0001 C CNN
+	1    1800 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D517
+U 1 1 663BB21A
+P 1800 3650
+F 0 "D517" H 2125 3675 50  0000 C CNN
+F 1 "D_Zener" H 2400 3675 50  0000 C CNN
+F 2 "" H 1800 3650 50  0001 C CNN
+F 3 "~" H 1800 3650 50  0001 C CNN
+	1    1800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D518
+U 1 1 663BB8F9
+P 1800 3775
+F 0 "D518" H 2125 3800 50  0000 C CNN
+F 1 "D_Zener" H 2400 3800 50  0000 C CNN
+F 2 "" H 1800 3775 50  0001 C CNN
+F 3 "~" H 1800 3775 50  0001 C CNN
+	1    1800 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3775 1950 3650
+Wire Wire Line
+	1950 2900 1950 2575
+Connection ~ 1950 3025
+Wire Wire Line
+	1950 3025 1950 2900
+Connection ~ 1950 3150
+Wire Wire Line
+	1950 3150 1950 3025
+Connection ~ 1950 3275
+Wire Wire Line
+	1950 3275 1950 3150
+Connection ~ 1950 3400
+Wire Wire Line
+	1950 3400 1950 3275
+Connection ~ 1950 3525
+Wire Wire Line
+	1950 3525 1950 3400
+Connection ~ 1950 3650
+Wire Wire Line
+	1950 3650 1950 3525
+$Comp
+L Device:R R512
+U 1 1 6653E200
+P 1525 2425
+F 0 "R512" V 1525 2975 50  0000 C CNN
+F 1 "0805 0R" V 1525 3300 50  0000 C CNN
+F 2 "Samacsys:RESC2012X60N" V 1455 2425 50  0001 C CNN
+F 3 "~" H 1525 2425 50  0001 C CNN
+	1    1525 2425
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R513
+U 1 1 6653E206
+P 1525 2575
+F 0 "R513" V 1525 3125 50  0000 C CNN
+F 1 "0805 0R" V 1525 3450 50  0000 C CNN
+F 2 "Samacsys:RESC2012X60N" V 1455 2575 50  0001 C CNN
+F 3 "~" H 1525 2575 50  0001 C CNN
+	1    1525 2575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1275 2575 1375 2575
+Wire Wire Line
+	1750 2425 1675 2425
+Wire Wire Line
+	1375 2425 1275 2425
+Wire Wire Line
+	1675 2575 1750 2575
+Wire Wire Line
+	1750 2425 1750 2575
+Connection ~ 1750 2575
+Wire Wire Line
+	1750 2575 1950 2575
+Text GLabel 1275 2575 0    50   Input ~ 0
+VSS
+Connection ~ 1950 2900
+Wire Notes Line
+	1700 2300 1700 2675
+Wire Notes Line
+	1700 2675 1350 2675
+Wire Notes Line
+	1350 2675 1350 2300
+Wire Notes Line
+	1350 2300 1700 2300
+Text GLabel 1275 2425 0    50   Input ~ 0
+VCC12VPP
+Text Notes 525  2275 0    50   ~ 0
+Pop one as required for zener voltage limit or reverse for flyback diode
+Wire Bus Line
+	5850 1775 5850 2650
+Wire Bus Line
+	5850 1075 5850 1775
+Wire Bus Line
+	2825 675  2825 1725
+Wire Bus Line
+	8375 1075 8375 2950
+Wire Bus Line
+	8575 1275 8575 2850
+Wire Bus Line
+	975  675  975  1625
+Wire Bus Line
+	6050 975  6050 3325
+Wire Bus Line
+	8175 1575 8175 3300
+Wire Bus Line
+	6250 775  6250 3300
+Wire Bus Line
+	8775 850  8775 3300
+Wire Bus Line
+	5475 2625 5475 3325
+Wire Bus Line
+	5475 1175 5475 1775
+Wire Bus Line
+	3400 675  3400 2525
+$EndSCHEMATC
