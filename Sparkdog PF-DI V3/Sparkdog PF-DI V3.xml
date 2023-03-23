@@ -1,0 +1,4954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\mdaut\Documents\Sparkdog PF-DI V3\Sparkdog PF-DI V3\Sparkdog PF-DI V3.sch</source>
+    <date>1/01/2022 8:50:30 PM</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Sparkdog PF-DI V3.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/3 TEENSY/" tstamps="/6056510E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Teensy_3_5.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/7 POWER/" tstamps="/60642A2F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/4 KNOCK/" tstamps="/60657702/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Knock.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/8 GDI/" tstamps="/6068C794/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>GDI.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/9 GDI CONTROL/" tstamps="/609BE430/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>GDI_Control.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/5 ETC/" tstamps="/60C1F65F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ETC.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/2 VVT/" tstamps="/60AD911C/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>VVT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/6 ETC PROCESSOR/" tstamps="/60717C73/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ETC PROCESSOR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>Arduino_Footprint</value>
+      <footprint>Sparkdog PF-DI V3:ARDUINO_DUE</footprint>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="Arduino_Footprint" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605609E3</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x06_Female</value>
+      <footprint>Sparkdog PF-DI V3:SIP-6</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E846D4</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x06_Female</value>
+      <footprint>Sparkdog PF-DI V3:SIP-6</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E85A17</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x06_Female</value>
+      <footprint>Sparkdog PF-DI V3:SIP-6</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E870A3</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x08_Female</value>
+      <footprint>Sparkdog PF-DI V3:SIP-8</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x08_Female" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610AAF40</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x08_Female</value>
+      <footprint>Sparkdog PF-DI V3:SIP-8</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x08_Female" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610F100D</tstamp>
+    </comp>
+    <comp ref="RN100">
+      <value>1206 10k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61402CEC</tstamp>
+    </comp>
+    <comp ref="RN101">
+      <value>1206 1k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61045BE1</tstamp>
+    </comp>
+    <comp ref="RN102">
+      <value>1206 1k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610464CD</tstamp>
+    </comp>
+    <comp ref="RN103">
+      <value>1206 1k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6132C932</tstamp>
+    </comp>
+    <comp ref="RN104">
+      <value>1206 10k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6188A62D</tstamp>
+    </comp>
+    <comp ref="RN105">
+      <value>1206 1k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61EB951A</tstamp>
+    </comp>
+    <comp ref="R100">
+      <value>0603 1k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60F627BD</tstamp>
+    </comp>
+    <comp ref="RN106">
+      <value>1206 10k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6101B7F5</tstamp>
+    </comp>
+    <comp ref="C100">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6106D199</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>0603 1k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611BAC47</tstamp>
+    </comp>
+    <comp ref="RN300">
+      <value>1206 1k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/3 TEENSY/" tstamps="/6056510E/"/>
+      <tstamp>60C93671</tstamp>
+    </comp>
+    <comp ref="D300">
+      <value>0805 LED</value>
+      <footprint>Samacsys:RESC2012X60N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/3 TEENSY/" tstamps="/6056510E/"/>
+      <tstamp>60CA19FA</tstamp>
+    </comp>
+    <comp ref="D301">
+      <value>0805 LED</value>
+      <footprint>Samacsys:RESC2012X60N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/3 TEENSY/" tstamps="/6056510E/"/>
+      <tstamp>60CA20E4</tstamp>
+    </comp>
+    <comp ref="U300">
+      <value>Teensy_3_5</value>
+      <footprint>Sparkdog PF-DI V3:TEENSY_3_5</footprint>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="Teensy_3_5" description=""/>
+      <sheetpath names="/3 TEENSY/" tstamps="/6056510E/"/>
+      <tstamp>60F1A627</tstamp>
+    </comp>
+    <comp ref="CD700">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>60643C7E</tstamp>
+    </comp>
+    <comp ref="CD701">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>6064459D</tstamp>
+    </comp>
+    <comp ref="CD703">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>60644E95</tstamp>
+    </comp>
+    <comp ref="CD702">
+      <value>CAP4mm 4.7uF</value>
+      <footprint>Samacsys:CAPAE430X550N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>606453BF</tstamp>
+    </comp>
+    <comp ref="CD704">
+      <value>CAP4mm 4.7uF</value>
+      <footprint>Samacsys:CAPAE430X550N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>60645C93</tstamp>
+    </comp>
+    <comp ref="L700">
+      <value>0805 10nH</value>
+      <footprint>Samacsys:RESC2012X60N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>60647D43</tstamp>
+    </comp>
+    <comp ref="L701">
+      <value>0805 10nH</value>
+      <footprint>Samacsys:RESC2012X60N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>606486EB</tstamp>
+    </comp>
+    <comp ref="CD705">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>6064A365</tstamp>
+    </comp>
+    <comp ref="U704">
+      <value>LM2577SX-ADJ_NOPB</value>
+      <footprint>Samacsys:KTT0005B</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/LM2577</datasheet>
+      <fields>
+        <field name="Description">SIMPLE SWITCHER&amp;#174; 3.5V to 40V, 3A Low Component Count Step-Up Regulator</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM2577SX-ADJ/NOPB</field>
+        <field name="Mouser Part Number">926-LM2577SXADJNOPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2577SX-ADJ-NOPB?qs=X1J7HmVL2ZH8mODru%2FJBBw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LM2577SX-ADJ_NOPB" description="SIMPLE SWITCHER&amp;#174; 3.5V to 40V, 3A Low Component Count Step-Up Regulator"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>60A5910A</tstamp>
+    </comp>
+    <comp ref="R702">
+      <value>0603 22k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>60A5AE25</tstamp>
+    </comp>
+    <comp ref="CD710">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>60A5B768</tstamp>
+    </comp>
+    <comp ref="CD711">
+      <value>CAP4mm 4.7uF</value>
+      <footprint>Samacsys:CAPAE430X550N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>60A5C520</tstamp>
+    </comp>
+    <comp ref="L702">
+      <value>SRN8040-680</value>
+      <footprint>Samacsys:INDC8566X410N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>60A5E520</tstamp>
+    </comp>
+    <comp ref="D700">
+      <value>BYG22B</value>
+      <footprint>Samacsys:DIOM5127X229N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>60A5F2EA</tstamp>
+    </comp>
+    <comp ref="CD709">
+      <value>CAP17mm</value>
+      <footprint>Samacsys:CAPAE1700X1700N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>60A62728</tstamp>
+    </comp>
+    <comp ref="R701">
+      <value>0603 1k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>60A66398</tstamp>
+    </comp>
+    <comp ref="R700">
+      <value>0603 1k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>60A6A9D4</tstamp>
+    </comp>
+    <comp ref="C700">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>60A6C403</tstamp>
+    </comp>
+    <comp ref="R703">
+      <value>0603 22k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>60A740ED</tstamp>
+    </comp>
+    <comp ref="U701">
+      <value>PIC18F26J50T-I_ML</value>
+      <footprint>Sparkdog PF-DI V3:PIC18F26</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/PIC18F26J50T-I_ML.pdf</datasheet>
+      <fields>
+        <field name="Description">8-bit Microcontrollers - MCU Full Spd USB 64KB Flsh 4KBRAM nanoWatt</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">PIC18F26J50T-I/ML</field>
+        <field name="Mouser Part Number">579-PIC18F26J50T-IML</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/PIC18F26J50T-I-ML?qs=Xb8IjHhkxj6YU2KL6UdtEQ%3D%3D</field>
+      </fields>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="PIC18F26J50T-I_ML" description="8-bit Microcontrollers - MCU Full Spd USB 64KB Flsh 4KBRAM nanoWatt"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>61254CFA</tstamp>
+    </comp>
+    <comp ref="U700">
+      <value>BD433M5FP-CE2</value>
+      <footprint>Sparkdog PF-DI V3:MDAC-TO-252-3</footprint>
+      <fields>
+        <field name="Description">ROHM - BD433M5FP-CE2 - LDO, FIXED, AUTO, 3.3V, 0.5A, TO252-3</field>
+        <field name="Height">2.5</field>
+        <field name="Manufacturer_Name">ROHM Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BD433M5FP-CE2</field>
+        <field name="Mouser Part Number">755-BD433M5FP-CE2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BD433M5FP-CE2?qs=WHeKGGBt0W%252Bm0j7eFV2sYw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BD433M5FP-CE2" description="ROHM - BD433M5FP-CE2 - LDO, FIXED, AUTO, 3.3V, 0.5A, TO252-3"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>60741981</tstamp>
+    </comp>
+    <comp ref="U703">
+      <value>BD433M5FP-CE2</value>
+      <footprint>Sparkdog PF-DI V3:MDAC-TO-252-3</footprint>
+      <fields>
+        <field name="Description">ROHM - BD433M5FP-CE2 - LDO, FIXED, AUTO, 3.3V, 0.5A, TO252-3</field>
+        <field name="Height">2.5</field>
+        <field name="Manufacturer_Name">ROHM Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BD433M5FP-CE2</field>
+        <field name="Mouser Part Number">755-BD433M5FP-CE2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BD433M5FP-CE2?qs=WHeKGGBt0W%252Bm0j7eFV2sYw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BD433M5FP-CE2" description="ROHM - BD433M5FP-CE2 - LDO, FIXED, AUTO, 3.3V, 0.5A, TO252-3"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>60749616</tstamp>
+    </comp>
+    <comp ref="CD712">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>6074A1B6</tstamp>
+    </comp>
+    <comp ref="CD708">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>6074D683</tstamp>
+    </comp>
+    <comp ref="CD707">
+      <value>CAP4mm 4.7uF</value>
+      <footprint>Samacsys:CAPAE430X550N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>6074DE27</tstamp>
+    </comp>
+    <comp ref="CD706">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>6075AB60</tstamp>
+    </comp>
+    <comp ref="U702">
+      <value>TCAN334</value>
+      <footprint>Samacsys:SOIC127P600X175-8N</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tcan337.pdf</datasheet>
+      <libsource lib="Interface_CAN_LIN" part="TCAN334" description="High-Speed CAN Transceiver, 1Mbps, 3.3V supply, low power standby mode, shutdown mode, SOT-23-8/SOIC-8"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>60763DEF</tstamp>
+    </comp>
+    <comp ref="CD713">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>60785BD2</tstamp>
+    </comp>
+    <comp ref="R704">
+      <value>2512 1R</value>
+      <footprint>Samacsys:RESC6331X75N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>613D4611</tstamp>
+    </comp>
+    <comp ref="R706">
+      <value>0603 1k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>616F7727</tstamp>
+    </comp>
+    <comp ref="CD714">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>617021F8</tstamp>
+    </comp>
+    <comp ref="X700">
+      <value>4 MHz</value>
+      <footprint>Samacsys:ECS49205PXTR</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>61709EFA</tstamp>
+    </comp>
+    <comp ref="C702">
+      <value>0603 10pF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>6171A163</tstamp>
+    </comp>
+    <comp ref="C701">
+      <value>0603 10pF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>6171AAB8</tstamp>
+    </comp>
+    <comp ref="J700">
+      <value>SSM-106-L-SV</value>
+      <footprint>Samacsys:SSM106LSV</footprint>
+      <datasheet>http://suddendocs.samtec.com/catalog_english/ssm_sm.pdf</datasheet>
+      <fields>
+        <field name="Description">Samtec SSM Series 2.54mm 6 Way 1 Row Straight PCB Socket Surface Mount Board to Board</field>
+        <field name="Height">7.37</field>
+        <field name="Manufacturer_Name">SAMTEC</field>
+        <field name="Manufacturer_Part_Number">SSM-106-L-SV</field>
+        <field name="Mouser Part Number">200-SSM106LSV</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samtec/SSM-106-L-SV?qs=FESYatJ8odIk57gQe2ViOA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SSM-106-L-SV" description="Samtec SSM Series 2.54mm 6 Way 1 Row Straight PCB Socket Surface Mount Board to Board"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>6172A663</tstamp>
+    </comp>
+    <comp ref="R705">
+      <value>0603 100k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/7 POWER/" tstamps="/60642A2F/"/>
+      <tstamp>617ACBE7</tstamp>
+    </comp>
+    <comp ref="U400">
+      <value>TLV9052</value>
+      <footprint>Samacsys:SOT65P280X110-8N</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="AD8620" description="Dual Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers, SOIC-8"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>60658028</tstamp>
+    </comp>
+    <comp ref="RN400">
+      <value>220k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>6066295B</tstamp>
+    </comp>
+    <comp ref="RN401">
+      <value>220R</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>60665373</tstamp>
+    </comp>
+    <comp ref="RN402">
+      <value>220k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>60668339</tstamp>
+    </comp>
+    <comp ref="U401">
+      <value>TLV9052</value>
+      <footprint>Samacsys:SOT65P280X110-8N</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="AD8620" description="Dual Precision, Very Low Noise, Low Input Bias Current, Wide Bandwidth JFET Operational Amplifiers, SOIC-8"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>6067BDAF</tstamp>
+    </comp>
+    <comp ref="R400">
+      <value>0603 4.7k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>6067C207</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>0603 4.7k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>6067D633</tstamp>
+    </comp>
+    <comp ref="R405">
+      <value>0603 47k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>6067DA2A</tstamp>
+    </comp>
+    <comp ref="R403">
+      <value>0603 47k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>6067E85C</tstamp>
+    </comp>
+    <comp ref="R404">
+      <value>0603 47k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>6067F2AA</tstamp>
+    </comp>
+    <comp ref="R402">
+      <value>0603 47k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>6067FBF4</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>0603 1nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>60681241</tstamp>
+    </comp>
+    <comp ref="C400">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>60682368</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>60682BB6</tstamp>
+    </comp>
+    <comp ref="CD400">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>60683446</tstamp>
+    </comp>
+    <comp ref="CD401">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>60683B85</tstamp>
+    </comp>
+    <comp ref="C404">
+      <value>0603 1nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>60684251</tstamp>
+    </comp>
+    <comp ref="C405">
+      <value>0603 1nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>60684A1A</tstamp>
+    </comp>
+    <comp ref="C403">
+      <value>0603 1nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>60681B1D</tstamp>
+    </comp>
+    <comp ref="R408">
+      <value>0603 1k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>61AE0FC0</tstamp>
+    </comp>
+    <comp ref="R409">
+      <value>0603 1k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>61AE162D</tstamp>
+    </comp>
+    <comp ref="R406">
+      <value>0603 1k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>61AE23FF</tstamp>
+    </comp>
+    <comp ref="R407">
+      <value>0603 1k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/4 KNOCK/" tstamps="/60657702/"/>
+      <tstamp>61AE2D37</tstamp>
+    </comp>
+    <comp ref="U807">
+      <value>SUD19P06-60</value>
+      <footprint>Sparkdog PF-DI V3:MDAC-TO-252-3</footprint>
+      <datasheet>https://www.vishay.com/docs/69253/sud19p06.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="SUD19P06-60" description="19A Id, 60V Vds, TrenchFET P-Channel Power MOSFET, 60mOhm Ron, 40nC Qg, -55 to 150 °C, TO-252-2"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>6068D11E</tstamp>
+    </comp>
+    <comp ref="U808">
+      <value>SUD19P06-60</value>
+      <footprint>Sparkdog PF-DI V3:MDAC-TO-252-3</footprint>
+      <datasheet>https://www.vishay.com/docs/69253/sud19p06.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="SUD19P06-60" description="19A Id, 60V Vds, TrenchFET P-Channel Power MOSFET, 60mOhm Ron, 40nC Qg, -55 to 150 °C, TO-252-2"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>6068F0DE</tstamp>
+    </comp>
+    <comp ref="R808">
+      <value>0603 10k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>6068F9FF</tstamp>
+    </comp>
+    <comp ref="R806">
+      <value>0603 4.7k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606902DF</tstamp>
+    </comp>
+    <comp ref="D803">
+      <value>DO-214AC SCHOTTKY</value>
+      <footprint>Samacsys:DIOM5127X229N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>60690834</tstamp>
+    </comp>
+    <comp ref="U806">
+      <value>SUD19P06-60</value>
+      <footprint>Sparkdog PF-DI V3:MDAC-TO-252-3</footprint>
+      <datasheet>https://www.vishay.com/docs/69253/sud19p06.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="SUD19P06-60" description="19A Id, 60V Vds, TrenchFET P-Channel Power MOSFET, 60mOhm Ron, 40nC Qg, -55 to 150 °C, TO-252-2"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606986F2</tstamp>
+    </comp>
+    <comp ref="U805">
+      <value>SUD19P06-60</value>
+      <footprint>Sparkdog PF-DI V3:MDAC-TO-252-3</footprint>
+      <datasheet>https://www.vishay.com/docs/69253/sud19p06.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="SUD19P06-60" description="19A Id, 60V Vds, TrenchFET P-Channel Power MOSFET, 60mOhm Ron, 40nC Qg, -55 to 150 °C, TO-252-2"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606986F8</tstamp>
+    </comp>
+    <comp ref="R805">
+      <value>0603 10k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606986FE</tstamp>
+    </comp>
+    <comp ref="R804">
+      <value>0603 4.7k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>60698704</tstamp>
+    </comp>
+    <comp ref="D802">
+      <value>DO-214AC SCHOTTKY</value>
+      <footprint>Samacsys:DIOM5127X229N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>6069870A</tstamp>
+    </comp>
+    <comp ref="U857">
+      <value>SUD19P06-60</value>
+      <footprint>Sparkdog PF-DI V3:MDAC-TO-252-3</footprint>
+      <datasheet>https://www.vishay.com/docs/69253/sud19p06.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="SUD19P06-60" description="19A Id, 60V Vds, TrenchFET P-Channel Power MOSFET, 60mOhm Ron, 40nC Qg, -55 to 150 °C, TO-252-2"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606A6884</tstamp>
+    </comp>
+    <comp ref="U858">
+      <value>SUD19P06-60</value>
+      <footprint>Sparkdog PF-DI V3:MDAC-TO-252-3</footprint>
+      <datasheet>https://www.vishay.com/docs/69253/sud19p06.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="SUD19P06-60" description="19A Id, 60V Vds, TrenchFET P-Channel Power MOSFET, 60mOhm Ron, 40nC Qg, -55 to 150 °C, TO-252-2"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606A688A</tstamp>
+    </comp>
+    <comp ref="R858">
+      <value>0603 10k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606A6890</tstamp>
+    </comp>
+    <comp ref="R856">
+      <value>0603 4.7k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606A6896</tstamp>
+    </comp>
+    <comp ref="D853">
+      <value>DO-214AC SCHOTTKY</value>
+      <footprint>Samacsys:DIOM5127X229N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606A689C</tstamp>
+    </comp>
+    <comp ref="U856">
+      <value>SUD19P06-60</value>
+      <footprint>Sparkdog PF-DI V3:MDAC-TO-252-3</footprint>
+      <datasheet>https://www.vishay.com/docs/69253/sud19p06.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="SUD19P06-60" description="19A Id, 60V Vds, TrenchFET P-Channel Power MOSFET, 60mOhm Ron, 40nC Qg, -55 to 150 °C, TO-252-2"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606A68BD</tstamp>
+    </comp>
+    <comp ref="U855">
+      <value>SUD19P06-60</value>
+      <footprint>Sparkdog PF-DI V3:MDAC-TO-252-3</footprint>
+      <datasheet>https://www.vishay.com/docs/69253/sud19p06.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="SUD19P06-60" description="19A Id, 60V Vds, TrenchFET P-Channel Power MOSFET, 60mOhm Ron, 40nC Qg, -55 to 150 °C, TO-252-2"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606A68C3</tstamp>
+    </comp>
+    <comp ref="R855">
+      <value>0603 10k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606A68C9</tstamp>
+    </comp>
+    <comp ref="R854">
+      <value>0603 4.7k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606A68CF</tstamp>
+    </comp>
+    <comp ref="D852">
+      <value>DO-214AC SCHOTTKY</value>
+      <footprint>Samacsys:DIOM5127X229N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606A68D5</tstamp>
+    </comp>
+    <comp ref="D801">
+      <value>DO-214AC 81V</value>
+      <footprint>Samacsys:DIOM5127X229N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Zener_ALT" description="Zener diode, filled shape"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606AC537</tstamp>
+    </comp>
+    <comp ref="D800">
+      <value>DO-214AC SCHOTTKY</value>
+      <footprint>Samacsys:DIOM5127X229N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606AE97D</tstamp>
+    </comp>
+    <comp ref="U803">
+      <value>STD7NK40Z</value>
+      <footprint>Sparkdog PF-DI V3:MDAC-TO-252-3</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/std7nk40zt4.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="STD7NK40Z" description="5.4A Id, 400V Vds, N-Channel MOSFET, 1Ohm Ron, DPAK"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606B3FFB</tstamp>
+    </comp>
+    <comp ref="U804">
+      <value>STD7NK40Z</value>
+      <footprint>Sparkdog PF-DI V3:MDAC-TO-252-3</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/std7nk40zt4.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="STD7NK40Z" description="5.4A Id, 400V Vds, N-Channel MOSFET, 1Ohm Ron, DPAK"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606B537C</tstamp>
+    </comp>
+    <comp ref="R802">
+      <value>2512 0.05R</value>
+      <footprint>Samacsys:RESC6331X75N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606BC60C</tstamp>
+    </comp>
+    <comp ref="U802">
+      <value>DDC113TU</value>
+      <footprint>Sparkdog PF-DI V3:SOT-363-6</footprint>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="Dual_Trans_Array_NPN" description=""/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>606CC19B</tstamp>
+    </comp>
+    <comp ref="R807">
+      <value>0603 1k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>60722F54</tstamp>
+    </comp>
+    <comp ref="U800">
+      <value>DDC113TU</value>
+      <footprint>Sparkdog PF-DI V3:SOT-363-6</footprint>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="Dual_Trans_Array_NPN" description=""/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>6072A712</tstamp>
+    </comp>
+    <comp ref="U801">
+      <value>DDC113TU</value>
+      <footprint>Sparkdog PF-DI V3:SOT-363-6</footprint>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="Dual_Trans_Array_NPN" description=""/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>6072B93B</tstamp>
+    </comp>
+    <comp ref="R809">
+      <value>0603 10k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>6076F9A2</tstamp>
+    </comp>
+    <comp ref="R803">
+      <value>0603 10k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>6076EF48</tstamp>
+    </comp>
+    <comp ref="D851">
+      <value>DO-214AC 81V</value>
+      <footprint>Samacsys:DIOM5127X229N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Zener_ALT" description="Zener diode, filled shape"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>607C0A27</tstamp>
+    </comp>
+    <comp ref="D850">
+      <value>DO-214AC SCHOTTKY</value>
+      <footprint>Samacsys:DIOM5127X229N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>607C0A30</tstamp>
+    </comp>
+    <comp ref="U853">
+      <value>STD7NK40Z</value>
+      <footprint>Sparkdog PF-DI V3:MDAC-TO-252-3</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/std7nk40zt4.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="STD7NK40Z" description="5.4A Id, 400V Vds, N-Channel MOSFET, 1Ohm Ron, DPAK"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>607C0A3B</tstamp>
+    </comp>
+    <comp ref="U854">
+      <value>STD7NK40Z</value>
+      <footprint>Sparkdog PF-DI V3:MDAC-TO-252-3</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/std7nk40zt4.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="STD7NK40Z" description="5.4A Id, 400V Vds, N-Channel MOSFET, 1Ohm Ron, DPAK"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>607C0A41</tstamp>
+    </comp>
+    <comp ref="R852">
+      <value>2512 0.05R</value>
+      <footprint>Samacsys:RESC6331X75N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>607C0A4C</tstamp>
+    </comp>
+    <comp ref="U852">
+      <value>DDC113TU</value>
+      <footprint>Sparkdog PF-DI V3:SOT-363-6</footprint>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="Dual_Trans_Array_NPN" description=""/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>607C0A59</tstamp>
+    </comp>
+    <comp ref="R857">
+      <value>0603 1k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>607C0A72</tstamp>
+    </comp>
+    <comp ref="R801">
+      <value>1206 4.7k</value>
+      <footprint>Samacsys:RESC3216X60N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>60810B1D</tstamp>
+    </comp>
+    <comp ref="R851">
+      <value>1206 4.7k</value>
+      <footprint>Samacsys:RESC3216X60N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>60826E7D</tstamp>
+    </comp>
+    <comp ref="U850">
+      <value>DDC113TU</value>
+      <footprint>Sparkdog PF-DI V3:SOT-363-6</footprint>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="Dual_Trans_Array_NPN" description=""/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>6093C7BF</tstamp>
+    </comp>
+    <comp ref="U851">
+      <value>DDC113TU</value>
+      <footprint>Sparkdog PF-DI V3:SOT-363-6</footprint>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="Dual_Trans_Array_NPN" description=""/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>6093C7C5</tstamp>
+    </comp>
+    <comp ref="R859">
+      <value>0603 10k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>6093C7D6</tstamp>
+    </comp>
+    <comp ref="R853">
+      <value>0603 10k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>6093C7E3</tstamp>
+    </comp>
+    <comp ref="R811">
+      <value>0603 220R</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>60AB8A92</tstamp>
+    </comp>
+    <comp ref="U810">
+      <value>STD7NK40Z</value>
+      <footprint>Sparkdog PF-DI V3:MDAC-TO-252-3</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/std7nk40zt4.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="STD7NK40Z" description="5.4A Id, 400V Vds, N-Channel MOSFET, 1Ohm Ron, DPAK"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>60AD3273</tstamp>
+    </comp>
+    <comp ref="R810">
+      <value>2512 0.2R</value>
+      <footprint>Samacsys:RESC6331X75N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>60AE0455</tstamp>
+    </comp>
+    <comp ref="U809">
+      <value>Dual_Trans_Array_NPN</value>
+      <footprint>Sparkdog PF-DI V3:SOT-363-6</footprint>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="Dual_Trans_Array_NPN" description=""/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>60AFB52E</tstamp>
+    </comp>
+    <comp ref="U811">
+      <value>STD7NK40Z</value>
+      <footprint>Sparkdog PF-DI V3:MDAC-TO-252-3</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/std7nk40zt4.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="STD7NK40Z" description="5.4A Id, 400V Vds, N-Channel MOSFET, 1Ohm Ron, DPAK"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>60B41E02</tstamp>
+    </comp>
+    <comp ref="D805">
+      <value>DO-214AC SCHOTTKY</value>
+      <footprint>Samacsys:DIOM5127X229N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>60B98E56</tstamp>
+    </comp>
+    <comp ref="R812">
+      <value>0603 10k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>60BD2EFF</tstamp>
+    </comp>
+    <comp ref="R800">
+      <value>0603 470R</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>608A00F3</tstamp>
+    </comp>
+    <comp ref="R850">
+      <value>0603 470R</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>608A0EFE</tstamp>
+    </comp>
+    <comp ref="D804">
+      <value>DO-214AC 81V</value>
+      <footprint>Samacsys:DIOM5127X229N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/8 GDI/" tstamps="/6068C794/"/>
+      <tstamp>609032B1</tstamp>
+    </comp>
+    <comp ref="U902">
+      <value>SN74AHCT08</value>
+      <footprint>Samacsys:SOP65P640X110-14N</footprint>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="SN74AHCT08" description=""/>
+      <sheetpath names="/9 GDI CONTROL/" tstamps="/609BE430/"/>
+      <tstamp>609C324B</tstamp>
+    </comp>
+    <comp ref="U900">
+      <value>SN74AHCT02</value>
+      <footprint>Samacsys:SOP65P640X110-14N</footprint>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="SN74AHCT02" description=""/>
+      <sheetpath names="/9 GDI CONTROL/" tstamps="/609BE430/"/>
+      <tstamp>609BF869</tstamp>
+    </comp>
+    <comp ref="CD900">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/9 GDI CONTROL/" tstamps="/609BE430/"/>
+      <tstamp>609CB719</tstamp>
+    </comp>
+    <comp ref="CD901">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/9 GDI CONTROL/" tstamps="/609BE430/"/>
+      <tstamp>609CC3DE</tstamp>
+    </comp>
+    <comp ref="U903">
+      <value>SN74AHCT08</value>
+      <footprint>Samacsys:SOP65P640X110-14N</footprint>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="SN74AHCT08" description=""/>
+      <sheetpath names="/9 GDI CONTROL/" tstamps="/609BE430/"/>
+      <tstamp>609DC2A2</tstamp>
+    </comp>
+    <comp ref="U901">
+      <value>SN74AHCT02</value>
+      <footprint>Samacsys:SOP65P640X110-14N</footprint>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="SN74AHCT02" description=""/>
+      <sheetpath names="/9 GDI CONTROL/" tstamps="/609BE430/"/>
+      <tstamp>609DC2B5</tstamp>
+    </comp>
+    <comp ref="CD902">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/9 GDI CONTROL/" tstamps="/609BE430/"/>
+      <tstamp>609DC2DE</tstamp>
+    </comp>
+    <comp ref="CD903">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/9 GDI CONTROL/" tstamps="/609BE430/"/>
+      <tstamp>609DC2E4</tstamp>
+    </comp>
+    <comp ref="U500">
+      <value>L6206PD013TR</value>
+      <footprint>Samacsys:SOP65P1420X360-37N</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/6e/e7/d6/58/65/53/48/2a/CD00002346.pdf/files/CD00002346.pdf/jcr:content/translations/en.CD00002346.pdf</datasheet>
+      <fields>
+        <field name="Description">Dual Full Bridge Motor Driver 48V 36-Pin PowerSO T/R</field>
+        <field name="Height">3.6</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">L6206PD013TR</field>
+        <field name="Mouser Part Number">511-L6206PD013TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L6206PD013TR?qs=twoFnWyO3W%252B7nkIVgOYPvg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="L6206PD013TR" description="Dual Full Bridge Motor Driver 48V 36-Pin PowerSO T/R"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C1FDD7</tstamp>
+    </comp>
+    <comp ref="R500">
+      <value>0603 100k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C22272</tstamp>
+    </comp>
+    <comp ref="C500">
+      <value>0603 10nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C2295A</tstamp>
+    </comp>
+    <comp ref="R501">
+      <value>0603 100k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C251DB</tstamp>
+    </comp>
+    <comp ref="C501">
+      <value>0603 10nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C251E3</tstamp>
+    </comp>
+    <comp ref="R503">
+      <value>0603 1k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C26663</tstamp>
+    </comp>
+    <comp ref="U501">
+      <value>SUD19P06-60</value>
+      <footprint>Sparkdog PF-DI V3:MDAC-TO-252-3</footprint>
+      <datasheet>https://www.vishay.com/docs/69253/sud19p06.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="SUD19P06-60" description="19A Id, 60V Vds, TrenchFET P-Channel Power MOSFET, 60mOhm Ron, 40nC Qg, -55 to 150 °C, TO-252-2"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C296B5</tstamp>
+    </comp>
+    <comp ref="R511">
+      <value>0603 10k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C2C4C7</tstamp>
+    </comp>
+    <comp ref="CD501">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C2E688</tstamp>
+    </comp>
+    <comp ref="CD500">
+      <value>CAP4mm 4.7uF</value>
+      <footprint>Samacsys:CAPAE1700X1700N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C2EB80</tstamp>
+    </comp>
+    <comp ref="R504">
+      <value>2512 0.1R</value>
+      <footprint>Samacsys:RESC6331X75N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C33709</tstamp>
+    </comp>
+    <comp ref="R505">
+      <value>2512 0.1R</value>
+      <footprint>Samacsys:RESC6331X75N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C33EAB</tstamp>
+    </comp>
+    <comp ref="C502">
+      <value>0603 10nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C431FF</tstamp>
+    </comp>
+    <comp ref="R506">
+      <value>0603 100R</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C435C2</tstamp>
+    </comp>
+    <comp ref="C503">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C4E1A4</tstamp>
+    </comp>
+    <comp ref="C504">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C6B184</tstamp>
+    </comp>
+    <comp ref="D502">
+      <value>0805 1N4148</value>
+      <footprint>Samacsys:RESC2012X60N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C9333E</tstamp>
+    </comp>
+    <comp ref="D503">
+      <value>0805 1N4148</value>
+      <footprint>Samacsys:RESC2012X60N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C93A8F</tstamp>
+    </comp>
+    <comp ref="RN501">
+      <value>1206 10k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C9C21A</tstamp>
+    </comp>
+    <comp ref="U503">
+      <value>Dual_Trans_Array_NPN</value>
+      <footprint>Sparkdog PF-DI V3:SOT-363-6</footprint>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="Dual_Trans_Array_NPN" description=""/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60CA1B1B</tstamp>
+    </comp>
+    <comp ref="U502">
+      <value>TL331SN4T3G</value>
+      <footprint>Samacsys:SOT95P275X110-5N</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/TL331-D.PDF</datasheet>
+      <fields>
+        <field name="Description">Analog Comparators LOW POWER SINGLE COMPARAT</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">TL331SN4T3G</field>
+        <field name="Mouser Part Number">863-TL331SN4T3G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/TL331SN4T3G?qs=5aG0NVq1C4zC%252B71FkOI2HA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TL331SN4T3G" description="Analog Comparators LOW POWER SINGLE COMPARAT"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60CAE552</tstamp>
+    </comp>
+    <comp ref="RN500">
+      <value>1206 180k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60CB048C</tstamp>
+    </comp>
+    <comp ref="R513">
+      <value>0603 820k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60CC4F32</tstamp>
+    </comp>
+    <comp ref="R515">
+      <value>0603 470k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60CD0187</tstamp>
+    </comp>
+    <comp ref="C506">
+      <value>0805 10uF</value>
+      <footprint>Samacsys:RESC2012X60N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60CF15C6</tstamp>
+    </comp>
+    <comp ref="C505">
+      <value>0805 10uF</value>
+      <footprint>Samacsys:RESC2012X60N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60CF250D</tstamp>
+    </comp>
+    <comp ref="R512">
+      <value>0603 47k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60D15177</tstamp>
+    </comp>
+    <comp ref="D504">
+      <value>0805 1N4148</value>
+      <footprint>Samacsys:RESC2012X60N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60D1980A</tstamp>
+    </comp>
+    <comp ref="R514">
+      <value>0603 5M</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>609C1E0B</tstamp>
+    </comp>
+    <comp ref="CD502">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60A012EF</tstamp>
+    </comp>
+    <comp ref="R508">
+      <value>0805 0R</value>
+      <footprint>Samacsys:RESC2012X60N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60A01DF1</tstamp>
+    </comp>
+    <comp ref="R509">
+      <value>0805 0R</value>
+      <footprint>Samacsys:RESC2012X60N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60A02750</tstamp>
+    </comp>
+    <comp ref="R510">
+      <value>0805 0R</value>
+      <footprint>Samacsys:RESC2012X60N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60A02D7A</tstamp>
+    </comp>
+    <comp ref="R502">
+      <value>0603 1k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C2615F</tstamp>
+    </comp>
+    <comp ref="R507">
+      <value>0805 0R</value>
+      <footprint>Samacsys:RESC2012X60N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60A033B6</tstamp>
+    </comp>
+    <comp ref="D501">
+      <value>0805 1N4148</value>
+      <footprint>Samacsys:RESC2012X60N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C48B53</tstamp>
+    </comp>
+    <comp ref="D500">
+      <value>0805 1N4148</value>
+      <footprint>Samacsys:RESC2012X60N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/5 ETC/" tstamps="/60C1F65F/"/>
+      <tstamp>60C4921E</tstamp>
+    </comp>
+    <comp ref="U205">
+      <value>74AHC14PW,118</value>
+      <footprint>Samacsys:SOP65P640X110-14N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/74AHC14PW,118.pdf</datasheet>
+      <fields>
+        <field name="Description">74AHC(T)14 - Hex inverting Schmitt trigger@en-us</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">74AHC14PW,118</field>
+        <field name="Mouser Part Number">771-74AHC14PW-T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=771-74AHC14PW-T</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="74AHC14PW,118" description="74AHC(T)14 - Hex inverting Schmitt trigger@en-us"/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60AD95DC</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>Dual_Trans_Array_NPN</value>
+      <footprint>Sparkdog PF-DI V3:SOT-363-6</footprint>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="Dual_Trans_Array_NPN" description=""/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60ADB05A</tstamp>
+    </comp>
+    <comp ref="U202">
+      <value>Dual_Trans_Array_NPN</value>
+      <footprint>Sparkdog PF-DI V3:SOT-363-6</footprint>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="Dual_Trans_Array_NPN" description=""/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60ADB852</tstamp>
+    </comp>
+    <comp ref="RN201">
+      <value>1206 10k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60ADBC6E</tstamp>
+    </comp>
+    <comp ref="RN202">
+      <value>1206 10k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60ADD024</tstamp>
+    </comp>
+    <comp ref="RN205">
+      <value>1206 10k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60ADD76B</tstamp>
+    </comp>
+    <comp ref="RN204">
+      <value>1206 10k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60ADE52E</tstamp>
+    </comp>
+    <comp ref="D200">
+      <value>BZX84C5V1LT1G</value>
+      <footprint>Samacsys:SOT96P237X111-3N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/BZX84C2V4LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Description">250 mW 5.1 V +/-5% Zener Diode Voltage Regulator</field>
+        <field name="Height">1.11</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BZX84C5V1LT1G</field>
+        <field name="Mouser Part Number">863-BZX84C5V1LT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BZX84C5V1LT1G?qs=vNc2DXHODiJkjScJCg4pBQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BZX84C5V1LT1G" description="250 mW 5.1 V +/-5% Zener Diode Voltage Regulator"/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60AF20FC</tstamp>
+    </comp>
+    <comp ref="D201">
+      <value>BZX84C5V1LT1G</value>
+      <footprint>Samacsys:SOT96P237X111-3N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/BZX84C2V4LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Description">250 mW 5.1 V +/-5% Zener Diode Voltage Regulator</field>
+        <field name="Height">1.11</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BZX84C5V1LT1G</field>
+        <field name="Mouser Part Number">863-BZX84C5V1LT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BZX84C5V1LT1G?qs=vNc2DXHODiJkjScJCg4pBQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BZX84C5V1LT1G" description="250 mW 5.1 V +/-5% Zener Diode Voltage Regulator"/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60AF518D</tstamp>
+    </comp>
+    <comp ref="D202">
+      <value>BZX84C5V1LT1G</value>
+      <footprint>Samacsys:SOT96P237X111-3N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/BZX84C2V4LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Description">250 mW 5.1 V +/-5% Zener Diode Voltage Regulator</field>
+        <field name="Height">1.11</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BZX84C5V1LT1G</field>
+        <field name="Mouser Part Number">863-BZX84C5V1LT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BZX84C5V1LT1G?qs=vNc2DXHODiJkjScJCg4pBQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BZX84C5V1LT1G" description="250 mW 5.1 V +/-5% Zener Diode Voltage Regulator"/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60AF5A91</tstamp>
+    </comp>
+    <comp ref="D203">
+      <value>BZX84C5V1LT1G</value>
+      <footprint>Samacsys:SOT96P237X111-3N</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/BZX84C2V4LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Description">250 mW 5.1 V +/-5% Zener Diode Voltage Regulator</field>
+        <field name="Height">1.11</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BZX84C5V1LT1G</field>
+        <field name="Mouser Part Number">863-BZX84C5V1LT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BZX84C5V1LT1G?qs=vNc2DXHODiJkjScJCg4pBQ%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="BZX84C5V1LT1G" description="250 mW 5.1 V +/-5% Zener Diode Voltage Regulator"/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60AF6578</tstamp>
+    </comp>
+    <comp ref="C200">
+      <value>0603 1nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60B093A0</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>0603 1nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60B09B37</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>0603 1nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60B09ECB</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>0603 1nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60B0A4E6</tstamp>
+    </comp>
+    <comp ref="CD200">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60B0FAC6</tstamp>
+    </comp>
+    <comp ref="U203">
+      <value>Dual_Trans_Array_PNP</value>
+      <footprint>Sparkdog PF-DI V3:SOT-363-6</footprint>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="Dual_Trans_Array_PNP" description=""/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60B124F2</tstamp>
+    </comp>
+    <comp ref="U204">
+      <value>Dual_Trans_Array_PNP</value>
+      <footprint>Sparkdog PF-DI V3:SOT-363-6</footprint>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="Dual_Trans_Array_PNP" description=""/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60B13176</tstamp>
+    </comp>
+    <comp ref="RN203">
+      <value>1206 470R</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60B32711</tstamp>
+    </comp>
+    <comp ref="U200">
+      <value>IRF7907TRPBF</value>
+      <footprint>Samacsys:SOIC127P600X175-8N</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irf7907pbf.pdf?fileId=5546d462533600a40153560c992e1d39</datasheet>
+      <fields>
+        <field name="Description">IRF7907TRPBF Dual N-Channel MOSFET, 9.1 A, 11 A, 30 V HEXFET, 8-Pin SOIC Infineon</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRF7907TRPBF</field>
+        <field name="Mouser Part Number">942-IRF7907TRPBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRF7907TRPBF?qs=9%252BKlkBgLFf3IAWSO7x9zgA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="IRF7907TRPBF" description="IRF7907TRPBF Dual N-Channel MOSFET, 9.1 A, 11 A, 30 V HEXFET, 8-Pin SOIC Infineon"/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60B710F1</tstamp>
+    </comp>
+    <comp ref="RN200">
+      <value>1206 10k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60B7E735</tstamp>
+    </comp>
+    <comp ref="R200">
+      <value>1206 0.1R</value>
+      <footprint>Samacsys:RESC3216X60N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60B9B58E</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>1206 0.1R</value>
+      <footprint>Samacsys:RESC3216X60N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/2 VVT/" tstamps="/60AD911C/"/>
+      <tstamp>60B9C050</tstamp>
+    </comp>
+    <comp ref="J600">
+      <value>M50-3610542R</value>
+      <footprint>Samacsys:M503610542</footprint>
+      <datasheet>https://cdn.harwin.com/pdfs/M50-361.pdf</datasheet>
+      <fields>
+        <field name="Description">HARWIN - M50-3610542R - CONNECTOR, HEADER, 10POS, 2ROW, 1.27MM</field>
+        <field name="Height">5.03</field>
+        <field name="Manufacturer_Name">Harwin</field>
+        <field name="Manufacturer_Part_Number">M50-3610542R</field>
+        <field name="Mouser Part Number">855-M50-3610542R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Harwin/M50-3610542R?qs=wpKP3X6Fz6pud%252BHUkCK9uA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="M50-3610542R" description="HARWIN - M50-3610542R - CONNECTOR, HEADER, 10POS, 2ROW, 1.27MM"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>614A0CF5</tstamp>
+    </comp>
+    <comp ref="C601">
+      <value>0603 10pF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>6148B28B</tstamp>
+    </comp>
+    <comp ref="C600">
+      <value>0603 10pF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>6148AA2A</tstamp>
+    </comp>
+    <comp ref="X600">
+      <value>Crystal</value>
+      <footprint>Samacsys:ECS49205PXTR</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>61469C09</tstamp>
+    </comp>
+    <comp ref="CD606">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>613F6682</tstamp>
+    </comp>
+    <comp ref="R600">
+      <value>0603 1k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>613E4EC6</tstamp>
+    </comp>
+    <comp ref="U601">
+      <value>TLV809EA29DCKR</value>
+      <footprint>Samacsys:SOT65P210X110-3N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv809e.pdf?ts=1605772627929&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FsearchTerm%253DTLV809EA29DCKR</datasheet>
+      <fields>
+        <field name="Description">Supervisory Circuits Low-power 3-pin voltage supervisor (reset IC) with active-low, push-pull reset 3-SC70 -40 to 125</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TLV809EA29DCKR</field>
+        <field name="Mouser Part Number">595-TLV809EA29DCKR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV809EA29DCKR?qs=vmHwEFxEFR8nXWumJnFXrw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TLV809EA29DCKR" description="Supervisory Circuits Low-power 3-pin voltage supervisor (reset IC) with active-low, push-pull reset 3-SC70 -40 to 125"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>613DE7B4</tstamp>
+    </comp>
+    <comp ref="RN604">
+      <value>1206 1k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>60B41166</tstamp>
+    </comp>
+    <comp ref="RN605">
+      <value>1206 10k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>60A86FC9</tstamp>
+    </comp>
+    <comp ref="RN600">
+      <value>1206 10k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>60A40412</tstamp>
+    </comp>
+    <comp ref="RN601">
+      <value>1206 100k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>60F5487B</tstamp>
+    </comp>
+    <comp ref="RN602">
+      <value>1206 10k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>6078FE57</tstamp>
+    </comp>
+    <comp ref="RN603">
+      <value>1206 10k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>6078497E</tstamp>
+    </comp>
+    <comp ref="CD603">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>6072BA7B</tstamp>
+    </comp>
+    <comp ref="CD605">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>6072A196</tstamp>
+    </comp>
+    <comp ref="CD601">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>60728A23</tstamp>
+    </comp>
+    <comp ref="CD600">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>60727204</tstamp>
+    </comp>
+    <comp ref="CD602">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>60725E73</tstamp>
+    </comp>
+    <comp ref="CD604">
+      <value>0603 100nF</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>60722E19</tstamp>
+    </comp>
+    <comp ref="U600">
+      <value>MK10DX128VLK7</value>
+      <footprint>Sparkdog PF-DI V3:MK10DX128VLK7</footprint>
+      <libsource lib="Rabbit ECU Schematic Symbols" part="MK10DX128VLK7" description=""/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>60720AEF</tstamp>
+    </comp>
+    <comp ref="RN606">
+      <value>1206 10k</value>
+      <footprint>Samacsys:742C083103JP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>61FB3083</tstamp>
+    </comp>
+    <comp ref="R601">
+      <value>0603 1k</value>
+      <footprint>Samacsys:RESC1608X55N</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/6 ETC PROCESSOR/" tstamps="/60717C73/"/>
+      <tstamp>60FD1D2F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="LM2904">
+      <aliases>
+        <alias>LM358</alias>
+        <alias>AD8620</alias>
+        <alias>LMC6062</alias>
+        <alias>LMC6082</alias>
+        <alias>TL062</alias>
+        <alias>TL072</alias>
+        <alias>TL082</alias>
+        <alias>NE5532</alias>
+        <alias>SA5532</alias>
+        <alias>RC4558</alias>
+        <alias>RC4560</alias>
+        <alias>RC4580</alias>
+        <alias>LMV358</alias>
+        <alias>TS912</alias>
+        <alias>TSV912IDT</alias>
+        <alias>TSV912IST</alias>
+        <alias>TLC272</alias>
+        <alias>TLC277</alias>
+        <alias>MCP602</alias>
+        <alias>OPA1678</alias>
+        <alias>OPA2134</alias>
+        <alias>OPA2340</alias>
+        <alias>OPA2376xxD</alias>
+        <alias>OPA2376xxDGK</alias>
+        <alias>MC33078</alias>
+        <alias>MC33178</alias>
+        <alias>LM4562</alias>
+        <alias>OP249</alias>
+        <alias>OP275</alias>
+        <alias>ADA4075-2</alias>
+        <alias>MCP6002-xP</alias>
+        <alias>MCP6002-xSN</alias>
+        <alias>MCP6002-xMS</alias>
+        <alias>LM7332</alias>
+        <alias>OPA2333xxD</alias>
+        <alias>OPA2333xxDGK</alias>
+        <alias>LMC6482</alias>
+        <alias>LT1492</alias>
+        <alias>LTC6081xMS8</alias>
+        <alias>LM6172</alias>
+        <alias>MCP6L92</alias>
+        <alias>NJM2043</alias>
+        <alias>NJM2114</alias>
+        <alias>NJM4556A</alias>
+        <alias>NJM4558</alias>
+        <alias>NJM4559</alias>
+        <alias>NJM4560</alias>
+        <alias>NJM4580</alias>
+        <alias>NJM5532</alias>
+        <alias>ADA4807-2ARM</alias>
+        <alias>OPA2691</alias>
+        <alias>LT6234</alias>
+        <alias>OPA2356xxD</alias>
+        <alias>OPA2356xxDGK</alias>
+        <alias>OPA1612AxD</alias>
+        <alias>MC33172</alias>
+        <alias>OPA1602</alias>
+        <alias>TLV2372</alias>
+        <alias>LT6237</alias>
+        <alias>OPA2277</alias>
+        <alias>MCP6022</alias>
+        <alias>MCP6V67EMS</alias>
+      </aliases>
+      <description>Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm358.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2904</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Female">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener_ALT">
+      <description>Zener diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Pack04">
+      <description>4 resistor network, parallel topology</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>DIP*</fp>
+        <fp>SOIC*</fp>
+        <fp>R*Array*Concave*</fp>
+        <fp>R*Array*Convex*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Pack04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R1.1" type="passive"/>
+        <pin num="2" name="R2.1" type="passive"/>
+        <pin num="3" name="R3.1" type="passive"/>
+        <pin num="4" name="R4.1" type="passive"/>
+        <pin num="5" name="R4.2" type="passive"/>
+        <pin num="6" name="R3.2" type="passive"/>
+        <pin num="7" name="R2.2" type="passive"/>
+        <pin num="8" name="R1.2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_CAN_LIN" part="TCAN334">
+      <aliases>
+        <alias>TCAN334G</alias>
+      </aliases>
+      <description>High-Speed CAN Transceiver, 1Mbps, 3.3V supply, low power standby mode, shutdown mode, SOT-23-8/SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tcan337.pdf</docs>
+      <footprints>
+        <fp>*TSOT?23*</fp>
+        <fp>*SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCAN334</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXD" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="RXD" type="3state"/>
+        <pin num="5" name="SHDN" type="input"/>
+        <pin num="6" name="CANL" type="BiDi"/>
+        <pin num="7" name="CANH" type="BiDi"/>
+        <pin num="8" name="STB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rabbit ECU Schematic Symbols" part="Arduino_Footprint">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Arduino_Footprint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="passive"/>
+        <pin num="2" name="IOREF" type="output"/>
+        <pin num="3" name="RST" type="input"/>
+        <pin num="4" name="3V3" type="input"/>
+        <pin num="5" name="5V" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="GND" type="input"/>
+        <pin num="8" name="VIN" type="input"/>
+        <pin num="9" name="A0" type="input"/>
+        <pin num="10" name="A1" type="input"/>
+        <pin num="11" name="A2" type="input"/>
+        <pin num="12" name="A3" type="input"/>
+        <pin num="13" name="A4" type="input"/>
+        <pin num="14" name="A5" type="input"/>
+        <pin num="15" name="A6" type="input"/>
+        <pin num="16" name="A7" type="input"/>
+        <pin num="17" name="A8" type="input"/>
+        <pin num="18" name="A9" type="input"/>
+        <pin num="19" name="A10" type="input"/>
+        <pin num="20" name="A11" type="input"/>
+        <pin num="21" name="DAC0" type="output"/>
+        <pin num="22" name="DAC1" type="output"/>
+        <pin num="23" name="CANRX" type="input"/>
+        <pin num="24" name="CANTX" type="output"/>
+        <pin num="25" name="GND" type="input"/>
+        <pin num="26" name="GND" type="input"/>
+        <pin num="27" name="D52" type="BiDi"/>
+        <pin num="28" name="D53" type="BiDi"/>
+        <pin num="29" name="D50" type="BiDi"/>
+        <pin num="30" name="D51" type="BiDi"/>
+        <pin num="31" name="D48" type="BiDi"/>
+        <pin num="32" name="D49" type="BiDi"/>
+        <pin num="33" name="D46" type="BiDi"/>
+        <pin num="34" name="D47" type="BiDi"/>
+        <pin num="35" name="D44" type="BiDi"/>
+        <pin num="36" name="D45" type="BiDi"/>
+        <pin num="37" name="D42" type="BiDi"/>
+        <pin num="38" name="D43" type="BiDi"/>
+        <pin num="39" name="D40" type="BiDi"/>
+        <pin num="40" name="D41" type="BiDi"/>
+        <pin num="41" name="D38" type="BiDi"/>
+        <pin num="42" name="D39" type="BiDi"/>
+        <pin num="43" name="D36" type="BiDi"/>
+        <pin num="44" name="D37" type="BiDi"/>
+        <pin num="45" name="D34" type="BiDi"/>
+        <pin num="46" name="D35" type="BiDi"/>
+        <pin num="47" name="D32" type="BiDi"/>
+        <pin num="48" name="D33" type="BiDi"/>
+        <pin num="49" name="D30" type="BiDi"/>
+        <pin num="50" name="D31" type="BiDi"/>
+        <pin num="51" name="D28" type="BiDi"/>
+        <pin num="52" name="D29" type="BiDi"/>
+        <pin num="53" name="D26" type="BiDi"/>
+        <pin num="54" name="D27" type="BiDi"/>
+        <pin num="55" name="D24" type="BiDi"/>
+        <pin num="56" name="D25" type="BiDi"/>
+        <pin num="57" name="D22" type="BiDi"/>
+        <pin num="58" name="D23" type="BiDi"/>
+        <pin num="59" name="5V" type="input"/>
+        <pin num="60" name="5V" type="input"/>
+        <pin num="61" name="SCL" type="output"/>
+        <pin num="62" name="SDA" type="BiDi"/>
+        <pin num="63" name="RX1" type="input"/>
+        <pin num="64" name="TX1" type="output"/>
+        <pin num="65" name="RX2" type="input"/>
+        <pin num="66" name="TX2" type="output"/>
+        <pin num="67" name="RX3" type="input"/>
+        <pin num="68" name="TX3" type="output"/>
+        <pin num="69" name="RX0" type="input"/>
+        <pin num="70" name="TX0" type="output"/>
+        <pin num="71" name="PWM2" type="BiDi"/>
+        <pin num="72" name="PWM3" type="BiDi"/>
+        <pin num="73" name="PWM4" type="BiDi"/>
+        <pin num="74" name="PWM5" type="BiDi"/>
+        <pin num="75" name="PWM6" type="BiDi"/>
+        <pin num="76" name="PWM7" type="BiDi"/>
+        <pin num="77" name="PWM8" type="BiDi"/>
+        <pin num="78" name="PWM9" type="BiDi"/>
+        <pin num="79" name="PWM10" type="BiDi"/>
+        <pin num="80" name="PWM11" type="BiDi"/>
+        <pin num="81" name="PWM12" type="BiDi"/>
+        <pin num="82" name="PWM13" type="BiDi"/>
+        <pin num="83" name="GND" type="input"/>
+        <pin num="84" name="AREF" type="output"/>
+        <pin num="85" name="SDA1" type="BiDi"/>
+        <pin num="86" name="SCL1" type="output"/>
+        <pin num="87" name="MISO" type="BiDi"/>
+        <pin num="88" name="SCLK" type="output"/>
+        <pin num="89" name="RESET" type="input"/>
+        <pin num="90" name="GND" type="input"/>
+        <pin num="91" name="MOSI" type="BiDi"/>
+        <pin num="92" name="5V" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rabbit ECU Schematic Symbols" part="Dual_Trans_Array_NPN">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Dual_Trans_Array_NPN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rabbit ECU Schematic Symbols" part="Dual_Trans_Array_PNP">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Dual_Trans_Array_PNP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rabbit ECU Schematic Symbols" part="MK10DX128VLK7">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MK10DX128VLK7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PTE0" type="BiDi"/>
+        <pin num="2" name="PTE1" type="BiDi"/>
+        <pin num="3" name="PTE2" type="BiDi"/>
+        <pin num="4" name="PTE3" type="BiDi"/>
+        <pin num="5" name="PTE4" type="BiDi"/>
+        <pin num="6" name="PTE5" type="BiDi"/>
+        <pin num="7" name="VDD" type="input"/>
+        <pin num="8" name="VSS" type="input"/>
+        <pin num="9" name="PTE16" type="BiDi"/>
+        <pin num="10" name="PTE17" type="BiDi"/>
+        <pin num="11" name="PTE18" type="BiDi"/>
+        <pin num="12" name="PTE19" type="BiDi"/>
+        <pin num="13" name="PGA0_DP" type="input"/>
+        <pin num="14" name="PGA0_DM" type="input"/>
+        <pin num="15" name="PGA1_DP" type="input"/>
+        <pin num="16" name="PGA1_DM" type="input"/>
+        <pin num="17" name="VDDA" type="input"/>
+        <pin num="18" name="VREFH" type="input"/>
+        <pin num="19" name="VREFL" type="input"/>
+        <pin num="20" name="VSSA" type="input"/>
+        <pin num="21" name="ADC1_SE18" type="input"/>
+        <pin num="22" name="ADC0_SE23" type="input"/>
+        <pin num="23" name="XTAL32" type="BiDi"/>
+        <pin num="24" name="EXTAL32" type="BiDi"/>
+        <pin num="25" name="VBAT" type="input"/>
+        <pin num="26" name="PTA0" type="BiDi"/>
+        <pin num="27" name="PTA1" type="BiDi"/>
+        <pin num="28" name="PTA2" type="BiDi"/>
+        <pin num="29" name="PTA3" type="BiDi"/>
+        <pin num="30" name="PTA4" type="BiDi"/>
+        <pin num="31" name="PTA5" type="BiDi"/>
+        <pin num="32" name="PTA12" type="BiDi"/>
+        <pin num="33" name="PTA13" type="BiDi"/>
+        <pin num="34" name="PTA14" type="BiDi"/>
+        <pin num="35" name="PTA15" type="BiDi"/>
+        <pin num="36" name="PTA16" type="BiDi"/>
+        <pin num="37" name="PTA17" type="BiDi"/>
+        <pin num="38" name="VDD" type="input"/>
+        <pin num="39" name="CSS" type="input"/>
+        <pin num="40" name="PTA18" type="BiDi"/>
+        <pin num="41" name="PTA19" type="BiDi"/>
+        <pin num="42" name="RESET" type="BiDi"/>
+        <pin num="43" name="PTB0" type="BiDi"/>
+        <pin num="44" name="PTB1" type="BiDi"/>
+        <pin num="45" name="PTB2" type="BiDi"/>
+        <pin num="46" name="PTB3" type="BiDi"/>
+        <pin num="47" name="PTB10" type="BiDi"/>
+        <pin num="48" name="PTB11" type="BiDi"/>
+        <pin num="49" name="VSS" type="input"/>
+        <pin num="50" name="VDD" type="input"/>
+        <pin num="51" name="PTB16" type="BiDi"/>
+        <pin num="52" name="PTB17" type="BiDi"/>
+        <pin num="53" name="PTB18" type="BiDi"/>
+        <pin num="54" name="PTB19" type="BiDi"/>
+        <pin num="55" name="PTC0" type="BiDi"/>
+        <pin num="56" name="PTC1" type="BiDi"/>
+        <pin num="57" name="PTC2" type="BiDi"/>
+        <pin num="58" name="PTC3" type="BiDi"/>
+        <pin num="59" name="VSS" type="input"/>
+        <pin num="60" name="VDD" type="input"/>
+        <pin num="61" name="PTC4" type="BiDi"/>
+        <pin num="62" name="PTC5" type="BiDi"/>
+        <pin num="63" name="PTC6" type="BiDi"/>
+        <pin num="64" name="PTC7" type="BiDi"/>
+        <pin num="65" name="PTC8" type="BiDi"/>
+        <pin num="66" name="PTC9" type="BiDi"/>
+        <pin num="67" name="PTC10" type="BiDi"/>
+        <pin num="68" name="PTC11" type="BiDi"/>
+        <pin num="69" name="VSS" type="BiDi"/>
+        <pin num="70" name="VDD" type="BiDi"/>
+        <pin num="71" name="PTC16" type="BiDi"/>
+        <pin num="72" name="PTC17" type="BiDi"/>
+        <pin num="73" name="PTD0" type="BiDi"/>
+        <pin num="74" name="PTD1" type="BiDi"/>
+        <pin num="75" name="PTD2" type="BiDi"/>
+        <pin num="76" name="PTD3" type="BiDi"/>
+        <pin num="77" name="PTD4" type="BiDi"/>
+        <pin num="78" name="PTD5" type="BiDi"/>
+        <pin num="79" name="PTD6" type="BiDi"/>
+        <pin num="80" name="PTD7" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rabbit ECU Schematic Symbols" part="PIC18F26J50T-I_ML">
+      <description>8-bit Microcontrollers - MCU Full Spd USB 64KB Flsh 4KBRAM nanoWatt</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/PIC18F26J50T-I_ML.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">PIC18F26J50T-I_ML</field>
+        <field name="Footprint">QFN65P600X600X100-29N-D</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/PIC18F26J50T-I_ML.pdf</field>
+        <field name="Description">8-bit Microcontrollers - MCU Full Spd USB 64KB Flsh 4KBRAM nanoWatt</field>
+        <field name="Height">1</field>
+        <field name="Mouser Part Number">579-PIC18F26J50T-IML</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/PIC18F26J50T-I-ML?qs=Xb8IjHhkxj6YU2KL6UdtEQ%3D%3D</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">PIC18F26J50T-I/ML</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RA2/AN2/VREF-/CVREF/C2INB" type="passive"/>
+        <pin num="2" name="RA3/AN3/VREF+/C1INB" type="passive"/>
+        <pin num="3" name="VDDCORE/VCAP" type="passive"/>
+        <pin num="4" name="RA5/AN4/~SS1~/HLVDIN/RCV/RP2" type="passive"/>
+        <pin num="5" name="VSS_1" type="passive"/>
+        <pin num="6" name="OSC1/CLKI/RA7" type="passive"/>
+        <pin num="7" name="OSC2/CLKO/RA6" type="passive"/>
+        <pin num="8" name="RC0/T1OSO/T1CKI/RP11" type="passive"/>
+        <pin num="9" name="RC1/T1OSI/~UOE~/RP12" type="passive"/>
+        <pin num="10" name="RC2/AN11/CTPLS/RP13" type="passive"/>
+        <pin num="11" name="VUSB" type="passive"/>
+        <pin num="12" name="RC4/D-/VM" type="passive"/>
+        <pin num="13" name="RC5/D+/VP" type="passive"/>
+        <pin num="14" name="RC6/TX1/CK1/RP17" type="passive"/>
+        <pin num="15" name="RC7/RX1/DT1/SDO1/RP18" type="passive"/>
+        <pin num="16" name="VSS_2" type="passive"/>
+        <pin num="17" name="VDD" type="passive"/>
+        <pin num="18" name="RB0/AN12/INT0/RP3" type="passive"/>
+        <pin num="19" name="RB1/AN10/RTCC/RP4" type="passive"/>
+        <pin num="20" name="RB2/AN8/CTED1/VMO/REFO/RP5" type="passive"/>
+        <pin num="21" name="RB3/AN9/CTED2/VPO/RP6" type="passive"/>
+        <pin num="22" name="RB4/KBI0/SCK1/SCL1/RP7" type="passive"/>
+        <pin num="23" name="RB5/KBI1/SDI1/SDA1/RP8" type="passive"/>
+        <pin num="24" name="RB6/KBI2/PGC/RP9" type="passive"/>
+        <pin num="25" name="RB7/KBI3/PGD/RP10" type="passive"/>
+        <pin num="26" name="~MCLR" type="passive"/>
+        <pin num="27" name="RA0/AN0/C1INA/ULPWU/RP0" type="passive"/>
+        <pin num="28" name="RA1/AN1/C2INA/RP1" type="passive"/>
+        <pin num="29" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rabbit ECU Schematic Symbols" part="SN74AHCT02">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74AHCT02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1Y" type="output"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="1B" type="input"/>
+        <pin num="4" name="2Y" type="output"/>
+        <pin num="5" name="2A" type="input"/>
+        <pin num="6" name="2B" type="input"/>
+        <pin num="7" name="VSS" type="input"/>
+        <pin num="8" name="3A" type="input"/>
+        <pin num="9" name="3B" type="input"/>
+        <pin num="10" name="3Y" type="output"/>
+        <pin num="11" name="4A" type="input"/>
+        <pin num="12" name="4B" type="input"/>
+        <pin num="13" name="4Y" type="output"/>
+        <pin num="14" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rabbit ECU Schematic Symbols" part="SN74AHCT08">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74AHCT08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="input"/>
+        <pin num="2" name="1B" type="input"/>
+        <pin num="3" name="1Y" type="output"/>
+        <pin num="4" name="2A" type="input"/>
+        <pin num="5" name="2B" type="input"/>
+        <pin num="6" name="2Y" type="output"/>
+        <pin num="7" name="VSS" type="input"/>
+        <pin num="8" name="3Y" type="output"/>
+        <pin num="9" name="3A" type="input"/>
+        <pin num="10" name="3B" type="input"/>
+        <pin num="11" name="4Y" type="output"/>
+        <pin num="12" name="4A" type="input"/>
+        <pin num="13" name="4B" type="input"/>
+        <pin num="14" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Rabbit ECU Schematic Symbols" part="Teensy_3_5">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Teensy_3_5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="input"/>
+        <pin num="2" name="UART1_TX" type="output"/>
+        <pin num="3" name="UART1_RX" type="input"/>
+        <pin num="4" name="TMR1" type="BiDi"/>
+        <pin num="5" name="CAN_TX" type="output"/>
+        <pin num="6" name="CAN_RX" type="input"/>
+        <pin num="7" name="TMR2" type="BiDi"/>
+        <pin num="8" name="TMR3" type="BiDi"/>
+        <pin num="9" name="TMR4" type="BiDi"/>
+        <pin num="10" name="TMR5" type="BiDi"/>
+        <pin num="11" name="TMR6" type="BiDi"/>
+        <pin num="12" name="TMR7" type="BiDi"/>
+        <pin num="13" name="CMP1" type="input"/>
+        <pin num="14" name="CMP2" type="input"/>
+        <pin num="15" name="VCC3V3" type="output"/>
+        <pin num="16" name="GP1" type="BiDi"/>
+        <pin num="17" name="USB5V" type="input"/>
+        <pin num="18" name="GP2" type="BiDi"/>
+        <pin num="19" name="GP3" type="BiDi"/>
+        <pin num="20" name="GP4" type="BiDi"/>
+        <pin num="21" name="TMR8" type="BiDi"/>
+        <pin num="22" name="TMR9" type="BiDi"/>
+        <pin num="23" name="UART1_RTS" type="BiDi"/>
+        <pin num="24" name="UART1_CTS" type="BiDi"/>
+        <pin num="25" name="IIC_SCL" type="output"/>
+        <pin num="26" name="IIC_SDA" type="BiDi"/>
+        <pin num="27" name="TMR10" type="BiDi"/>
+        <pin num="28" name="TMR11" type="BiDi"/>
+        <pin num="29" name="TMR12" type="BiDi"/>
+        <pin num="30" name="TMR13" type="BiDi"/>
+        <pin num="31" name="GPSE1" type="BiDi"/>
+        <pin num="32" name="DAC2" type="output"/>
+        <pin num="33" name="DAC1" type="output"/>
+        <pin num="34" name="VSS" type="input"/>
+        <pin num="35" name="GP5" type="BiDi"/>
+        <pin num="36" name="TMR14" type="output"/>
+        <pin num="37" name="GPSE2" type="BiDi"/>
+        <pin num="38" name="GPSE3" type="BiDi"/>
+        <pin num="39" name="GPSE4" type="BiDi"/>
+        <pin num="40" name="GPSE5" type="BiDi"/>
+        <pin num="41" name="GPSE6" type="BiDi"/>
+        <pin num="42" name="TMR15" type="BiDi"/>
+        <pin num="43" name="TMR16" type="BiDi"/>
+        <pin num="44" name="TMR17" type="BiDi"/>
+        <pin num="45" name="TMR18" type="BiDi"/>
+        <pin num="46" name="VCC3V3" type="input"/>
+        <pin num="47" name="VSS" type="input"/>
+        <pin num="48" name="VCC5V" type="input"/>
+        <pin num="49" name="40" type="BiDi"/>
+        <pin num="50" name="41" type="BiDi"/>
+        <pin num="51" name="42" type="input"/>
+        <pin num="52" name="CS2" type="BiDi"/>
+        <pin num="53" name="MOSI" type="BiDi"/>
+        <pin num="54" name="MISO" type="BiDi"/>
+        <pin num="55" name="SCK" type="BiDi"/>
+        <pin num="56" name="47" type="BiDi"/>
+        <pin num="57" name="48" type="BiDi"/>
+        <pin num="58" name="49" type="BiDi"/>
+        <pin num="59" name="50" type="BiDi"/>
+        <pin num="60" name="51" type="BiDi"/>
+        <pin num="61" name="52" type="BiDi"/>
+        <pin num="62" name="53" type="BiDi"/>
+        <pin num="63" name="55" type="BiDi"/>
+        <pin num="64" name="54" type="BiDi"/>
+        <pin num="65" name="56" type="BiDi"/>
+        <pin num="66" name="57" type="BiDi"/>
+        <pin num="67" name="A10" type="input"/>
+        <pin num="68" name="A11" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="74AHC14PW,118">
+      <description>74AHC(T)14 - Hex inverting Schmitt trigger@en-us</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/74AHC14PW,118.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">74AHC14PW,118</field>
+        <field name="Footprint">SOP65P640X110-14N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/74AHC14PW,118.pdf</field>
+        <field name="Description">74AHC(T)14 - Hex inverting Schmitt trigger@en-us</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">771-74AHC14PW-T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=771-74AHC14PW-T</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">74AHC14PW,118</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="passive"/>
+        <pin num="2" name="1Y" type="passive"/>
+        <pin num="3" name="2A" type="passive"/>
+        <pin num="4" name="2Y" type="passive"/>
+        <pin num="5" name="3A" type="passive"/>
+        <pin num="6" name="3Y" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="4Y" type="passive"/>
+        <pin num="9" name="4A" type="passive"/>
+        <pin num="10" name="5Y" type="passive"/>
+        <pin num="11" name="5A" type="passive"/>
+        <pin num="12" name="6Y" type="passive"/>
+        <pin num="13" name="6A" type="passive"/>
+        <pin num="14" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="BD433M5FP-CE2">
+      <description>ROHM - BD433M5FP-CE2 - LDO, FIXED, AUTO, 3.3V, 0.5A, TO252-3</description>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">BD433M5FP-CE2</field>
+        <field name="Footprint">BD433M5FPCE2</field>
+        <field name="Description">ROHM - BD433M5FP-CE2 - LDO, FIXED, AUTO, 3.3V, 0.5A, TO252-3</field>
+        <field name="Height">2.5</field>
+        <field name="Mouser Part Number">755-BD433M5FP-CE2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BD433M5FP-CE2?qs=WHeKGGBt0W%252Bm0j7eFV2sYw%3D%3D</field>
+        <field name="Manufacturer_Name">ROHM Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BD433M5FP-CE2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="N.C." type="NotConnected"/>
+        <pin num="3" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="BZX84C5V1LT1G">
+      <description>250 mW 5.1 V +/-5% Zener Diode Voltage Regulator</description>
+      <docs>http://www.onsemi.com/pub/Collateral/BZX84C2V4LT1-D.PDF</docs>
+      <fields>
+        <field name="Reference">Z</field>
+        <field name="Value">BZX84C5V1LT1G</field>
+        <field name="Footprint">SOT96P237X111-3N</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/BZX84C2V4LT1-D.PDF</field>
+        <field name="Description">250 mW 5.1 V +/-5% Zener Diode Voltage Regulator</field>
+        <field name="Height">1.11</field>
+        <field name="Mouser Part Number">863-BZX84C5V1LT1G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BZX84C5V1LT1G?qs=vNc2DXHODiJkjScJCg4pBQ%3D%3D</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BZX84C5V1LT1G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="IRF7907TRPBF">
+      <description>IRF7907TRPBF Dual N-Channel MOSFET, 9.1 A, 11 A, 30 V HEXFET, 8-Pin SOIC Infineon</description>
+      <docs>https://www.infineon.com/dgdl/irf7907pbf.pdf?fileId=5546d462533600a40153560c992e1d39</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF7907TRPBF</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/irf7907pbf.pdf?fileId=5546d462533600a40153560c992e1d39</field>
+        <field name="Description">IRF7907TRPBF Dual N-Channel MOSFET, 9.1 A, 11 A, 30 V HEXFET, 8-Pin SOIC Infineon</field>
+        <field name="Height">1.75</field>
+        <field name="Mouser Part Number">942-IRF7907TRPBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRF7907TRPBF?qs=9%252BKlkBgLFf3IAWSO7x9zgA%3D%3D</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRF7907TRPBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S2" type="passive"/>
+        <pin num="2" name="G2" type="passive"/>
+        <pin num="3" name="S1" type="passive"/>
+        <pin num="4" name="G1" type="passive"/>
+        <pin num="5" name="D1_1" type="passive"/>
+        <pin num="6" name="D1_2" type="passive"/>
+        <pin num="7" name="D2_1" type="passive"/>
+        <pin num="8" name="D2_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="L6206PD013TR">
+      <description>Dual Full Bridge Motor Driver 48V 36-Pin PowerSO T/R</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/6e/e7/d6/58/65/53/48/2a/CD00002346.pdf/files/CD00002346.pdf/jcr:content/translations/en.CD00002346.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">L6206PD013TR</field>
+        <field name="Footprint">SOP65P1420X360-37N</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/6e/e7/d6/58/65/53/48/2a/CD00002346.pdf/files/CD00002346.pdf/jcr:content/translations/en.CD00002346.pdf</field>
+        <field name="Description">Dual Full Bridge Motor Driver 48V 36-Pin PowerSO T/R</field>
+        <field name="Height">3.6</field>
+        <field name="Mouser Part Number">511-L6206PD013TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L6206PD013TR?qs=twoFnWyO3W%252B7nkIVgOYPvg%3D%3D</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">L6206PD013TR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND_1" type="passive"/>
+        <pin num="2" name="N.C._1" type="passive"/>
+        <pin num="3" name="N.C._2" type="passive"/>
+        <pin num="4" name="VSA" type="passive"/>
+        <pin num="5" name="OUT2A" type="passive"/>
+        <pin num="6" name="N.C._3" type="passive"/>
+        <pin num="7" name="VCP" type="passive"/>
+        <pin num="8" name="ENA" type="passive"/>
+        <pin num="9" name="PROGCLA" type="passive"/>
+        <pin num="10" name="IN1A" type="passive"/>
+        <pin num="11" name="IN2A" type="passive"/>
+        <pin num="12" name="SENSEA" type="passive"/>
+        <pin num="13" name="OCDA" type="passive"/>
+        <pin num="14" name="N.C._4" type="passive"/>
+        <pin num="15" name="OUT1A" type="passive"/>
+        <pin num="16" name="N.C._5" type="passive"/>
+        <pin num="17" name="N.C._6" type="passive"/>
+        <pin num="18" name="GND_2" type="passive"/>
+        <pin num="19" name="GND_3" type="passive"/>
+        <pin num="20" name="N.C._7" type="passive"/>
+        <pin num="21" name="N.C._8" type="passive"/>
+        <pin num="22" name="OUT1B" type="passive"/>
+        <pin num="23" name="N.C._9" type="passive"/>
+        <pin num="24" name="OCDB" type="passive"/>
+        <pin num="25" name="SENSEB" type="passive"/>
+        <pin num="26" name="IN1B" type="passive"/>
+        <pin num="27" name="IN2B" type="passive"/>
+        <pin num="28" name="PROGCLB" type="passive"/>
+        <pin num="29" name="ENB" type="passive"/>
+        <pin num="30" name="VBOOT" type="passive"/>
+        <pin num="31" name="N.C._10" type="passive"/>
+        <pin num="32" name="OUT2B" type="passive"/>
+        <pin num="33" name="VSB" type="passive"/>
+        <pin num="34" name="N.C._11" type="passive"/>
+        <pin num="35" name="N.C._12" type="passive"/>
+        <pin num="36" name="GND_4" type="passive"/>
+        <pin num="37" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="LM2577SX-ADJ_NOPB">
+      <description>SIMPLE SWITCHER&amp;#174; 3.5V to 40V, 3A Low Component Count Step-Up Regulator</description>
+      <docs>http://www.ti.com/lit/gpn/LM2577</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">LM2577SX-ADJ_NOPB</field>
+        <field name="Footprint">KTT0005B</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/LM2577</field>
+        <field name="Description">SIMPLE SWITCHER&amp;#174; 3.5V to 40V, 3A Low Component Count Step-Up Regulator</field>
+        <field name="Mouser Part Number">926-LM2577SXADJNOPB</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM2577SX-ADJ-NOPB?qs=X1J7HmVL2ZH8mODru%2FJBBw%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LM2577SX-ADJ/NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COMP" type="passive"/>
+        <pin num="2" name="FEEDBACK" type="passive"/>
+        <pin num="3" name="GND_1" type="passive"/>
+        <pin num="4" name="SWITCH" type="passive"/>
+        <pin num="5" name="VIN" type="passive"/>
+        <pin num="6" name="GND_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="M50-3610542R">
+      <description>HARWIN - M50-3610542R - CONNECTOR, HEADER, 10POS, 2ROW, 1.27MM</description>
+      <docs>https://cdn.harwin.com/pdfs/M50-361.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">M50-3610542R</field>
+        <field name="Footprint">M503610542</field>
+        <field name="Datasheet">https://cdn.harwin.com/pdfs/M50-361.pdf</field>
+        <field name="Description">HARWIN - M50-3610542R - CONNECTOR, HEADER, 10POS, 2ROW, 1.27MM</field>
+        <field name="Height">5.03</field>
+        <field name="Mouser Part Number">855-M50-3610542R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Harwin/M50-3610542R?qs=wpKP3X6Fz6pud%252BHUkCK9uA%3D%3D</field>
+        <field name="Manufacturer_Name">Harwin</field>
+        <field name="Manufacturer_Part_Number">M50-3610542R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="SSM-106-L-SV">
+      <description>Samtec SSM Series 2.54mm 6 Way 1 Row Straight PCB Socket Surface Mount Board to Board</description>
+      <docs>http://suddendocs.samtec.com/catalog_english/ssm_sm.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SSM-106-L-SV</field>
+        <field name="Footprint">SSM106LSV</field>
+        <field name="Datasheet">http://suddendocs.samtec.com/catalog_english/ssm_sm.pdf</field>
+        <field name="Description">Samtec SSM Series 2.54mm 6 Way 1 Row Straight PCB Socket Surface Mount Board to Board</field>
+        <field name="Height">7.37</field>
+        <field name="Mouser Part Number">200-SSM106LSV</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samtec/SSM-106-L-SV?qs=FESYatJ8odIk57gQe2ViOA%3D%3D</field>
+        <field name="Manufacturer_Name">SAMTEC</field>
+        <field name="Manufacturer_Part_Number">SSM-106-L-SV</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TL331SN4T3G">
+      <description>Analog Comparators LOW POWER SINGLE COMPARAT</description>
+      <docs>https://www.onsemi.com/pub/Collateral/TL331-D.PDF</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TL331SN4T3G</field>
+        <field name="Footprint">SOT95P275X110-5N</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/TL331-D.PDF</field>
+        <field name="Description">Analog Comparators LOW POWER SINGLE COMPARAT</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">863-TL331SN4T3G</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/TL331SN4T3G?qs=5aG0NVq1C4zC%252B71FkOI2HA%3D%3D</field>
+        <field name="Manufacturer_Name">ON Semiconductor</field>
+        <field name="Manufacturer_Part_Number">TL331SN4T3G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN-" type="passive"/>
+        <pin num="2" name="VEE" type="passive"/>
+        <pin num="3" name="IN+" type="passive"/>
+        <pin num="4" name="OUT" type="passive"/>
+        <pin num="5" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TLV809EA29DCKR">
+      <description>Supervisory Circuits Low-power 3-pin voltage supervisor (reset IC) with active-low, push-pull reset 3-SC70 -40 to 125</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tlv809e.pdf?ts=1605772627929&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FsearchTerm%253DTLV809EA29DCKR</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TLV809EA29DCKR</field>
+        <field name="Footprint">SOT65P210X110-3N</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tlv809e.pdf?ts=1605772627929&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FsearchTerm%253DTLV809EA29DCKR</field>
+        <field name="Description">Supervisory Circuits Low-power 3-pin voltage supervisor (reset IC) with active-low, push-pull reset 3-SC70 -40 to 125</field>
+        <field name="Height">1.1</field>
+        <field name="Mouser Part Number">595-TLV809EA29DCKR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV809EA29DCKR?qs=vmHwEFxEFR8nXWumJnFXrw%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TLV809EA29DCKR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="~RESET" type="passive"/>
+        <pin num="3" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="STD7NK40Z">
+      <description>5.4A Id, 400V Vds, N-Channel MOSFET, 1Ohm Ron, DPAK</description>
+      <docs>https://www.st.com/resource/en/datasheet/std7nk40zt4.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">STD7NK40Z</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="SUD19P06-60">
+      <aliases>
+        <alias>SUD50P08-25L</alias>
+        <alias>SUD45P03-09</alias>
+        <alias>SUD09P10-195</alias>
+        <alias>SUD08P06-155L</alias>
+        <alias>SUD50P10-43L</alias>
+        <alias>SUD50P06-15</alias>
+        <alias>SUD50P04-08</alias>
+      </aliases>
+      <description>19A Id, 60V Vds, TrenchFET P-Channel Power MOSFET, 60mOhm Ron, 40nC Qg, -55 to 150 °C, TO-252-2</description>
+      <docs>https://www.vishay.com/docs/69253/sud19p06.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SUD19P06-60</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Interface_CAN_LIN">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Interface_CAN_LIN.lib</uri>
+    </library>
+    <library logical="Rabbit ECU Schematic Symbols">
+      <uri>C:\Users\mdaut\Documents\Sparkdog PF-DI V3\Sparkdog PF-DI V3/Rabbit ECU Schematic Symbols.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/Users/mdaut/Documents/Sparkdog PF-DI V3/Libraries/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3 TEENSY/GDI2_SIG">
+      <node ref="RN100" pin="4"/>
+      <node ref="U300" pin="29"/>
+    </net>
+    <net code="2" name="/3 TEENSY/UART_RX_SIG">
+      <node ref="U300" pin="3"/>
+      <node ref="RN100" pin="2"/>
+    </net>
+    <net code="3" name="/3 TEENSY/UART_TX_SIG">
+      <node ref="U300" pin="2"/>
+      <node ref="RN100" pin="1"/>
+    </net>
+    <net code="4" name="/VSDC">
+      <node ref="U300" pin="33"/>
+      <node ref="RN606" pin="4"/>
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="5" name="/ACH">
+      <node ref="U300" pin="67"/>
+      <node ref="U2" pin="11"/>
+      <node ref="RN601" pin="1"/>
+    </net>
+    <net code="6" name="/ACL">
+      <node ref="U300" pin="68"/>
+      <node ref="U2" pin="12"/>
+      <node ref="RN601" pin="2"/>
+    </net>
+    <net code="8" name="/CAN_TX">
+      <node ref="U2" pin="24"/>
+      <node ref="U300" pin="5"/>
+    </net>
+    <net code="10" name="/SIG_VVTB_OUT">
+      <node ref="RN106" pin="5"/>
+      <node ref="U600" pin="54"/>
+      <node ref="RN200" pin="4"/>
+    </net>
+    <net code="11" name="/CAN_RX">
+      <node ref="U2" pin="23"/>
+      <node ref="U300" pin="6"/>
+    </net>
+    <net code="12" name="/DAC_UEGO">
+      <node ref="U2" pin="22"/>
+      <node ref="U300" pin="32"/>
+      <node ref="RN106" pin="8"/>
+    </net>
+    <net code="13" name="/UART_TX">
+      <node ref="U600" pin="6"/>
+      <node ref="RN100" pin="8"/>
+    </net>
+    <net code="14" name="/UART_RX">
+      <node ref="U600" pin="5"/>
+      <node ref="RN100" pin="7"/>
+    </net>
+    <net code="15" name="/3 TEENSY/GDI1_SIG">
+      <node ref="RN100" pin="3"/>
+      <node ref="U300" pin="30"/>
+    </net>
+    <net code="16" name="/CKPS_SIG">
+      <node ref="U2" pin="71"/>
+      <node ref="RN103" pin="7"/>
+      <node ref="U300" pin="28"/>
+    </net>
+    <net code="17" name="/CMPS_SIG">
+      <node ref="U2" pin="72"/>
+      <node ref="RN103" pin="8"/>
+      <node ref="U300" pin="27"/>
+    </net>
+    <net code="19" name="/IGT4_SIG">
+      <node ref="U2" pin="73"/>
+      <node ref="RN101" pin="4"/>
+      <node ref="U300" pin="22"/>
+    </net>
+    <net code="20" name="/MOSI">
+      <node ref="RN604" pin="3"/>
+      <node ref="U300" pin="53"/>
+      <node ref="U2" pin="91"/>
+    </net>
+    <net code="21" name="/SCLK">
+      <node ref="U300" pin="55"/>
+      <node ref="RN604" pin="1"/>
+      <node ref="U2" pin="88"/>
+    </net>
+    <net code="22" name="/MISO">
+      <node ref="RN604" pin="2"/>
+      <node ref="U300" pin="54"/>
+      <node ref="U2" pin="87"/>
+    </net>
+    <net code="23" name="/GDI_SEL">
+      <node ref="U300" pin="20"/>
+      <node ref="R705" pin="2"/>
+      <node ref="RN604" pin="4"/>
+    </net>
+    <net code="24" name="/IGT1_SIG">
+      <node ref="U2" pin="76"/>
+      <node ref="RN101" pin="1"/>
+      <node ref="U300" pin="11"/>
+    </net>
+    <net code="25" name="/IGT2_SIG">
+      <node ref="U2" pin="75"/>
+      <node ref="U300" pin="12"/>
+      <node ref="RN101" pin="2"/>
+    </net>
+    <net code="26" name="/IGT3_SIG">
+      <node ref="U300" pin="21"/>
+      <node ref="U2" pin="74"/>
+      <node ref="RN101" pin="3"/>
+    </net>
+    <net code="27" name="/INJ4_SIG">
+      <node ref="RN102" pin="4"/>
+      <node ref="U2" pin="79"/>
+      <node ref="U300" pin="10"/>
+    </net>
+    <net code="28" name="/INJ3_SIG">
+      <node ref="RN102" pin="3"/>
+      <node ref="U2" pin="80"/>
+      <node ref="U300" pin="9"/>
+    </net>
+    <net code="29" name="/INJ2_SIG">
+      <node ref="U2" pin="81"/>
+      <node ref="U300" pin="8"/>
+      <node ref="RN102" pin="2"/>
+    </net>
+    <net code="30" name="/INJ1_SIG">
+      <node ref="U2" pin="82"/>
+      <node ref="RN102" pin="1"/>
+      <node ref="U300" pin="7"/>
+    </net>
+    <net code="31" name="/SIGAB_IF">
+      <node ref="U600" pin="47"/>
+      <node ref="R807" pin="2"/>
+    </net>
+    <net code="32" name="/PWIOAB-">
+      <node ref="D800" pin="2"/>
+      <node ref="U803" pin="2"/>
+      <node ref="D801" pin="1"/>
+      <node ref="R801" pin="1"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="33" name="/PWIOCD-">
+      <node ref="D851" pin="1"/>
+      <node ref="D850" pin="2"/>
+      <node ref="U853" pin="2"/>
+      <node ref="R851" pin="1"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="34" name="/SIGAB_PEAK">
+      <node ref="U900" pin="8"/>
+      <node ref="RN102" pin="8"/>
+      <node ref="U902" pin="2"/>
+      <node ref="U902" pin="5"/>
+      <node ref="U600" pin="56"/>
+    </net>
+    <net code="35" name="/SIGAB_PWM">
+      <node ref="U600" pin="57"/>
+      <node ref="U900" pin="9"/>
+      <node ref="RN102" pin="7"/>
+    </net>
+    <net code="36" name="/SIGCD_PEAK">
+      <node ref="U600" pin="58"/>
+      <node ref="U903" pin="2"/>
+      <node ref="U903" pin="5"/>
+      <node ref="U901" pin="8"/>
+      <node ref="RN102" pin="6"/>
+    </net>
+    <net code="37" name="/SIGCD_PWM">
+      <node ref="U600" pin="53"/>
+      <node ref="RN102" pin="5"/>
+      <node ref="U901" pin="9"/>
+    </net>
+    <net code="38" name="/SIGCD_IF">
+      <node ref="R857" pin="2"/>
+      <node ref="U600" pin="48"/>
+    </net>
+    <net code="39" name="/SIG_PUMP_IF">
+      <node ref="U600" pin="55"/>
+      <node ref="U809" pin="5"/>
+      <node ref="U810" pin="3"/>
+      <node ref="R810" pin="2"/>
+    </net>
+    <net code="40" name="/SIG_PUMP_EN">
+      <node ref="U809" pin="2"/>
+      <node ref="U300" pin="35"/>
+    </net>
+    <net code="41" name="/SIG_GDIP_EN">
+      <node ref="U902" pin="9"/>
+      <node ref="U902" pin="10"/>
+      <node ref="U300" pin="4"/>
+    </net>
+    <net code="42" name="/7 POWER/SIG_CANH">
+      <node ref="J4" pin="8"/>
+      <node ref="U702" pin="7"/>
+    </net>
+    <net code="43" name="/ETC_O1A">
+      <node ref="R507" pin="1"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U500" pin="15"/>
+    </net>
+    <net code="44" name="/ETC_O1B">
+      <node ref="R508" pin="1"/>
+      <node ref="J2" pin="6"/>
+      <node ref="U500" pin="22"/>
+    </net>
+    <net code="45" name="/ETC_O2A">
+      <node ref="U500" pin="5"/>
+      <node ref="R507" pin="2"/>
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="46" name="/ETC_O2B">
+      <node ref="R508" pin="2"/>
+      <node ref="U500" pin="32"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="47" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="48" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="49" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="50" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="51" name="Net-(J4-Pad5)">
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="52" name="/7 POWER/SIG_KAL">
+      <node ref="J4" pin="6"/>
+      <node ref="U701" pin="1"/>
+    </net>
+    <net code="53" name="/7 POWER/SIG_CANL">
+      <node ref="J4" pin="7"/>
+      <node ref="U702" pin="6"/>
+    </net>
+    <net code="54" name="/CTS">
+      <node ref="RN605" pin="5"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U300" pin="37"/>
+    </net>
+    <net code="55" name="/TPSS">
+      <node ref="RN605" pin="7"/>
+      <node ref="U300" pin="25"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="56" name="/PPSS">
+      <node ref="RN605" pin="8"/>
+      <node ref="U2" pin="16"/>
+      <node ref="U300" pin="38"/>
+    </net>
+    <net code="57" name="/TPSM">
+      <node ref="U300" pin="39"/>
+      <node ref="RN500" pin="4"/>
+      <node ref="R512" pin="1"/>
+      <node ref="U2" pin="17"/>
+      <node ref="RN600" pin="1"/>
+    </net>
+    <net code="58" name="/RPS">
+      <node ref="U2" pin="18"/>
+      <node ref="RN600" pin="2"/>
+      <node ref="U300" pin="40"/>
+    </net>
+    <net code="59" name="/BATT">
+      <node ref="U300" pin="41"/>
+      <node ref="U2" pin="19"/>
+      <node ref="RN600" pin="3"/>
+    </net>
+    <net code="60" name="/PPSM">
+      <node ref="RN500" pin="1"/>
+      <node ref="RN600" pin="4"/>
+      <node ref="U300" pin="31"/>
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="61" name="/9 GDI CONTROL/SIGCD_LS_EN">
+      <node ref="U901" pin="13"/>
+      <node ref="R850" pin="2"/>
+    </net>
+    <net code="62" name="/9 GDI CONTROL/SIGAB_LS_EN">
+      <node ref="U900" pin="13"/>
+      <node ref="R800" pin="2"/>
+    </net>
+    <net code="63" name="/SIG_VVTA_OUT">
+      <node ref="U300" pin="36"/>
+      <node ref="RN200" pin="2"/>
+    </net>
+    <net code="64" name="/SIG_VVT1_IN">
+      <node ref="U300" pin="45"/>
+      <node ref="RN201" pin="2"/>
+      <node ref="RN201" pin="3"/>
+    </net>
+    <net code="65" name="/SIG_VVT2_IN">
+      <node ref="U300" pin="44"/>
+      <node ref="RN202" pin="2"/>
+      <node ref="RN202" pin="3"/>
+    </net>
+    <net code="66" name="/SIG_VVT3_IN">
+      <node ref="RN204" pin="6"/>
+      <node ref="RN204" pin="7"/>
+      <node ref="U300" pin="43"/>
+    </net>
+    <net code="67" name="/SIG_VVT4_IN">
+      <node ref="RN205" pin="7"/>
+      <node ref="RN205" pin="6"/>
+      <node ref="U300" pin="42"/>
+    </net>
+    <net code="68" name="/2 VVT/PULLEN_AB">
+      <node ref="U201" pin="2"/>
+      <node ref="U202" pin="5"/>
+      <node ref="U202" pin="2"/>
+      <node ref="U300" pin="26"/>
+      <node ref="U201" pin="5"/>
+    </net>
+    <net code="69" name="/SIGAB_LVEN">
+      <node ref="U600" pin="33"/>
+      <node ref="U800" pin="2"/>
+      <node ref="U900" pin="5"/>
+      <node ref="U900" pin="6"/>
+    </net>
+    <net code="70" name="/SIGCD_LVEN">
+      <node ref="U901" pin="6"/>
+      <node ref="U901" pin="5"/>
+      <node ref="U600" pin="34"/>
+      <node ref="U850" pin="2"/>
+    </net>
+    <net code="71" name="/2 VVT/OUT_VVTA">
+      <node ref="U200" pin="7"/>
+      <node ref="U200" pin="8"/>
+    </net>
+    <net code="72" name="/2 VVT/OUT_VVTB">
+      <node ref="U200" pin="5"/>
+      <node ref="U200" pin="6"/>
+    </net>
+    <net code="73" name="/2 VVT/VVTA_FB">
+      <node ref="RN200" pin="1"/>
+    </net>
+    <net code="74" name="/2 VVT/VVTB_FB">
+      <node ref="RN200" pin="3"/>
+    </net>
+    <net code="75" name="Net-(RN105-Pad4)">
+      <node ref="RN105" pin="4"/>
+    </net>
+    <net code="76" name="Net-(RN105-Pad5)">
+      <node ref="RN105" pin="5"/>
+    </net>
+    <net code="77" name="Net-(RN105-Pad6)">
+      <node ref="RN105" pin="6"/>
+    </net>
+    <net code="78" name="VSS">
+      <node ref="CD200" pin="2"/>
+      <node ref="C202" pin="1"/>
+      <node ref="C200" pin="1"/>
+      <node ref="D203" pin="1"/>
+      <node ref="D202" pin="1"/>
+      <node ref="D201" pin="1"/>
+      <node ref="D200" pin="1"/>
+      <node ref="RN205" pin="5"/>
+      <node ref="U400" pin="4"/>
+      <node ref="RN204" pin="5"/>
+      <node ref="RN400" pin="2"/>
+      <node ref="RN400" pin="3"/>
+      <node ref="RN401" pin="2"/>
+      <node ref="RN401" pin="3"/>
+      <node ref="R513" pin="2"/>
+      <node ref="C400" pin="2"/>
+      <node ref="C505" pin="1"/>
+      <node ref="C701" pin="2"/>
+      <node ref="RN201" pin="4"/>
+      <node ref="C203" pin="2"/>
+      <node ref="C506" pin="2"/>
+      <node ref="U202" pin="4"/>
+      <node ref="RN202" pin="4"/>
+      <node ref="U205" pin="7"/>
+      <node ref="U202" pin="1"/>
+      <node ref="U201" pin="1"/>
+      <node ref="U201" pin="4"/>
+      <node ref="U401" pin="4"/>
+      <node ref="CD502" pin="2"/>
+      <node ref="L700" pin="2"/>
+      <node ref="CD700" pin="2"/>
+      <node ref="U701" pin="5"/>
+      <node ref="U500" pin="19"/>
+      <node ref="U701" pin="16"/>
+      <node ref="RN105" pin="7"/>
+      <node ref="R502" pin="2"/>
+      <node ref="CD711" pin="2"/>
+      <node ref="CD710" pin="2"/>
+      <node ref="U704" pin="6"/>
+      <node ref="CD704" pin="2"/>
+      <node ref="CD702" pin="2"/>
+      <node ref="CD703" pin="1"/>
+      <node ref="CD701" pin="1"/>
+      <node ref="C702" pin="2"/>
+      <node ref="C500" pin="2"/>
+      <node ref="C700" pin="2"/>
+      <node ref="U500" pin="1"/>
+      <node ref="CD709" pin="2"/>
+      <node ref="U500" pin="18"/>
+      <node ref="U500" pin="37"/>
+      <node ref="U500" pin="36"/>
+      <node ref="C501" pin="2"/>
+      <node ref="R503" pin="1"/>
+      <node ref="U704" pin="3"/>
+      <node ref="CD714" pin="2"/>
+      <node ref="R701" pin="1"/>
+      <node ref="CD604" pin="2"/>
+      <node ref="U801" pin="4"/>
+      <node ref="U801" pin="1"/>
+      <node ref="R802" pin="1"/>
+      <node ref="CD605" pin="1"/>
+      <node ref="D801" pin="2"/>
+      <node ref="U800" pin="1"/>
+      <node ref="U800" pin="4"/>
+      <node ref="CD600" pin="2"/>
+      <node ref="U802" pin="4"/>
+      <node ref="U802" pin="1"/>
+      <node ref="CD601" pin="1"/>
+      <node ref="U600" pin="49"/>
+      <node ref="U600" pin="39"/>
+      <node ref="CD606" pin="2"/>
+      <node ref="J600" pin="3"/>
+      <node ref="J600" pin="5"/>
+      <node ref="J600" pin="9"/>
+      <node ref="U600" pin="69"/>
+      <node ref="U600" pin="59"/>
+      <node ref="C601" pin="1"/>
+      <node ref="C600" pin="1"/>
+      <node ref="U600" pin="8"/>
+      <node ref="U850" pin="4"/>
+      <node ref="U851" pin="4"/>
+      <node ref="U851" pin="1"/>
+      <node ref="CD900" pin="2"/>
+      <node ref="U850" pin="1"/>
+      <node ref="CD901" pin="2"/>
+      <node ref="U2" pin="26"/>
+      <node ref="U2" pin="25"/>
+      <node ref="D851" pin="2"/>
+      <node ref="R201" pin="2"/>
+      <node ref="C201" pin="2"/>
+      <node ref="U601" pin="1"/>
+      <node ref="C401" pin="1"/>
+      <node ref="C100" pin="1"/>
+      <node ref="R200" pin="1"/>
+      <node ref="CD400" pin="2"/>
+      <node ref="CD401" pin="2"/>
+      <node ref="C404" pin="1"/>
+      <node ref="C405" pin="1"/>
+      <node ref="CD902" pin="2"/>
+      <node ref="U809" pin="4"/>
+      <node ref="U809" pin="1"/>
+      <node ref="R810" pin="1"/>
+      <node ref="CD903" pin="2"/>
+      <node ref="CD602" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U852" pin="4"/>
+      <node ref="U852" pin="1"/>
+      <node ref="R852" pin="1"/>
+      <node ref="D804" pin="2"/>
+      <node ref="U703" pin="2"/>
+      <node ref="U700" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="RN300" pin="2"/>
+      <node ref="CD500" pin="2"/>
+      <node ref="CD713" pin="1"/>
+      <node ref="R505" pin="2"/>
+      <node ref="U300" pin="47"/>
+      <node ref="D301" pin="1"/>
+      <node ref="RN501" pin="5"/>
+      <node ref="D300" pin="1"/>
+      <node ref="U503" pin="4"/>
+      <node ref="U503" pin="1"/>
+      <node ref="U300" pin="1"/>
+      <node ref="CD501" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="90"/>
+      <node ref="CD706" pin="2"/>
+      <node ref="R504" pin="2"/>
+      <node ref="U300" pin="34"/>
+      <node ref="U702" pin="2"/>
+      <node ref="J700" pin="3"/>
+      <node ref="RN500" pin="2"/>
+      <node ref="CD708" pin="2"/>
+      <node ref="CD707" pin="2"/>
+      <node ref="RN500" pin="3"/>
+      <node ref="U502" pin="2"/>
+      <node ref="U701" pin="29"/>
+      <node ref="CD712" pin="1"/>
+    </net>
+    <net code="79" name="VCC5V">
+      <node ref="CD903" pin="1"/>
+      <node ref="CD502" pin="1"/>
+      <node ref="U900" pin="14"/>
+      <node ref="U300" pin="48"/>
+      <node ref="CD902" pin="1"/>
+      <node ref="R515" pin="1"/>
+      <node ref="CD900" pin="1"/>
+      <node ref="CD901" pin="1"/>
+      <node ref="U903" pin="14"/>
+      <node ref="U903" pin="13"/>
+      <node ref="U903" pin="12"/>
+      <node ref="U903" pin="10"/>
+      <node ref="U2" pin="92"/>
+      <node ref="U902" pin="12"/>
+      <node ref="U205" pin="14"/>
+      <node ref="U2" pin="60"/>
+      <node ref="U2" pin="59"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U902" pin="14"/>
+      <node ref="U902" pin="13"/>
+      <node ref="U203" pin="1"/>
+      <node ref="CD200" pin="1"/>
+      <node ref="U203" pin="4"/>
+      <node ref="U204" pin="1"/>
+      <node ref="U204" pin="4"/>
+      <node ref="U901" pin="14"/>
+      <node ref="U502" pin="5"/>
+      <node ref="U903" pin="9"/>
+      <node ref="RN105" pin="8"/>
+      <node ref="RN300" pin="1"/>
+    </net>
+    <net code="80" name="/6 ETC PROCESSOR/A12">
+      <node ref="RN105" pin="1"/>
+      <node ref="RN105" pin="2"/>
+      <node ref="RN606" pin="3"/>
+    </net>
+    <net code="81" name="VCC3V3">
+      <node ref="CD400" pin="1"/>
+      <node ref="RN401" pin="4"/>
+      <node ref="RN401" pin="1"/>
+      <node ref="U400" pin="8"/>
+      <node ref="U600" pin="70"/>
+      <node ref="U401" pin="8"/>
+      <node ref="U600" pin="7"/>
+      <node ref="U600" pin="60"/>
+      <node ref="U601" pin="3"/>
+      <node ref="CD605" pin="2"/>
+      <node ref="CD600" pin="1"/>
+      <node ref="U300" pin="15"/>
+      <node ref="CD601" pin="2"/>
+      <node ref="CD604" pin="1"/>
+      <node ref="U600" pin="50"/>
+      <node ref="CD606" pin="1"/>
+      <node ref="CD401" pin="1"/>
+      <node ref="U600" pin="38"/>
+      <node ref="J600" pin="1"/>
+      <node ref="U300" pin="46"/>
+      <node ref="CD602" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="CD704" pin="1"/>
+      <node ref="R100" pin="2"/>
+      <node ref="U700" pin="3"/>
+      <node ref="CD703" pin="2"/>
+      <node ref="CD701" pin="2"/>
+      <node ref="L701" pin="2"/>
+      <node ref="J700" pin="2"/>
+    </net>
+    <net code="82" name="Net-(RN105-Pad3)">
+      <node ref="RN105" pin="3"/>
+    </net>
+    <net code="83" name="/REL_RST">
+      <node ref="U2" pin="55"/>
+      <node ref="R100" pin="1"/>
+    </net>
+    <net code="84" name="/SWH">
+      <node ref="U300" pin="49"/>
+      <node ref="RN300" pin="8"/>
+      <node ref="RN104" pin="1"/>
+      <node ref="U2" pin="44"/>
+    </net>
+    <net code="85" name="Net-(RN104-Pad3)">
+      <node ref="RN104" pin="3"/>
+    </net>
+    <net code="86" name="Net-(RN104-Pad4)">
+      <node ref="RN104" pin="4"/>
+    </net>
+    <net code="87" name="Net-(RN104-Pad5)">
+      <node ref="RN104" pin="5"/>
+    </net>
+    <net code="88" name="Net-(RN104-Pad6)">
+      <node ref="RN104" pin="6"/>
+    </net>
+    <net code="89" name="/SIGCD_HVEN">
+      <node ref="U600" pin="32"/>
+      <node ref="U901" pin="2"/>
+      <node ref="RN104" pin="7"/>
+      <node ref="U901" pin="3"/>
+      <node ref="U903" pin="4"/>
+    </net>
+    <net code="90" name="/SIGAB_HVEN">
+      <node ref="U902" pin="4"/>
+      <node ref="RN104" pin="8"/>
+      <node ref="U600" pin="30"/>
+      <node ref="U900" pin="3"/>
+      <node ref="U900" pin="2"/>
+    </net>
+    <net code="91" name="/SWL">
+      <node ref="U2" pin="43"/>
+      <node ref="U300" pin="50"/>
+      <node ref="RN300" pin="7"/>
+      <node ref="RN104" pin="2"/>
+    </net>
+    <net code="92" name="/HS1EN">
+      <node ref="U300" pin="24"/>
+      <node ref="U2" pin="40"/>
+    </net>
+    <net code="93" name="/HS2EN">
+      <node ref="U2" pin="37"/>
+      <node ref="U300" pin="23"/>
+    </net>
+    <net code="94" name="/DCH">
+      <node ref="RN601" pin="3"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="95" name="/DCL">
+      <node ref="RN601" pin="4"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="96" name="/HMEN">
+      <node ref="U300" pin="63"/>
+      <node ref="R101" pin="1"/>
+      <node ref="U2" pin="53"/>
+    </net>
+    <net code="97" name="/ETC_1A">
+      <node ref="RN101" pin="8"/>
+      <node ref="R101" pin="2"/>
+      <node ref="R509" pin="1"/>
+      <node ref="U500" pin="10"/>
+      <node ref="U600" pin="43"/>
+    </net>
+    <net code="98" name="/GDI1_SIG_s">
+      <node ref="RN103" pin="1"/>
+      <node ref="RN100" pin="6"/>
+      <node ref="U600" pin="79"/>
+      <node ref="U802" pin="2"/>
+    </net>
+    <net code="99" name="/GDI2_SIG_s">
+      <node ref="U600" pin="80"/>
+      <node ref="RN100" pin="5"/>
+      <node ref="RN103" pin="2"/>
+      <node ref="U852" pin="2"/>
+    </net>
+    <net code="100" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="101" name="/SIG_K1O">
+      <node ref="R406" pin="1"/>
+      <node ref="R408" pin="2"/>
+      <node ref="RN606" pin="1"/>
+      <node ref="U701" pin="10"/>
+    </net>
+    <net code="102" name="/SIG_K2O">
+      <node ref="U701" pin="28"/>
+      <node ref="RN606" pin="2"/>
+      <node ref="R407" pin="1"/>
+      <node ref="R409" pin="2"/>
+    </net>
+    <net code="103" name="/SIG_KTX">
+      <node ref="R601" pin="2"/>
+      <node ref="U701" pin="14"/>
+    </net>
+    <net code="104" name="Net-(RN106-Pad3)">
+      <node ref="RN106" pin="3"/>
+      <node ref="RN106" pin="4"/>
+    </net>
+    <net code="105" name="Net-(RN106-Pad6)">
+      <node ref="RN106" pin="6"/>
+      <node ref="RN106" pin="7"/>
+    </net>
+    <net code="106" name="Net-(C100-Pad2)">
+      <node ref="RN106" pin="1"/>
+      <node ref="RN106" pin="2"/>
+      <node ref="C100" pin="2"/>
+    </net>
+    <net code="107" name="Net-(RN103-Pad3)">
+      <node ref="RN103" pin="3"/>
+    </net>
+    <net code="108" name="Net-(RN103-Pad4)">
+      <node ref="RN103" pin="4"/>
+    </net>
+    <net code="109" name="Net-(RN103-Pad5)">
+      <node ref="RN103" pin="5"/>
+    </net>
+    <net code="110" name="Net-(RN103-Pad6)">
+      <node ref="RN103" pin="6"/>
+    </net>
+    <net code="111" name="/VVT_INP1">
+      <node ref="RN203" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="RN201" pin="1"/>
+    </net>
+    <net code="112" name="/VVT_INP2">
+      <node ref="RN202" pin="1"/>
+      <node ref="RN203" pin="1"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="113" name="/VVT_INP3">
+      <node ref="J5" pin="3"/>
+      <node ref="RN203" pin="4"/>
+      <node ref="RN204" pin="8"/>
+    </net>
+    <net code="114" name="/VVT_INP4">
+      <node ref="J5" pin="4"/>
+      <node ref="RN205" pin="8"/>
+      <node ref="RN203" pin="3"/>
+    </net>
+    <net code="115" name="/5 ETC/ETC_ENA">
+      <node ref="U600" pin="52"/>
+      <node ref="R500" pin="2"/>
+      <node ref="D502" pin="2"/>
+    </net>
+    <net code="116" name="/5 ETC/ETC_ENB">
+      <node ref="U600" pin="71"/>
+      <node ref="R501" pin="2"/>
+      <node ref="D503" pin="2"/>
+    </net>
+    <net code="117" name="/HMF">
+      <node ref="U2" pin="61"/>
+    </net>
+    <net code="118" name="/REL_CS">
+      <node ref="U2" pin="57"/>
+      <node ref="RN603" pin="5"/>
+      <node ref="U300" pin="60"/>
+    </net>
+    <net code="119" name="/ETC_1B">
+      <node ref="U500" pin="26"/>
+      <node ref="RN101" pin="7"/>
+      <node ref="R510" pin="1"/>
+      <node ref="U600" pin="44"/>
+    </net>
+    <net code="120" name="/ETC_2A">
+      <node ref="R509" pin="2"/>
+      <node ref="U500" pin="11"/>
+      <node ref="RN101" pin="6"/>
+      <node ref="U600" pin="77"/>
+    </net>
+    <net code="121" name="/ETC_2B">
+      <node ref="R510" pin="2"/>
+      <node ref="U500" pin="27"/>
+      <node ref="U600" pin="78"/>
+      <node ref="RN101" pin="5"/>
+    </net>
+    <net code="122" name="/ATS">
+      <node ref="RN605" pin="6"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="123" name="/PUAEN">
+      <node ref="RN602" pin="5"/>
+      <node ref="U300" pin="64"/>
+      <node ref="U2" pin="51"/>
+    </net>
+    <net code="124" name="/HYSTHAB">
+      <node ref="U2" pin="45"/>
+      <node ref="U300" pin="66"/>
+    </net>
+    <net code="125" name="/HYSTLAB">
+      <node ref="U300" pin="65"/>
+      <node ref="U2" pin="46"/>
+    </net>
+    <net code="126" name="/M2EN">
+      <node ref="U300" pin="61"/>
+      <node ref="RN603" pin="8"/>
+      <node ref="U2" pin="56"/>
+    </net>
+    <net code="127" name="VCC12VP">
+      <node ref="U700" pin="1"/>
+      <node ref="CD702" pin="1"/>
+      <node ref="CD700" pin="1"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="128" name="/IEN">
+      <node ref="RN603" pin="6"/>
+      <node ref="U2" pin="42"/>
+      <node ref="U300" pin="51"/>
+    </net>
+    <net code="129" name="/PUBEN">
+      <node ref="RN602" pin="6"/>
+      <node ref="U300" pin="56"/>
+      <node ref="U2" pin="36"/>
+    </net>
+    <net code="130" name="/VRBEN">
+      <node ref="U300" pin="58"/>
+      <node ref="U2" pin="33"/>
+      <node ref="RN602" pin="8"/>
+    </net>
+    <net code="131" name="/VRAEN">
+      <node ref="U2" pin="34"/>
+      <node ref="U300" pin="57"/>
+      <node ref="RN602" pin="7"/>
+    </net>
+    <net code="132" name="/M1EN">
+      <node ref="U2" pin="58"/>
+      <node ref="U300" pin="59"/>
+      <node ref="RN603" pin="7"/>
+    </net>
+    <net code="133" name="Net-(U2-Pad52)">
+      <node ref="U2" pin="52"/>
+    </net>
+    <net code="134" name="Net-(U2-Pad39)">
+      <node ref="U2" pin="39"/>
+    </net>
+    <net code="135" name="Net-(U2-Pad41)">
+      <node ref="U2" pin="41"/>
+    </net>
+    <net code="136" name="Net-(U2-Pad47)">
+      <node ref="U2" pin="47"/>
+    </net>
+    <net code="137" name="Net-(U2-Pad48)">
+      <node ref="U2" pin="48"/>
+    </net>
+    <net code="138" name="Net-(U2-Pad49)">
+      <node ref="U2" pin="49"/>
+    </net>
+    <net code="139" name="Net-(U2-Pad50)">
+      <node ref="U2" pin="50"/>
+    </net>
+    <net code="140" name="Net-(U2-Pad38)">
+      <node ref="U2" pin="38"/>
+    </net>
+    <net code="141" name="Net-(U2-Pad54)">
+      <node ref="U2" pin="54"/>
+    </net>
+    <net code="142" name="Net-(U2-Pad62)">
+      <node ref="U2" pin="62"/>
+    </net>
+    <net code="143" name="Net-(U2-Pad63)">
+      <node ref="U2" pin="63"/>
+    </net>
+    <net code="144" name="Net-(U2-Pad64)">
+      <node ref="U2" pin="64"/>
+    </net>
+    <net code="145" name="Net-(U2-Pad65)">
+      <node ref="U2" pin="65"/>
+    </net>
+    <net code="146" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="147" name="Net-(U2-Pad21)">
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="148" name="Net-(U2-Pad66)">
+      <node ref="U2" pin="66"/>
+    </net>
+    <net code="149" name="Net-(U2-Pad28)">
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="150" name="Net-(U2-Pad29)">
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="151" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="152" name="Net-(U2-Pad30)">
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="153" name="Net-(U2-Pad31)">
+      <node ref="U2" pin="31"/>
+    </net>
+    <net code="154" name="Net-(U2-Pad32)">
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="155" name="Net-(U2-Pad35)">
+      <node ref="U2" pin="35"/>
+    </net>
+    <net code="156" name="Net-(U2-Pad67)">
+      <node ref="U2" pin="67"/>
+    </net>
+    <net code="157" name="Net-(U2-Pad68)">
+      <node ref="U2" pin="68"/>
+    </net>
+    <net code="158" name="Net-(U2-Pad69)">
+      <node ref="U2" pin="69"/>
+    </net>
+    <net code="159" name="Net-(U2-Pad70)">
+      <node ref="U2" pin="70"/>
+    </net>
+    <net code="160" name="Net-(U2-Pad77)">
+      <node ref="U2" pin="77"/>
+    </net>
+    <net code="161" name="Net-(U2-Pad78)">
+      <node ref="U2" pin="78"/>
+    </net>
+    <net code="162" name="Net-(U2-Pad83)">
+      <node ref="U2" pin="83"/>
+    </net>
+    <net code="163" name="Net-(U2-Pad84)">
+      <node ref="U2" pin="84"/>
+    </net>
+    <net code="164" name="Net-(U2-Pad85)">
+      <node ref="U2" pin="85"/>
+    </net>
+    <net code="165" name="Net-(U2-Pad86)">
+      <node ref="U2" pin="86"/>
+    </net>
+    <net code="166" name="Net-(U2-Pad89)">
+      <node ref="U2" pin="89"/>
+    </net>
+    <net code="167" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="168" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="169" name="Net-(J3-Pad5)">
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="170" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="171" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="172" name="VCC12VPP">
+      <node ref="U811" pin="3"/>
+      <node ref="U854" pin="3"/>
+      <node ref="L702" pin="1"/>
+      <node ref="U804" pin="3"/>
+      <node ref="U704" pin="5"/>
+      <node ref="U501" pin="3"/>
+      <node ref="U856" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R511" pin="1"/>
+      <node ref="R855" pin="1"/>
+      <node ref="CD710" pin="1"/>
+      <node ref="CD711" pin="1"/>
+      <node ref="R808" pin="1"/>
+      <node ref="U807" pin="3"/>
+      <node ref="R805" pin="1"/>
+      <node ref="U806" pin="3"/>
+      <node ref="R858" pin="1"/>
+      <node ref="U857" pin="3"/>
+    </net>
+    <net code="173" name="/PUMP_PWM">
+      <node ref="J1" pin="6"/>
+      <node ref="R812" pin="2"/>
+      <node ref="D805" pin="2"/>
+      <node ref="D804" pin="1"/>
+      <node ref="U810" pin="2"/>
+    </net>
+    <net code="174" name="/ETC_IFA">
+      <node ref="R504" pin="1"/>
+      <node ref="U500" pin="12"/>
+      <node ref="U600" pin="45"/>
+    </net>
+    <net code="175" name="/ETC_IFB">
+      <node ref="U600" pin="46"/>
+      <node ref="U500" pin="25"/>
+      <node ref="R505" pin="1"/>
+    </net>
+    <net code="176" name="VBATT">
+      <node ref="J2" pin="1"/>
+      <node ref="U703" pin="1"/>
+      <node ref="CD712" pin="2"/>
+    </net>
+    <net code="177" name="/PWIOA+">
+      <node ref="U805" pin="2"/>
+      <node ref="D802" pin="1"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="178" name="/PWIOB+">
+      <node ref="J3" pin="6"/>
+      <node ref="D803" pin="1"/>
+      <node ref="U808" pin="2"/>
+    </net>
+    <net code="179" name="/PWIOC+">
+      <node ref="D852" pin="1"/>
+      <node ref="J5" pin="5"/>
+      <node ref="U855" pin="2"/>
+    </net>
+    <net code="180" name="/PWIOD+">
+      <node ref="J5" pin="6"/>
+      <node ref="D853" pin="1"/>
+      <node ref="U858" pin="2"/>
+    </net>
+    <net code="181" name="/SIG_K1IN">
+      <node ref="J2" pin="3"/>
+      <node ref="R400" pin="2"/>
+    </net>
+    <net code="182" name="/SIG_K2IN">
+      <node ref="J2" pin="4"/>
+      <node ref="R401" pin="2"/>
+    </net>
+    <net code="183" name="/8 GDI/SIG_PUMP_PWMS">
+      <node ref="U902" pin="8"/>
+      <node ref="R811" pin="2"/>
+    </net>
+    <net code="184" name="/9 GDI CONTROL/SIGA_HV_EN">
+      <node ref="U801" pin="2"/>
+      <node ref="U902" pin="6"/>
+    </net>
+    <net code="185" name="/9 GDI CONTROL/SIGB_HV_EN">
+      <node ref="U902" pin="3"/>
+      <node ref="U801" pin="5"/>
+    </net>
+    <net code="186" name="/9 GDI CONTROL/SIGD_LV_EN">
+      <node ref="U901" pin="4"/>
+      <node ref="U850" pin="5"/>
+    </net>
+    <net code="187" name="/9 GDI CONTROL/SIGC_HV_EN">
+      <node ref="U903" pin="6"/>
+      <node ref="U851" pin="2"/>
+    </net>
+    <net code="188" name="/9 GDI CONTROL/SIGD_HV_EN">
+      <node ref="U851" pin="5"/>
+      <node ref="U903" pin="3"/>
+    </net>
+    <net code="189" name="/9 GDI CONTROL/SIGB_LV_EN">
+      <node ref="U800" pin="5"/>
+      <node ref="U900" pin="4"/>
+    </net>
+    <net code="190" name="Net-(D300-Pad2)">
+      <node ref="D300" pin="2"/>
+      <node ref="RN300" pin="4"/>
+    </net>
+    <net code="191" name="Net-(D301-Pad2)">
+      <node ref="RN300" pin="3"/>
+      <node ref="D301" pin="2"/>
+    </net>
+    <net code="192" name="Net-(RN300-Pad5)">
+      <node ref="RN300" pin="5"/>
+      <node ref="U300" pin="19"/>
+    </net>
+    <net code="193" name="Net-(RN300-Pad6)">
+      <node ref="RN300" pin="6"/>
+      <node ref="U300" pin="18"/>
+    </net>
+    <net code="194" name="Net-(U300-Pad52)">
+      <node ref="U300" pin="52"/>
+    </net>
+    <net code="195" name="/3 TEENSY/REL_RST">
+      <node ref="U300" pin="62"/>
+    </net>
+    <net code="196" name="Net-(U300-Pad13)">
+      <node ref="U300" pin="13"/>
+    </net>
+    <net code="197" name="Net-(U300-Pad14)">
+      <node ref="U300" pin="14"/>
+    </net>
+    <net code="198" name="Net-(U300-Pad16)">
+      <node ref="U300" pin="16"/>
+    </net>
+    <net code="199" name="Net-(U300-Pad17)">
+      <node ref="U300" pin="17"/>
+    </net>
+    <net code="200" name="Net-(U701-Pad19)">
+      <node ref="U702" pin="8"/>
+      <node ref="U701" pin="19"/>
+    </net>
+    <net code="201" name="Net-(U701-Pad23)">
+      <node ref="U702" pin="1"/>
+      <node ref="U701" pin="23"/>
+    </net>
+    <net code="202" name="Net-(U701-Pad21)">
+      <node ref="U702" pin="4"/>
+      <node ref="U701" pin="21"/>
+    </net>
+    <net code="203" name="Net-(U701-Pad9)">
+      <node ref="U701" pin="9"/>
+    </net>
+    <net code="204" name="Net-(U701-Pad8)">
+      <node ref="U701" pin="8"/>
+    </net>
+    <net code="205" name="VCC3V3K">
+      <node ref="U703" pin="3"/>
+      <node ref="CD708" pin="1"/>
+      <node ref="CD707" pin="1"/>
+      <node ref="U701" pin="17"/>
+      <node ref="CD713" pin="2"/>
+      <node ref="CD706" pin="1"/>
+      <node ref="U702" pin="3"/>
+    </net>
+    <net code="206" name="Net-(J700-Pad5)">
+      <node ref="J700" pin="5"/>
+      <node ref="U701" pin="24"/>
+    </net>
+    <net code="207" name="Net-(J700-Pad6)">
+      <node ref="J700" pin="6"/>
+    </net>
+    <net code="208" name="Net-(R705-Pad1)">
+      <node ref="R705" pin="1"/>
+      <node ref="U701" pin="2"/>
+    </net>
+    <net code="209" name="Net-(J700-Pad4)">
+      <node ref="J700" pin="4"/>
+      <node ref="U701" pin="25"/>
+    </net>
+    <net code="210" name="uC_RESET">
+      <node ref="U601" pin="2"/>
+      <node ref="R706" pin="1"/>
+      <node ref="R600" pin="1"/>
+    </net>
+    <net code="211" name="Net-(J700-Pad1)">
+      <node ref="J700" pin="1"/>
+      <node ref="U701" pin="26"/>
+      <node ref="R706" pin="2"/>
+    </net>
+    <net code="212" name="VCC50VPP">
+      <node ref="U858" pin="3"/>
+      <node ref="R856" pin="1"/>
+      <node ref="R854" pin="1"/>
+      <node ref="U805" pin="3"/>
+      <node ref="R804" pin="1"/>
+      <node ref="R704" pin="1"/>
+      <node ref="U855" pin="3"/>
+      <node ref="R806" pin="1"/>
+      <node ref="U808" pin="3"/>
+    </net>
+    <net code="213" name="Net-(U701-Pad20)">
+      <node ref="U702" pin="5"/>
+      <node ref="U701" pin="20"/>
+    </net>
+    <net code="214" name="Net-(C702-Pad1)">
+      <node ref="U701" pin="7"/>
+      <node ref="C702" pin="1"/>
+      <node ref="X700" pin="2"/>
+    </net>
+    <net code="215" name="Net-(C701-Pad1)">
+      <node ref="U701" pin="6"/>
+      <node ref="C701" pin="1"/>
+      <node ref="X700" pin="1"/>
+    </net>
+    <net code="216" name="Net-(CD714-Pad1)">
+      <node ref="U701" pin="3"/>
+      <node ref="CD714" pin="1"/>
+    </net>
+    <net code="217" name="Net-(R700-Pad1)">
+      <node ref="U704" pin="1"/>
+      <node ref="R700" pin="1"/>
+    </net>
+    <net code="218" name="VCCA3V3">
+      <node ref="L701" pin="1"/>
+      <node ref="CD705" pin="2"/>
+      <node ref="U600" pin="18"/>
+      <node ref="CD603" pin="2"/>
+      <node ref="U600" pin="17"/>
+    </net>
+    <net code="219" name="VSSA">
+      <node ref="L700" pin="1"/>
+      <node ref="CD705" pin="1"/>
+      <node ref="U600" pin="20"/>
+      <node ref="U600" pin="19"/>
+      <node ref="CD603" pin="1"/>
+    </net>
+    <net code="220" name="Net-(R702-Pad1)">
+      <node ref="R703" pin="2"/>
+      <node ref="R702" pin="1"/>
+    </net>
+    <net code="221" name="Net-(R701-Pad2)">
+      <node ref="R702" pin="2"/>
+      <node ref="R701" pin="2"/>
+      <node ref="U704" pin="2"/>
+    </net>
+    <net code="222" name="Net-(U701-Pad4)">
+      <node ref="U701" pin="4"/>
+    </net>
+    <net code="223" name="Net-(U701-Pad13)">
+      <node ref="U701" pin="13"/>
+    </net>
+    <net code="224" name="Net-(U701-Pad12)">
+      <node ref="U701" pin="12"/>
+    </net>
+    <net code="225" name="Net-(U701-Pad11)">
+      <node ref="U701" pin="11"/>
+    </net>
+    <net code="226" name="Net-(U701-Pad22)">
+      <node ref="U701" pin="22"/>
+    </net>
+    <net code="227" name="Net-(U701-Pad27)">
+      <node ref="U701" pin="27"/>
+    </net>
+    <net code="228" name="Net-(U701-Pad18)">
+      <node ref="U701" pin="18"/>
+    </net>
+    <net code="229" name="Net-(U701-Pad15)">
+      <node ref="U701" pin="15"/>
+    </net>
+    <net code="230" name="Net-(CD709-Pad1)">
+      <node ref="R704" pin="2"/>
+      <node ref="D700" pin="1"/>
+      <node ref="R703" pin="1"/>
+      <node ref="CD709" pin="1"/>
+    </net>
+    <net code="231" name="Net-(D700-Pad2)">
+      <node ref="U704" pin="4"/>
+      <node ref="D700" pin="2"/>
+      <node ref="L702" pin="2"/>
+    </net>
+    <net code="232" name="Net-(C700-Pad1)">
+      <node ref="C700" pin="1"/>
+      <node ref="R700" pin="2"/>
+    </net>
+    <net code="233" name="Net-(R407-Pad2)">
+      <node ref="R407" pin="2"/>
+      <node ref="U401" pin="7"/>
+      <node ref="U401" pin="6"/>
+    </net>
+    <net code="234" name="Net-(C405-Pad2)">
+      <node ref="RN402" pin="5"/>
+      <node ref="U401" pin="5"/>
+      <node ref="C405" pin="2"/>
+    </net>
+    <net code="235" name="Net-(RN402-Pad1)">
+      <node ref="RN402" pin="1"/>
+      <node ref="U400" pin="1"/>
+      <node ref="RN402" pin="2"/>
+    </net>
+    <net code="236" name="Net-(RN402-Pad3)">
+      <node ref="U401" pin="1"/>
+      <node ref="RN402" pin="3"/>
+      <node ref="RN402" pin="4"/>
+    </net>
+    <net code="237" name="Net-(C403-Pad1)">
+      <node ref="C403" pin="1"/>
+      <node ref="R405" pin="2"/>
+      <node ref="R403" pin="2"/>
+    </net>
+    <net code="238" name="Net-(R406-Pad2)">
+      <node ref="R406" pin="2"/>
+      <node ref="U400" pin="7"/>
+      <node ref="U400" pin="6"/>
+    </net>
+    <net code="239" name="Net-(C402-Pad1)">
+      <node ref="C402" pin="1"/>
+      <node ref="R402" pin="1"/>
+      <node ref="R404" pin="2"/>
+    </net>
+    <net code="240" name="Net-(R403-Pad1)">
+      <node ref="RN402" pin="6"/>
+      <node ref="U401" pin="2"/>
+      <node ref="R403" pin="1"/>
+    </net>
+    <net code="241" name="Net-(R402-Pad2)">
+      <node ref="U400" pin="2"/>
+      <node ref="R402" pin="2"/>
+      <node ref="RN402" pin="7"/>
+    </net>
+    <net code="242" name="Net-(R404-Pad1)">
+      <node ref="RN401" pin="8"/>
+      <node ref="U400" pin="3"/>
+      <node ref="R404" pin="1"/>
+      <node ref="RN401" pin="7"/>
+    </net>
+    <net code="243" name="Net-(C404-Pad2)">
+      <node ref="RN402" pin="8"/>
+      <node ref="U400" pin="5"/>
+      <node ref="C404" pin="2"/>
+    </net>
+    <net code="244" name="Net-(C402-Pad2)">
+      <node ref="R400" pin="1"/>
+      <node ref="RN400" pin="1"/>
+      <node ref="C402" pin="2"/>
+    </net>
+    <net code="245" name="Net-(C403-Pad2)">
+      <node ref="C403" pin="2"/>
+      <node ref="RN400" pin="4"/>
+      <node ref="R401" pin="1"/>
+    </net>
+    <net code="246" name="Net-(C401-Pad2)">
+      <node ref="R409" pin="1"/>
+      <node ref="C401" pin="2"/>
+      <node ref="RN400" pin="5"/>
+      <node ref="RN400" pin="6"/>
+    </net>
+    <net code="247" name="Net-(C400-Pad1)">
+      <node ref="RN400" pin="8"/>
+      <node ref="RN400" pin="7"/>
+      <node ref="C400" pin="1"/>
+      <node ref="R408" pin="1"/>
+    </net>
+    <net code="248" name="Net-(R405-Pad1)">
+      <node ref="RN401" pin="5"/>
+      <node ref="RN401" pin="6"/>
+      <node ref="U401" pin="3"/>
+      <node ref="R405" pin="1"/>
+    </net>
+    <net code="249" name="/8 GDI/SIG_12V_HSSC">
+      <node ref="U850" pin="6"/>
+      <node ref="R855" pin="2"/>
+      <node ref="U856" pin="1"/>
+    </net>
+    <net code="250" name="/8 GDI/SIG_PWM_LSCD_s">
+      <node ref="U852" pin="3"/>
+      <node ref="R850" pin="1"/>
+      <node ref="U853" pin="1"/>
+    </net>
+    <net code="251" name="Net-(D850-Pad1)">
+      <node ref="D850" pin="1"/>
+      <node ref="U854" pin="2"/>
+    </net>
+    <net code="252" name="/8 GDI/SIG_HV_HSSB">
+      <node ref="R806" pin="2"/>
+      <node ref="U808" pin="1"/>
+      <node ref="R809" pin="1"/>
+    </net>
+    <net code="253" name="/8 GDI/SIG_HV_HSSA">
+      <node ref="R803" pin="1"/>
+      <node ref="R804" pin="2"/>
+      <node ref="U805" pin="1"/>
+    </net>
+    <net code="254" name="/8 GDI/SIG_PWM_LSAB_s">
+      <node ref="R800" pin="1"/>
+      <node ref="U803" pin="1"/>
+      <node ref="U802" pin="3"/>
+    </net>
+    <net code="255" name="Net-(R803-Pad2)">
+      <node ref="R803" pin="2"/>
+      <node ref="U801" pin="6"/>
+    </net>
+    <net code="256" name="Net-(R851-Pad2)">
+      <node ref="U852" pin="6"/>
+      <node ref="R851" pin="2"/>
+      <node ref="U854" pin="1"/>
+    </net>
+    <net code="257" name="Net-(R852-Pad2)">
+      <node ref="U852" pin="5"/>
+      <node ref="U853" pin="3"/>
+      <node ref="R852" pin="2"/>
+      <node ref="R857" pin="1"/>
+    </net>
+    <net code="258" name="Net-(D805-Pad1)">
+      <node ref="D805" pin="1"/>
+      <node ref="U811" pin="2"/>
+    </net>
+    <net code="259" name="Net-(R812-Pad1)">
+      <node ref="U811" pin="1"/>
+      <node ref="R812" pin="1"/>
+      <node ref="U809" pin="6"/>
+    </net>
+    <net code="260" name="/8 GDI/SIG_HV_HSSD">
+      <node ref="U858" pin="1"/>
+      <node ref="R856" pin="2"/>
+      <node ref="R859" pin="1"/>
+    </net>
+    <net code="261" name="/8 GDI/SIG_HV_HSSC">
+      <node ref="U855" pin="1"/>
+      <node ref="R854" pin="2"/>
+      <node ref="R853" pin="1"/>
+    </net>
+    <net code="262" name="Net-(R853-Pad2)">
+      <node ref="U851" pin="6"/>
+      <node ref="R853" pin="2"/>
+    </net>
+    <net code="263" name="Net-(R859-Pad2)">
+      <node ref="U851" pin="3"/>
+      <node ref="R859" pin="2"/>
+    </net>
+    <net code="264" name="/8 GDI/SIG_12V_HSSD">
+      <node ref="R858" pin="2"/>
+      <node ref="U850" pin="3"/>
+      <node ref="U857" pin="1"/>
+    </net>
+    <net code="265" name="Net-(R811-Pad1)">
+      <node ref="U810" pin="1"/>
+      <node ref="U809" pin="3"/>
+      <node ref="R811" pin="1"/>
+    </net>
+    <net code="266" name="Net-(D853-Pad2)">
+      <node ref="U857" pin="2"/>
+      <node ref="D853" pin="2"/>
+    </net>
+    <net code="267" name="/8 GDI/SIG_12V_HSSA">
+      <node ref="U806" pin="1"/>
+      <node ref="U800" pin="6"/>
+      <node ref="R805" pin="2"/>
+    </net>
+    <net code="268" name="Net-(D802-Pad2)">
+      <node ref="U806" pin="2"/>
+      <node ref="D802" pin="2"/>
+    </net>
+    <net code="269" name="Net-(D852-Pad2)">
+      <node ref="U856" pin="2"/>
+      <node ref="D852" pin="2"/>
+    </net>
+    <net code="270" name="Net-(D803-Pad2)">
+      <node ref="D803" pin="2"/>
+      <node ref="U807" pin="2"/>
+    </net>
+    <net code="271" name="/8 GDI/SIG_12V_HSSB">
+      <node ref="U807" pin="1"/>
+      <node ref="R808" pin="2"/>
+      <node ref="U800" pin="3"/>
+    </net>
+    <net code="272" name="Net-(R801-Pad2)">
+      <node ref="R801" pin="2"/>
+      <node ref="U802" pin="6"/>
+      <node ref="U804" pin="1"/>
+    </net>
+    <net code="273" name="Net-(R802-Pad2)">
+      <node ref="U803" pin="3"/>
+      <node ref="R802" pin="2"/>
+      <node ref="R807" pin="1"/>
+      <node ref="U802" pin="5"/>
+    </net>
+    <net code="274" name="Net-(R809-Pad2)">
+      <node ref="U801" pin="3"/>
+      <node ref="R809" pin="2"/>
+    </net>
+    <net code="275" name="Net-(D800-Pad1)">
+      <node ref="U804" pin="2"/>
+      <node ref="D800" pin="1"/>
+    </net>
+    <net code="276" name="Net-(RN601-Pad8)">
+      <node ref="U600" pin="13"/>
+      <node ref="RN601" pin="8"/>
+    </net>
+    <net code="277" name="Net-(RN601-Pad7)">
+      <node ref="U600" pin="14"/>
+      <node ref="RN601" pin="7"/>
+    </net>
+    <net code="278" name="Net-(RN601-Pad6)">
+      <node ref="RN601" pin="6"/>
+      <node ref="U600" pin="15"/>
+    </net>
+    <net code="279" name="Net-(RN601-Pad5)">
+      <node ref="RN601" pin="5"/>
+      <node ref="U600" pin="16"/>
+    </net>
+    <net code="280" name="Net-(RN602-Pad4)">
+      <node ref="U600" pin="73"/>
+      <node ref="RN602" pin="4"/>
+    </net>
+    <net code="281" name="Net-(RN602-Pad3)">
+      <node ref="U600" pin="74"/>
+      <node ref="RN602" pin="3"/>
+    </net>
+    <net code="282" name="Net-(RN602-Pad2)">
+      <node ref="U600" pin="75"/>
+      <node ref="RN602" pin="2"/>
+    </net>
+    <net code="283" name="Net-(RN600-Pad5)">
+      <node ref="RN600" pin="5"/>
+      <node ref="U600" pin="4"/>
+    </net>
+    <net code="284" name="Net-(RN600-Pad6)">
+      <node ref="U600" pin="3"/>
+      <node ref="RN600" pin="6"/>
+    </net>
+    <net code="285" name="Net-(RN600-Pad7)">
+      <node ref="RN600" pin="7"/>
+      <node ref="U600" pin="2"/>
+    </net>
+    <net code="286" name="Net-(RN600-Pad8)">
+      <node ref="RN600" pin="8"/>
+      <node ref="U600" pin="1"/>
+    </net>
+    <net code="287" name="Net-(RN603-Pad2)">
+      <node ref="U600" pin="63"/>
+      <node ref="RN603" pin="2"/>
+    </net>
+    <net code="288" name="Net-(RN602-Pad1)">
+      <node ref="RN602" pin="1"/>
+      <node ref="U600" pin="76"/>
+    </net>
+    <net code="289" name="Net-(RN603-Pad4)">
+      <node ref="U600" pin="61"/>
+      <node ref="RN603" pin="4"/>
+    </net>
+    <net code="290" name="Net-(RN603-Pad3)">
+      <node ref="RN603" pin="3"/>
+      <node ref="U600" pin="62"/>
+    </net>
+    <net code="291" name="Net-(RN603-Pad1)">
+      <node ref="RN603" pin="1"/>
+      <node ref="U600" pin="64"/>
+    </net>
+    <net code="292" name="Net-(C601-Pad2)">
+      <node ref="C601" pin="2"/>
+      <node ref="X600" pin="2"/>
+      <node ref="U600" pin="40"/>
+    </net>
+    <net code="293" name="/6 ETC PROCESSOR/GDI_LR">
+      <node ref="RN604" pin="5"/>
+      <node ref="U600" pin="72"/>
+    </net>
+    <net code="294" name="Net-(C600-Pad2)">
+      <node ref="X600" pin="1"/>
+      <node ref="U600" pin="41"/>
+      <node ref="C600" pin="2"/>
+    </net>
+    <net code="295" name="/6 ETC PROCESSOR/RESET">
+      <node ref="R600" pin="2"/>
+      <node ref="U600" pin="42"/>
+      <node ref="J600" pin="10"/>
+    </net>
+    <net code="296" name="Net-(J600-Pad7)">
+      <node ref="J600" pin="7"/>
+    </net>
+    <net code="297" name="Net-(RN605-Pad1)">
+      <node ref="U600" pin="68"/>
+      <node ref="RN605" pin="1"/>
+    </net>
+    <net code="298" name="Net-(RN604-Pad8)">
+      <node ref="U600" pin="35"/>
+      <node ref="RN604" pin="8"/>
+    </net>
+    <net code="299" name="Net-(RN605-Pad4)">
+      <node ref="RN605" pin="4"/>
+      <node ref="U600" pin="65"/>
+    </net>
+    <net code="300" name="Net-(RN605-Pad3)">
+      <node ref="U600" pin="66"/>
+      <node ref="RN605" pin="3"/>
+    </net>
+    <net code="301" name="Net-(RN605-Pad2)">
+      <node ref="RN605" pin="2"/>
+      <node ref="U600" pin="67"/>
+    </net>
+    <net code="302" name="Net-(RN604-Pad7)">
+      <node ref="U600" pin="36"/>
+      <node ref="RN604" pin="7"/>
+    </net>
+    <net code="303" name="Net-(RN604-Pad6)">
+      <node ref="RN604" pin="6"/>
+      <node ref="U600" pin="37"/>
+    </net>
+    <net code="304" name="Net-(U600-Pad31)">
+      <node ref="U600" pin="31"/>
+    </net>
+    <net code="305" name="Net-(R601-Pad1)">
+      <node ref="U600" pin="51"/>
+      <node ref="R601" pin="1"/>
+    </net>
+    <net code="306" name="Net-(RN606-Pad6)">
+      <node ref="RN606" pin="6"/>
+      <node ref="U600" pin="11"/>
+    </net>
+    <net code="307" name="Net-(RN606-Pad5)">
+      <node ref="U600" pin="12"/>
+      <node ref="RN606" pin="5"/>
+    </net>
+    <net code="308" name="Net-(RN606-Pad7)">
+      <node ref="RN606" pin="7"/>
+      <node ref="U600" pin="10"/>
+    </net>
+    <net code="309" name="Net-(RN606-Pad8)">
+      <node ref="U600" pin="9"/>
+      <node ref="RN606" pin="8"/>
+    </net>
+    <net code="310" name="/6 ETC PROCESSOR/SWDIO">
+      <node ref="U600" pin="29"/>
+      <node ref="J600" pin="2"/>
+    </net>
+    <net code="311" name="/6 ETC PROCESSOR/SWO">
+      <node ref="J600" pin="6"/>
+      <node ref="U600" pin="28"/>
+    </net>
+    <net code="312" name="/6 ETC PROCESSOR/EZP_DI">
+      <node ref="U600" pin="27"/>
+      <node ref="J600" pin="8"/>
+    </net>
+    <net code="313" name="/6 ETC PROCESSOR/SWCLK">
+      <node ref="U600" pin="26"/>
+      <node ref="J600" pin="4"/>
+    </net>
+    <net code="314" name="Net-(U600-Pad21)">
+      <node ref="U600" pin="21"/>
+    </net>
+    <net code="315" name="Net-(U600-Pad22)">
+      <node ref="U600" pin="22"/>
+    </net>
+    <net code="316" name="Net-(U600-Pad23)">
+      <node ref="U600" pin="23"/>
+    </net>
+    <net code="317" name="Net-(U600-Pad24)">
+      <node ref="U600" pin="24"/>
+    </net>
+    <net code="318" name="Net-(U600-Pad25)">
+      <node ref="U600" pin="25"/>
+    </net>
+    <net code="319" name="Net-(U901-Pad1)">
+      <node ref="U903" pin="1"/>
+      <node ref="U901" pin="1"/>
+    </net>
+    <net code="320" name="Net-(U901-Pad10)">
+      <node ref="U901" pin="10"/>
+      <node ref="U901" pin="12"/>
+      <node ref="U901" pin="11"/>
+    </net>
+    <net code="321" name="Net-(U901-Pad7)">
+      <node ref="U901" pin="7"/>
+    </net>
+    <net code="322" name="Net-(U900-Pad1)">
+      <node ref="U902" pin="1"/>
+      <node ref="U900" pin="1"/>
+    </net>
+    <net code="323" name="Net-(U900-Pad10)">
+      <node ref="U900" pin="12"/>
+      <node ref="U900" pin="11"/>
+      <node ref="U900" pin="10"/>
+    </net>
+    <net code="324" name="Net-(U900-Pad7)">
+      <node ref="U900" pin="7"/>
+    </net>
+    <net code="325" name="Net-(U903-Pad8)">
+      <node ref="U903" pin="8"/>
+    </net>
+    <net code="326" name="Net-(U902-Pad11)">
+      <node ref="U902" pin="11"/>
+    </net>
+    <net code="327" name="Net-(U902-Pad7)">
+      <node ref="U902" pin="7"/>
+    </net>
+    <net code="328" name="Net-(U903-Pad7)">
+      <node ref="U903" pin="7"/>
+    </net>
+    <net code="329" name="Net-(U903-Pad11)">
+      <node ref="U903" pin="11"/>
+    </net>
+    <net code="330" name="Net-(RN203-Pad8)">
+      <node ref="RN203" pin="8"/>
+      <node ref="U203" pin="3"/>
+    </net>
+    <net code="331" name="Net-(RN203-Pad5)">
+      <node ref="U204" pin="6"/>
+      <node ref="RN203" pin="5"/>
+    </net>
+    <net code="332" name="Net-(RN203-Pad7)">
+      <node ref="U203" pin="6"/>
+      <node ref="RN203" pin="7"/>
+    </net>
+    <net code="333" name="Net-(RN203-Pad6)">
+      <node ref="RN203" pin="6"/>
+      <node ref="U204" pin="3"/>
+    </net>
+    <net code="334" name="Net-(U201-Pad6)">
+      <node ref="U203" pin="5"/>
+      <node ref="U201" pin="6"/>
+    </net>
+    <net code="335" name="Net-(U202-Pad6)">
+      <node ref="U204" pin="5"/>
+      <node ref="U202" pin="6"/>
+    </net>
+    <net code="336" name="Net-(U202-Pad3)">
+      <node ref="U202" pin="3"/>
+      <node ref="U204" pin="2"/>
+    </net>
+    <net code="337" name="Net-(U201-Pad3)">
+      <node ref="U203" pin="2"/>
+      <node ref="U201" pin="3"/>
+    </net>
+    <net code="338" name="Net-(R201-Pad1)">
+      <node ref="R201" pin="1"/>
+      <node ref="RN200" pin="6"/>
+      <node ref="U200" pin="3"/>
+    </net>
+    <net code="339" name="Net-(RN200-Pad7)">
+      <node ref="U200" pin="2"/>
+      <node ref="RN200" pin="7"/>
+    </net>
+    <net code="340" name="Net-(RN200-Pad5)">
+      <node ref="U200" pin="4"/>
+      <node ref="RN200" pin="5"/>
+    </net>
+    <net code="341" name="Net-(R200-Pad2)">
+      <node ref="R200" pin="2"/>
+      <node ref="U200" pin="1"/>
+      <node ref="RN200" pin="8"/>
+    </net>
+    <net code="342" name="Net-(RN201-Pad5)">
+      <node ref="RN201" pin="6"/>
+      <node ref="RN201" pin="5"/>
+    </net>
+    <net code="343" name="Net-(RN201-Pad7)">
+      <node ref="RN201" pin="7"/>
+      <node ref="U205" pin="2"/>
+      <node ref="U205" pin="3"/>
+    </net>
+    <net code="344" name="Net-(RN202-Pad5)">
+      <node ref="RN202" pin="5"/>
+      <node ref="RN202" pin="6"/>
+    </net>
+    <net code="345" name="Net-(RN204-Pad3)">
+      <node ref="RN204" pin="3"/>
+      <node ref="RN204" pin="4"/>
+    </net>
+    <net code="346" name="Net-(RN204-Pad2)">
+      <node ref="U205" pin="12"/>
+      <node ref="RN204" pin="2"/>
+    </net>
+    <net code="347" name="Net-(RN205-Pad3)">
+      <node ref="RN205" pin="4"/>
+      <node ref="RN205" pin="3"/>
+    </net>
+    <net code="348" name="Net-(RN202-Pad7)">
+      <node ref="U205" pin="6"/>
+      <node ref="RN202" pin="7"/>
+    </net>
+    <net code="349" name="Net-(U205-Pad11)">
+      <node ref="U205" pin="11"/>
+    </net>
+    <net code="350" name="Net-(RN205-Pad2)">
+      <node ref="RN205" pin="2"/>
+      <node ref="U205" pin="8"/>
+    </net>
+    <net code="351" name="Net-(U205-Pad10)">
+      <node ref="U205" pin="10"/>
+    </net>
+    <net code="352" name="Net-(U205-Pad4)">
+      <node ref="U205" pin="4"/>
+    </net>
+    <net code="353" name="Net-(C203-Pad1)">
+      <node ref="U205" pin="9"/>
+      <node ref="RN205" pin="1"/>
+      <node ref="C203" pin="1"/>
+      <node ref="D203" pin="3"/>
+    </net>
+    <net code="354" name="Net-(C202-Pad2)">
+      <node ref="RN204" pin="1"/>
+      <node ref="C202" pin="2"/>
+      <node ref="U205" pin="13"/>
+      <node ref="D202" pin="3"/>
+    </net>
+    <net code="355" name="Net-(C201-Pad1)">
+      <node ref="U205" pin="5"/>
+      <node ref="RN202" pin="8"/>
+      <node ref="C201" pin="1"/>
+      <node ref="D201" pin="3"/>
+    </net>
+    <net code="356" name="Net-(C200-Pad2)">
+      <node ref="RN201" pin="8"/>
+      <node ref="U205" pin="1"/>
+      <node ref="D200" pin="3"/>
+      <node ref="C200" pin="2"/>
+    </net>
+    <net code="357" name="Net-(D200-Pad2)">
+      <node ref="D200" pin="2"/>
+    </net>
+    <net code="358" name="Net-(D203-Pad2)">
+      <node ref="D203" pin="2"/>
+    </net>
+    <net code="359" name="Net-(D201-Pad2)">
+      <node ref="D201" pin="2"/>
+    </net>
+    <net code="360" name="Net-(D202-Pad2)">
+      <node ref="D202" pin="2"/>
+    </net>
+    <net code="361" name="Net-(C501-Pad1)">
+      <node ref="R501" pin="1"/>
+      <node ref="C501" pin="1"/>
+      <node ref="U500" pin="24"/>
+      <node ref="U500" pin="29"/>
+    </net>
+    <net code="362" name="Net-(C500-Pad1)">
+      <node ref="R500" pin="1"/>
+      <node ref="C500" pin="1"/>
+      <node ref="U500" pin="13"/>
+      <node ref="U500" pin="8"/>
+    </net>
+    <net code="363" name="Net-(U500-Pad17)">
+      <node ref="U500" pin="17"/>
+    </net>
+    <net code="364" name="Net-(U500-Pad16)">
+      <node ref="U500" pin="16"/>
+    </net>
+    <net code="365" name="Net-(U500-Pad14)">
+      <node ref="U500" pin="14"/>
+    </net>
+    <net code="366" name="Net-(U500-Pad35)">
+      <node ref="U500" pin="35"/>
+    </net>
+    <net code="367" name="Net-(U500-Pad6)">
+      <node ref="U500" pin="6"/>
+    </net>
+    <net code="368" name="Net-(U500-Pad3)">
+      <node ref="U500" pin="3"/>
+    </net>
+    <net code="369" name="Net-(U500-Pad2)">
+      <node ref="U500" pin="2"/>
+    </net>
+    <net code="370" name="Net-(U500-Pad20)">
+      <node ref="U500" pin="20"/>
+    </net>
+    <net code="371" name="Net-(U500-Pad21)">
+      <node ref="U500" pin="21"/>
+    </net>
+    <net code="372" name="Net-(U500-Pad23)">
+      <node ref="U500" pin="23"/>
+    </net>
+    <net code="373" name="Net-(R503-Pad2)">
+      <node ref="R503" pin="2"/>
+      <node ref="U500" pin="28"/>
+    </net>
+    <net code="374" name="Net-(U500-Pad31)">
+      <node ref="U500" pin="31"/>
+    </net>
+    <net code="375" name="Net-(U500-Pad34)">
+      <node ref="U500" pin="34"/>
+    </net>
+    <net code="376" name="Net-(R502-Pad1)">
+      <node ref="R502" pin="1"/>
+      <node ref="U500" pin="9"/>
+    </net>
+    <net code="377" name="Net-(C505-Pad2)">
+      <node ref="RN500" pin="7"/>
+      <node ref="RN500" pin="8"/>
+      <node ref="U502" pin="1"/>
+      <node ref="C505" pin="2"/>
+    </net>
+    <net code="378" name="Net-(RN501-Pad3)">
+      <node ref="RN501" pin="3"/>
+      <node ref="RN501" pin="4"/>
+    </net>
+    <net code="379" name="Net-(R514-Pad1)">
+      <node ref="U502" pin="4"/>
+      <node ref="U503" pin="5"/>
+      <node ref="R515" pin="2"/>
+      <node ref="R514" pin="1"/>
+    </net>
+    <net code="380" name="Net-(C506-Pad1)">
+      <node ref="RN500" pin="6"/>
+      <node ref="RN500" pin="5"/>
+      <node ref="U502" pin="3"/>
+      <node ref="C506" pin="1"/>
+      <node ref="R514" pin="2"/>
+      <node ref="D504" pin="2"/>
+      <node ref="R513" pin="1"/>
+    </net>
+    <net code="381" name="Net-(D504-Pad1)">
+      <node ref="D504" pin="1"/>
+      <node ref="R512" pin="2"/>
+    </net>
+    <net code="382" name="/5 ETC/VCP">
+      <node ref="C502" pin="2"/>
+      <node ref="U500" pin="7"/>
+    </net>
+    <net code="383" name="/5 ETC/VBOOT">
+      <node ref="D501" pin="1"/>
+      <node ref="C503" pin="2"/>
+      <node ref="C504" pin="2"/>
+      <node ref="U500" pin="30"/>
+    </net>
+    <net code="384" name="Net-(C502-Pad1)">
+      <node ref="C502" pin="1"/>
+      <node ref="R506" pin="2"/>
+    </net>
+    <net code="385" name="/5 ETC/ETC_PEN">
+      <node ref="U501" pin="1"/>
+      <node ref="R511" pin="2"/>
+      <node ref="U503" pin="6"/>
+    </net>
+    <net code="386" name="Net-(RN501-Pad6)">
+      <node ref="U503" pin="3"/>
+      <node ref="U503" pin="2"/>
+      <node ref="RN501" pin="6"/>
+      <node ref="RN501" pin="7"/>
+      <node ref="RN501" pin="8"/>
+    </net>
+    <net code="387" name="Net-(D503-Pad1)">
+      <node ref="D503" pin="1"/>
+      <node ref="RN501" pin="2"/>
+    </net>
+    <net code="388" name="Net-(D502-Pad1)">
+      <node ref="RN501" pin="1"/>
+      <node ref="D502" pin="1"/>
+    </net>
+    <net code="389" name="/5 ETC/VCC_ETC">
+      <node ref="U500" pin="4"/>
+      <node ref="U500" pin="33"/>
+      <node ref="C503" pin="1"/>
+      <node ref="U501" pin="2"/>
+      <node ref="CD500" pin="1"/>
+      <node ref="CD501" pin="2"/>
+      <node ref="D500" pin="2"/>
+      <node ref="C504" pin="1"/>
+    </net>
+    <net code="390" name="Net-(D500-Pad1)">
+      <node ref="D500" pin="1"/>
+      <node ref="D501" pin="2"/>
+      <node ref="R506" pin="1"/>
+    </net>
+  </nets>
+</export>

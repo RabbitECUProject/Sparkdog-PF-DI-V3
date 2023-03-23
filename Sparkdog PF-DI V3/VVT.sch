@@ -1,0 +1,782 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SamacSys_Parts:74AHC14PW,118 U205
+U 1 1 60AD95DC
+P 5250 4325
+F 0 "U205" H 5750 4590 50  0000 C CNN
+F 1 "74AHC14PW,118" H 5750 4499 50  0000 C CNN
+F 2 "Samacsys:SOP65P640X110-14N" H 6100 4425 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/74AHC14PW,118.pdf" H 6100 4325 50  0001 L CNN
+F 4 "74AHC(T)14 - Hex inverting Schmitt trigger@en-us" H 6100 4225 50  0001 L CNN "Description"
+F 5 "1.1" H 6100 4125 50  0001 L CNN "Height"
+F 6 "771-74AHC14PW-T" H 6100 4025 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=771-74AHC14PW-T" H 6100 3925 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Nexperia" H 6100 3825 50  0001 L CNN "Manufacturer_Name"
+F 9 "74AHC14PW,118" H 6100 3725 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5250 4325
+	1    0    0    -1  
+$EndComp
+Text GLabel 5250 4925 0    50   Input ~ 0
+VSS
+Text GLabel 6250 4325 2    50   Input ~ 0
+VCC5V
+$Comp
+L Device:R_Pack04 RN201
+U 1 1 60ADBC6E
+P 2825 4325
+F 0 "RN201" V 2408 4325 50  0000 C CNN
+F 1 "1206 10k" V 2499 4325 50  0000 C CNN
+F 2 "Samacsys:742C083103JP" V 3100 4325 50  0001 C CNN
+F 3 "~" H 2825 4325 50  0001 C CNN
+	1    2825 4325
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN202
+U 1 1 60ADD024
+P 2825 5075
+F 0 "RN202" V 2408 5075 50  0000 C CNN
+F 1 "1206 10k" V 2499 5075 50  0000 C CNN
+F 2 "Samacsys:742C083103JP" V 3100 5075 50  0001 C CNN
+F 3 "~" H 2825 5075 50  0001 C CNN
+	1    2825 5075
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN205
+U 1 1 60ADD76B
+P 8925 5025
+F 0 "RN205" V 8508 5025 50  0000 C CNN
+F 1 "1206 10k" V 8599 5025 50  0000 C CNN
+F 2 "Samacsys:742C083103JP" V 9200 5025 50  0001 C CNN
+F 3 "~" H 8925 5025 50  0001 C CNN
+	1    8925 5025
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN204
+U 1 1 60ADE52E
+P 8925 4375
+F 0 "RN204" V 8508 4375 50  0000 C CNN
+F 1 "1206 10k" V 8599 4375 50  0000 C CNN
+F 2 "Samacsys:742C083103JP" V 9200 4375 50  0001 C CNN
+F 3 "~" H 8925 4375 50  0001 C CNN
+	1    8925 4375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 4325 5050 4325
+Wire Wire Line
+	5050 4125 3200 4125
+Wire Wire Line
+	2625 4125 2375 4125
+Wire Wire Line
+	5250 4425 4950 4425
+Wire Wire Line
+	4950 4425 4950 4225
+Wire Wire Line
+	4950 4225 4750 4225
+Wire Wire Line
+	3025 4325 3025 4425
+Wire Wire Line
+	3025 5075 3025 5175
+Wire Wire Line
+	4750 4975 4950 4975
+Wire Wire Line
+	4950 4975 4950 4825
+Wire Wire Line
+	4950 4825 5250 4825
+Wire Wire Line
+	3025 4875 3200 4875
+Wire Wire Line
+	4850 4725 5250 4725
+Wire Wire Line
+	2625 4875 2275 4875
+Wire Wire Line
+	2625 4225 2625 4325
+Wire Wire Line
+	2625 4975 2625 5075
+Wire Wire Line
+	2625 4975 1525 4975
+Connection ~ 2625 4975
+Wire Wire Line
+	2625 4225 1525 4225
+Connection ~ 2625 4225
+Text GLabel 2625 4425 0    50   Input ~ 0
+VSS
+Text GLabel 2625 5175 0    50   Input ~ 0
+VSS
+Text HLabel 1525 4125 0    50   Input ~ 0
+VVT_INA
+Text HLabel 1525 4225 0    50   Output ~ 0
+VVT_OUTA
+Text HLabel 1525 4875 0    50   Input ~ 0
+VVT_INB
+Text HLabel 1525 4975 0    50   Output ~ 0
+VVT_OUTB
+Wire Wire Line
+	5250 4525 5250 4425
+Connection ~ 5250 4425
+Wire Wire Line
+	6250 4425 6800 4425
+Wire Wire Line
+	7600 4275 7775 4275
+Wire Wire Line
+	9125 4275 10000 4275
+Wire Wire Line
+	9125 4175 9600 4175
+Wire Wire Line
+	9125 4275 9125 4375
+Wire Wire Line
+	8725 4375 8725 4475
+Wire Wire Line
+	9125 4925 9125 5025
+Wire Wire Line
+	8725 5025 8725 5125
+Text GLabel 9125 5125 2    50   Input ~ 0
+VSS
+Text GLabel 9125 4475 2    50   Input ~ 0
+VSS
+Wire Wire Line
+	9125 4825 9500 4825
+Wire Wire Line
+	9125 4925 10000 4925
+Connection ~ 9125 4925
+$Comp
+L SamacSys_Parts:BZX84C5V1LT1G D200
+U 1 1 60AF20FC
+P 6200 3875
+F 0 "D200" H 6650 3510 50  0000 C CNN
+F 1 "BZX84C5V1LT1G" H 6650 3601 50  0000 C CNN
+F 2 "Samacsys:SOT96P237X111-3N" H 6950 3975 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/BZX84C2V4LT1-D.PDF" H 6950 3875 50  0001 L CNN
+F 4 "250 mW 5.1 V +/-5% Zener Diode Voltage Regulator" H 6950 3775 50  0001 L CNN "Description"
+F 5 "1.11" H 6950 3675 50  0001 L CNN "Height"
+F 6 "863-BZX84C5V1LT1G" H 6950 3575 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BZX84C5V1LT1G?qs=vNc2DXHODiJkjScJCg4pBQ%3D%3D" H 6950 3475 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ON Semiconductor" H 6950 3375 50  0001 L CNN "Manufacturer_Name"
+F 9 "BZX84C5V1LT1G" H 6950 3275 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6200 3875
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 3875 5050 3875
+Text GLabel 6200 3875 2    50   Input ~ 0
+VSS
+$Comp
+L SamacSys_Parts:BZX84C5V1LT1G D201
+U 1 1 60AF518D
+P 6200 5525
+F 0 "D201" H 6650 5160 50  0000 C CNN
+F 1 "BZX84C5V1LT1G" H 6650 5251 50  0000 C CNN
+F 2 "Samacsys:SOT96P237X111-3N" H 6950 5625 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/BZX84C2V4LT1-D.PDF" H 6950 5525 50  0001 L CNN
+F 4 "250 mW 5.1 V +/-5% Zener Diode Voltage Regulator" H 6950 5425 50  0001 L CNN "Description"
+F 5 "1.11" H 6950 5325 50  0001 L CNN "Height"
+F 6 "863-BZX84C5V1LT1G" H 6950 5225 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BZX84C5V1LT1G?qs=vNc2DXHODiJkjScJCg4pBQ%3D%3D" H 6950 5125 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ON Semiconductor" H 6950 5025 50  0001 L CNN "Manufacturer_Name"
+F 9 "BZX84C5V1LT1G" H 6950 4925 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6200 5525
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:BZX84C5V1LT1G D202
+U 1 1 60AF5A91
+P 7700 3775
+F 0 "D202" H 7472 3729 50  0000 R CNN
+F 1 "BZX84C5V1LT1G" H 7472 3820 50  0000 R CNN
+F 2 "Samacsys:SOT96P237X111-3N" H 8450 3875 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/BZX84C2V4LT1-D.PDF" H 8450 3775 50  0001 L CNN
+F 4 "250 mW 5.1 V +/-5% Zener Diode Voltage Regulator" H 8450 3675 50  0001 L CNN "Description"
+F 5 "1.11" H 8450 3575 50  0001 L CNN "Height"
+F 6 "863-BZX84C5V1LT1G" H 8450 3475 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BZX84C5V1LT1G?qs=vNc2DXHODiJkjScJCg4pBQ%3D%3D" H 8450 3375 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ON Semiconductor" H 8450 3275 50  0001 L CNN "Manufacturer_Name"
+F 9 "BZX84C5V1LT1G" H 8450 3175 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7700 3775
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:BZX84C5V1LT1G D203
+U 1 1 60AF6578
+P 7500 5875
+F 0 "D203" H 7950 5510 50  0000 C CNN
+F 1 "BZX84C5V1LT1G" H 7950 5601 50  0000 C CNN
+F 2 "Samacsys:SOT96P237X111-3N" H 8250 5975 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/BZX84C2V4LT1-D.PDF" H 8250 5875 50  0001 L CNN
+F 4 "250 mW 5.1 V +/-5% Zener Diode Voltage Regulator" H 8250 5775 50  0001 L CNN "Description"
+F 5 "1.11" H 8250 5675 50  0001 L CNN "Height"
+F 6 "863-BZX84C5V1LT1G" H 8250 5575 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/BZX84C5V1LT1G?qs=vNc2DXHODiJkjScJCg4pBQ%3D%3D" H 8250 5475 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ON Semiconductor" H 8250 5375 50  0001 L CNN "Manufacturer_Name"
+F 9 "BZX84C5V1LT1G" H 8250 5275 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7500 5875
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 5525 5300 5525
+Wire Wire Line
+	6575 5875 6575 4825
+Wire Wire Line
+	6575 4825 6250 4825
+Text GLabel 7500 5875 2    50   Input ~ 0
+VSS
+Text GLabel 7700 3775 2    50   Input ~ 0
+VSS
+Text GLabel 6200 5525 2    50   Input ~ 0
+VSS
+Text HLabel 10000 4175 2    50   Input ~ 0
+VVT_INC
+Text HLabel 10000 4275 2    50   Output ~ 0
+VVT_OUTC
+Text HLabel 10000 4825 2    50   Input ~ 0
+VVT_IND
+Text HLabel 10000 4925 2    50   Output ~ 0
+VVT_OUTD
+$Comp
+L Device:C C200
+U 1 1 60B093A0
+P 5050 3725
+F 0 "C200" H 5165 3771 50  0000 L CNN
+F 1 "0603 1nF" H 5165 3680 50  0000 L CNN
+F 2 "Samacsys:RESC1608X55N" H 5088 3575 50  0001 C CNN
+F 3 "~" H 5050 3725 50  0001 C CNN
+	1    5050 3725
+	1    0    0    -1  
+$EndComp
+Connection ~ 5050 3875
+$Comp
+L Device:C C202
+U 1 1 60B09B37
+P 6600 3625
+F 0 "C202" H 6715 3671 50  0000 L CNN
+F 1 "0603 1nF" H 6715 3580 50  0000 L CNN
+F 2 "Samacsys:RESC1608X55N" H 6638 3475 50  0001 C CNN
+F 3 "~" H 6600 3625 50  0001 C CNN
+	1    6600 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C203
+U 1 1 60B09ECB
+P 6575 6025
+F 0 "C203" H 6075 6075 50  0000 L CNN
+F 1 "0603 1nF" H 6075 6000 50  0000 L CNN
+F 2 "Samacsys:RESC1608X55N" H 6613 5875 50  0001 C CNN
+F 3 "~" H 6575 6025 50  0001 C CNN
+	1    6575 6025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C201
+U 1 1 60B0A4E6
+P 4850 5675
+F 0 "C201" H 4965 5721 50  0000 L CNN
+F 1 "0603 1nF" H 4965 5630 50  0000 L CNN
+F 2 "Samacsys:RESC1608X55N" H 4888 5525 50  0001 C CNN
+F 3 "~" H 4850 5675 50  0001 C CNN
+	1    4850 5675
+	1    0    0    -1  
+$EndComp
+Connection ~ 4850 5525
+Wire Wire Line
+	6800 3775 6600 3775
+Connection ~ 6800 3775
+Wire Wire Line
+	6600 5875 6575 5875
+Connection ~ 6575 5875
+Text GLabel 6575 6175 2    50   Input ~ 0
+VSS
+Text GLabel 6600 3475 2    50   Input ~ 0
+VSS
+Text GLabel 5050 3575 2    50   Input ~ 0
+VSS
+Text GLabel 4850 5825 2    50   Input ~ 0
+VSS
+$Comp
+L Device:C CD200
+U 1 1 60B0FAC6
+P 3725 5675
+F 0 "CD200" H 3840 5721 50  0000 L CNN
+F 1 "0603 100nF" H 3840 5630 50  0000 L CNN
+F 2 "Samacsys:RESC1608X55N" H 3763 5525 50  0001 C CNN
+F 3 "~" H 3725 5675 50  0001 C CNN
+	1    3725 5675
+	1    0    0    -1  
+$EndComp
+Text GLabel 3725 5525 2    50   Input ~ 0
+VCC5V
+Text GLabel 3725 5825 2    50   Input ~ 0
+VSS
+$Comp
+L Rabbit~ECU~Schematic~Symbols:Dual_Trans_Array_PNP U203
+U 1 1 60B124F2
+P 4850 2425
+F 0 "U203" H 5025 2900 50  0000 C CNN
+F 1 "Dual_Trans_Array_PNP" H 5025 2809 50  0000 C CNN
+F 2 "Sparkdog PF-DI V3:SOT-363-6" H 4850 2425 50  0001 C CNN
+F 3 "" H 4850 2425 50  0001 C CNN
+	1    4850 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Rabbit~ECU~Schematic~Symbols:Dual_Trans_Array_PNP U204
+U 1 1 60B13176
+P 6450 2425
+F 0 "U204" H 6625 2900 50  0000 C CNN
+F 1 "Dual_Trans_Array_PNP" H 6625 2809 50  0000 C CNN
+F 2 "Sparkdog PF-DI V3:SOT-363-6" H 6450 2425 50  0001 C CNN
+F 3 "" H 6450 2425 50  0001 C CNN
+	1    6450 2425
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 2375 2    50   Input ~ 0
+VCC5V
+Text GLabel 6900 2375 2    50   Input ~ 0
+VCC5V
+Text GLabel 6350 2175 0    50   Input ~ 0
+VCC5V
+Text GLabel 4750 2175 0    50   Input ~ 0
+VCC5V
+Wire Wire Line
+	5300 2275 5600 2275
+Wire Wire Line
+	6900 2275 7200 2275
+Wire Wire Line
+	7200 2275 7200 1525
+Wire Wire Line
+	7200 1525 7300 1525
+Wire Wire Line
+	6350 2275 6000 2275
+Wire Wire Line
+	6000 2275 6000 1200
+Wire Wire Line
+	6000 1200 7300 1200
+Wire Wire Line
+	4750 2275 4400 2275
+Wire Wire Line
+	4400 2275 4400 1525
+Wire Wire Line
+	4400 1525 4300 1525
+Text HLabel 8300 1525 2    50   Input ~ 0
+PULLEN_CD
+$Comp
+L Device:R_Pack04 RN203
+U 1 1 60B32711
+P 6050 3025
+F 0 "RN203" H 6238 3071 50  0000 L CNN
+F 1 "1206 470R" H 6238 2980 50  0000 L CNN
+F 2 "Samacsys:742C083103JP" V 6325 3025 50  0001 C CNN
+F 3 "~" H 6050 3025 50  0001 C CNN
+	1    6050 3025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2175 7300 2175
+Wire Wire Line
+	7300 2175 7300 2825
+Wire Wire Line
+	7300 2825 6150 2825
+Wire Wire Line
+	4750 2375 4750 2825
+Wire Wire Line
+	4750 2825 5850 2825
+Wire Wire Line
+	5300 2175 5800 2175
+Wire Wire Line
+	5800 2175 5800 2725
+Wire Wire Line
+	5800 2725 5950 2725
+Wire Wire Line
+	5950 2725 5950 2825
+Wire Wire Line
+	6050 2825 6050 2425
+Wire Wire Line
+	6350 2375 6350 2425
+Wire Wire Line
+	6050 2425 6350 2425
+Wire Wire Line
+	9600 3225 9600 4175
+Connection ~ 9600 4175
+Wire Wire Line
+	9600 4175 10000 4175
+Wire Wire Line
+	9500 3325 6050 3325
+Wire Wire Line
+	6050 3325 6050 3225
+Wire Wire Line
+	6150 3225 9600 3225
+Wire Wire Line
+	5950 3225 5950 3325
+Wire Wire Line
+	5950 3325 2375 3325
+Wire Wire Line
+	2375 3325 2375 4125
+Connection ~ 2375 4125
+Wire Wire Line
+	2375 4125 1525 4125
+Wire Wire Line
+	5850 3225 2275 3225
+Wire Wire Line
+	2275 3225 2275 4875
+Connection ~ 2275 4875
+Wire Wire Line
+	2275 4875 1525 4875
+Wire Wire Line
+	9500 3325 9500 4825
+Connection ~ 9500 4825
+Wire Wire Line
+	9500 4825 10000 4825
+Text HLabel 3275 1525 0    50   Input ~ 0
+PULLEN_AB
+$Comp
+L SamacSys_Parts:RC0603FR-071KL R200
+U 1 1 65A096FB
+P 3600 1200
+F 0 "R200" H 3950 1425 50  0000 C CNN
+F 1 "0603 1k" H 3950 1334 50  0000 C CNN
+F 2 "RESC1608X55N" H 4150 1250 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf" H 4150 1150 50  0001 L CNN
+F 4 "GENERAL PURPOSE CHIP RESISTORS" H 4150 1050 50  0001 L CNN "Description"
+F 5 "0.55" H 4150 950 50  0001 L CNN "Height"
+F 6 "603-RC0603FR-071KL" H 4150 850 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0603FR-071KL?qs=VU8sRB4EgwApHsk4rF%2F3zg%3D%3D" H 4150 750 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 4150 650 50  0001 L CNN "Manufacturer_Name"
+F 9 "RC0603FR-071KL" H 4150 550 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3600 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:RC0603FR-071KL R201
+U 1 1 65A0A861
+P 3600 1525
+F 0 "R201" H 3950 1750 50  0000 C CNN
+F 1 "0603 1k" H 3950 1659 50  0000 C CNN
+F 2 "RESC1608X55N" H 4150 1575 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf" H 4150 1475 50  0001 L CNN
+F 4 "GENERAL PURPOSE CHIP RESISTORS" H 4150 1375 50  0001 L CNN "Description"
+F 5 "0.55" H 4150 1275 50  0001 L CNN "Height"
+F 6 "603-RC0603FR-071KL" H 4150 1175 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0603FR-071KL?qs=VU8sRB4EgwApHsk4rF%2F3zg%3D%3D" H 4150 1075 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 4150 975 50  0001 L CNN "Manufacturer_Name"
+F 9 "RC0603FR-071KL" H 4150 875 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3600 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:RC0603FR-071KL R202
+U 1 1 65A0AEE4
+P 7300 1525
+F 0 "R202" H 7650 1750 50  0000 C CNN
+F 1 "0603 1k" H 7650 1659 50  0000 C CNN
+F 2 "RESC1608X55N" H 7850 1575 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf" H 7850 1475 50  0001 L CNN
+F 4 "GENERAL PURPOSE CHIP RESISTORS" H 7850 1375 50  0001 L CNN "Description"
+F 5 "0.55" H 7850 1275 50  0001 L CNN "Height"
+F 6 "603-RC0603FR-071KL" H 7850 1175 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0603FR-071KL?qs=VU8sRB4EgwApHsk4rF%2F3zg%3D%3D" H 7850 1075 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 7850 975 50  0001 L CNN "Manufacturer_Name"
+F 9 "RC0603FR-071KL" H 7850 875 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7300 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:RC0603FR-071KL R203
+U 1 1 65A0B458
+P 7300 1200
+F 0 "R203" H 7650 1425 50  0000 C CNN
+F 1 "0603 1k" H 7650 1334 50  0000 C CNN
+F 2 "RESC1608X55N" H 7850 1250 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf" H 7850 1150 50  0001 L CNN
+F 4 "GENERAL PURPOSE CHIP RESISTORS" H 7850 1050 50  0001 L CNN "Description"
+F 5 "0.55" H 7850 950 50  0001 L CNN "Height"
+F 6 "603-RC0603FR-071KL" H 7850 850 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0603FR-071KL?qs=VU8sRB4EgwApHsk4rF%2F3zg%3D%3D" H 7850 750 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 7850 650 50  0001 L CNN "Manufacturer_Name"
+F 9 "RC0603FR-071KL" H 7850 550 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7300 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 1525 8000 1525
+Wire Wire Line
+	8000 1200 8000 1525
+Connection ~ 8000 1525
+Wire Wire Line
+	3275 1525 3600 1525
+Wire Wire Line
+	3600 1200 3600 1525
+Connection ~ 3600 1525
+Wire Wire Line
+	5600 1200 4300 1200
+Wire Wire Line
+	5600 1200 5600 2275
+$Comp
+L SamacSys_Parts:RC0603FR-071KL R205
+U 1 1 65A23CE8
+P 6900 4525
+F 0 "R205" H 7250 4425 50  0000 C CNN
+F 1 "0603 0R" H 7250 4350 50  0000 C CNN
+F 2 "RESC1608X55N" H 7450 4575 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf" H 7450 4475 50  0001 L CNN
+F 4 "GENERAL PURPOSE CHIP RESISTORS" H 7450 4375 50  0001 L CNN "Description"
+F 5 "0.55" H 7450 4275 50  0001 L CNN "Height"
+F 6 "603-RC0603FR-071KL" H 7450 4175 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0603FR-071KL?qs=VU8sRB4EgwApHsk4rF%2F3zg%3D%3D" H 7450 4075 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 7450 3975 50  0001 L CNN "Manufacturer_Name"
+F 9 "RC0603FR-071KL" H 7450 3875 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6900 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:RC0603FR-071KL R204
+U 1 1 65A25441
+P 6900 4925
+F 0 "R204" H 7250 4825 50  0000 C CNN
+F 1 "0603 0R" H 7250 4750 50  0000 C CNN
+F 2 "RESC1608X55N" H 7450 4975 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf" H 7450 4875 50  0001 L CNN
+F 4 "GENERAL PURPOSE CHIP RESISTORS" H 7450 4775 50  0001 L CNN "Description"
+F 5 "0.55" H 7450 4675 50  0001 L CNN "Height"
+F 6 "603-RC0603FR-071KL" H 7450 4575 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0603FR-071KL?qs=VU8sRB4EgwApHsk4rF%2F3zg%3D%3D" H 7450 4475 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 7450 4375 50  0001 L CNN "Manufacturer_Name"
+F 9 "RC0603FR-071KL" H 7450 4275 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6900 4925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3775 6800 4175
+Connection ~ 6800 4175
+Wire Wire Line
+	6800 4175 6800 4425
+Connection ~ 6575 4825
+Wire Wire Line
+	6250 4925 6900 4925
+Wire Wire Line
+	6250 4525 6900 4525
+Wire Wire Line
+	7600 4525 7600 4275
+Connection ~ 9125 4275
+$Comp
+L SamacSys_Parts:RC0603FR-071KL R206
+U 1 1 65A9BD1A
+P 7775 4375
+F 0 "R206" H 8125 4750 50  0000 C CNN
+F 1 "0603 0R" H 8125 4650 50  0000 C CNN
+F 2 "RESC1608X55N" H 8325 4425 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf" H 8325 4325 50  0001 L CNN
+F 4 "GENERAL PURPOSE CHIP RESISTORS" H 8325 4225 50  0001 L CNN "Description"
+F 5 "0.55" H 8325 4125 50  0001 L CNN "Height"
+F 6 "603-RC0603FR-071KL" H 8325 4025 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0603FR-071KL?qs=VU8sRB4EgwApHsk4rF%2F3zg%3D%3D" H 8325 3925 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 8325 3825 50  0001 L CNN "Manufacturer_Name"
+F 9 "RC0603FR-071KL" H 8325 3725 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7775 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:RC0603FR-071KL R207
+U 1 1 65A9C4C1
+P 7775 4725
+F 0 "R207" H 8125 4950 50  0000 C CNN
+F 1 "0603 0R" H 8125 4859 50  0000 C CNN
+F 2 "RESC1608X55N" H 8325 4775 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf" H 8325 4675 50  0001 L CNN
+F 4 "GENERAL PURPOSE CHIP RESISTORS" H 8325 4575 50  0001 L CNN "Description"
+F 5 "0.55" H 8325 4475 50  0001 L CNN "Height"
+F 6 "603-RC0603FR-071KL" H 8325 4375 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0603FR-071KL?qs=VU8sRB4EgwApHsk4rF%2F3zg%3D%3D" H 8325 4275 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 8325 4175 50  0001 L CNN "Manufacturer_Name"
+F 9 "RC0603FR-071KL" H 8325 4075 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7775 4725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 4175 8475 4175
+Wire Wire Line
+	7775 4375 7775 4275
+Connection ~ 7775 4275
+Wire Wire Line
+	7775 4275 8725 4275
+Wire Wire Line
+	8475 4375 8475 4175
+Connection ~ 8475 4175
+Wire Wire Line
+	8475 4175 8725 4175
+Wire Wire Line
+	7600 4925 8475 4925
+Wire Wire Line
+	6575 4825 7775 4825
+Wire Wire Line
+	7775 4725 7775 4825
+Connection ~ 7775 4825
+Wire Wire Line
+	7775 4825 8725 4825
+Wire Wire Line
+	8475 4725 8475 4925
+Connection ~ 8475 4925
+Wire Wire Line
+	8475 4925 8725 4925
+Wire Notes Line
+	7725 3925 8525 3925
+Wire Notes Line
+	8525 3925 8525 5000
+Wire Notes Line
+	8525 5000 7725 5000
+Wire Notes Line
+	7725 5000 7725 3925
+Wire Notes Line
+	6925 4375 7575 4375
+Wire Notes Line
+	7575 4375 7575 5175
+Wire Notes Line
+	7575 5175 6925 5175
+Wire Notes Line
+	6925 5175 6925 4375
+Wire Wire Line
+	5050 3875 5050 4125
+Wire Wire Line
+	4850 4725 4850 4875
+Connection ~ 5050 4125
+Wire Wire Line
+	5050 4125 5050 4325
+Connection ~ 4850 4875
+Wire Wire Line
+	4850 4875 4850 5525
+$Comp
+L SamacSys_Parts:RC0603FR-071KL R209
+U 1 1 65B06B66
+P 4050 4225
+F 0 "R209" H 4400 4450 50  0000 C CNN
+F 1 "0603 0R" H 4400 4359 50  0000 C CNN
+F 2 "RESC1608X55N" H 4600 4275 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf" H 4600 4175 50  0001 L CNN
+F 4 "GENERAL PURPOSE CHIP RESISTORS" H 4600 4075 50  0001 L CNN "Description"
+F 5 "0.55" H 4600 3975 50  0001 L CNN "Height"
+F 6 "603-RC0603FR-071KL" H 4600 3875 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0603FR-071KL?qs=VU8sRB4EgwApHsk4rF%2F3zg%3D%3D" H 4600 3775 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 4600 3675 50  0001 L CNN "Manufacturer_Name"
+F 9 "RC0603FR-071KL" H 4600 3575 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4050 4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:RC0603FR-071KL R208
+U 1 1 65B07980
+P 4050 4975
+F 0 "R208" H 4400 4875 50  0000 C CNN
+F 1 "0603 0R" H 4400 4800 50  0000 C CNN
+F 2 "RESC1608X55N" H 4600 5025 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf" H 4600 4925 50  0001 L CNN
+F 4 "GENERAL PURPOSE CHIP RESISTORS" H 4600 4825 50  0001 L CNN "Description"
+F 5 "0.55" H 4600 4725 50  0001 L CNN "Height"
+F 6 "603-RC0603FR-071KL" H 4600 4625 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0603FR-071KL?qs=VU8sRB4EgwApHsk4rF%2F3zg%3D%3D" H 4600 4525 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 4600 4425 50  0001 L CNN "Manufacturer_Name"
+F 9 "RC0603FR-071KL" H 4600 4325 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4050 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:RC0603FR-071KL R210
+U 1 1 65B07EE7
+P 3200 4025
+F 0 "R210" H 3550 4250 50  0000 C CNN
+F 1 "0603 0R" H 3550 4159 50  0000 C CNN
+F 2 "RESC1608X55N" H 3750 4075 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf" H 3750 3975 50  0001 L CNN
+F 4 "GENERAL PURPOSE CHIP RESISTORS" H 3750 3875 50  0001 L CNN "Description"
+F 5 "0.55" H 3750 3775 50  0001 L CNN "Height"
+F 6 "603-RC0603FR-071KL" H 3750 3675 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0603FR-071KL?qs=VU8sRB4EgwApHsk4rF%2F3zg%3D%3D" H 3750 3575 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 3750 3475 50  0001 L CNN "Manufacturer_Name"
+F 9 "RC0603FR-071KL" H 3750 3375 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3200 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:RC0603FR-071KL R211
+U 1 1 65B087A7
+P 3200 4750
+F 0 "R211" H 3550 4975 50  0000 C CNN
+F 1 "0603 0R" H 3550 4884 50  0000 C CNN
+F 2 "RESC1608X55N" H 3750 4800 50  0001 L CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0603_51_RoHS_L_v5.pdf" H 3750 4700 50  0001 L CNN
+F 4 "GENERAL PURPOSE CHIP RESISTORS" H 3750 4600 50  0001 L CNN "Description"
+F 5 "0.55" H 3750 4500 50  0001 L CNN "Height"
+F 6 "603-RC0603FR-071KL" H 3750 4400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Yageo/RC0603FR-071KL?qs=VU8sRB4EgwApHsk4rF%2F3zg%3D%3D" H 3750 4300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "YAGEO (PHYCOMP)" H 3750 4200 50  0001 L CNN "Manufacturer_Name"
+F 9 "RC0603FR-071KL" H 3750 4100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3200 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3025 4225 3900 4225
+Wire Wire Line
+	3025 4975 3900 4975
+Wire Wire Line
+	3200 4025 3200 4125
+Connection ~ 3200 4125
+Wire Wire Line
+	3200 4125 3025 4125
+Wire Wire Line
+	3900 4025 3900 4225
+Connection ~ 3900 4225
+Wire Wire Line
+	3900 4225 4050 4225
+Wire Wire Line
+	3200 4750 3200 4875
+Connection ~ 3200 4875
+Wire Wire Line
+	3200 4875 4850 4875
+Wire Wire Line
+	3900 4750 3900 4975
+Connection ~ 3900 4975
+Wire Wire Line
+	3900 4975 4050 4975
+Wire Notes Line
+	3150 3700 3150 5050
+Wire Notes Line
+	3150 5050 3950 5050
+Wire Notes Line
+	3950 5050 3950 3700
+Wire Notes Line
+	3950 3700 3150 3700
+Wire Notes Line
+	4075 3925 4075 5225
+Wire Notes Line
+	4075 5225 4725 5225
+Wire Notes Line
+	4725 5225 4725 3925
+Wire Notes Line
+	4725 3925 4075 3925
+Wire Wire Line
+	6250 4625 6575 4625
+Wire Wire Line
+	6575 4625 6575 4825
+Text Notes 3150 5150 0    50   ~ 0
+Fit for analog input
+Text Notes 4075 5325 0    50   ~ 0
+Fit for VVT
+Text Notes 6925 5275 0    50   ~ 0
+Fit for VVT
+Text Notes 7725 5100 0    50   ~ 0
+Fit for analog input
+$EndSCHEMATC

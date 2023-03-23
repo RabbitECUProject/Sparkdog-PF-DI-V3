@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Sparkdog PF-DI V3")(type KiCad)(uri "${KIPRJMOD}/Sparkdog PF-DI V3.pretty")(options "")(descr ""))
+  (lib (name Samacsys)(type KiCad)(uri "C:/Users/mdaut/Documents/Sparkdog PF-DI V3/Libraries/SamacSys_Parts.pretty")(options "")(descr ""))
+)
