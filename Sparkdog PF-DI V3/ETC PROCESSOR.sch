@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -301,9 +301,9 @@ Text HLabel 875  4550 0    50   Input ~ 0
 A13
 Text HLabel 875  4450 0    50   Input ~ 0
 A12
-Text HLabel 875  4350 0    50   Input ~ 0
-A11
 Text HLabel 875  4250 0    50   Input ~ 0
+A11
+Text HLabel 875  4350 0    50   Input ~ 0
 A10
 Text HLabel 7150 4150 2    50   BiDi ~ 0
 T9
@@ -578,23 +578,23 @@ F 3 "~" H 3500 2650 50  0001 C CNN
 	1    3500 2650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4375 1400 0    50   Input ~ 0
+Text GLabel 3905 1400 0    50   Input ~ 0
 VSS
-Text GLabel 4375 1700 0    50   Input ~ 0
+Text GLabel 3905 1700 0    50   Input ~ 0
 VCC3V3
 Wire Wire Line
-	4525 1400 4375 1400
+	4055 1400 3905 1400
 Wire Wire Line
-	4525 1700 4375 1700
+	4055 1700 3905 1700
 $Comp
 L Device:C CD600
 U 1 1 60727204
-P 4525 1550
-F 0 "CD600" H 4640 1596 50  0000 L CNN
-F 1 "0603 100nF" H 4640 1505 50  0000 L CNN
-F 2 "Samacsys:RESC1608X55N" H 4563 1400 50  0001 C CNN
-F 3 "~" H 4525 1550 50  0001 C CNN
-	1    4525 1550
+P 4055 1550
+F 0 "CD600" H 4170 1596 50  0000 L CNN
+F 1 "0603 100nF" H 4170 1505 50  0000 L CNN
+F 2 "Samacsys:RESC1608X55N" H 4093 1400 50  0001 C CNN
+F 3 "~" H 4055 1550 50  0001 C CNN
+	1    4055 1550
 	-1   0    0    1   
 $EndComp
 Text GLabel 7950 3650 2    50   Input ~ 0
@@ -836,58 +836,20 @@ Wire Notes Line
 	8475 4375 8475 4800
 Text Notes 8475 4350 0    50   ~ 0
 Pop for MK10
-$Comp
-L Device:R R604
-U 1 1 65BC7934
-P 5075 1500
-F 0 "R604" V 4850 1650 50  0000 C CNN
-F 1 "0603 0R" V 4850 1350 50  0000 C CNN
-F 2 "Samacsys:RESC1608X55N" V 5005 1500 50  0001 C CNN
-F 3 "~" H 5075 1500 50  0001 C CNN
-	1    5075 1500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R605
-U 1 1 65BC793A
-P 5075 1600
-F 0 "R605" V 4875 1750 50  0000 C CNN
-F 1 "0603 0R" V 4875 1450 50  0000 C CNN
-F 2 "Samacsys:RESC1608X55N" V 5005 1600 50  0001 C CNN
-F 3 "~" H 5075 1600 50  0001 C CNN
-	1    5075 1600
-	0    -1   -1   0   
-$EndComp
-Wire Notes Line
-	4800 1850 5400 1850
-Wire Notes Line
-	5400 1850 5400 1425
-Wire Notes Line
-	5400 1425 4800 1425
-Wire Notes Line
-	4800 1425 4800 1850
-Text Notes 4800 1400 0    50   ~ 0
+Text Notes 4545 1900 0    50   ~ 0
 Pop for MK10
 Wire Wire Line
-	4525 1400 4750 1400
+	4055 1400 4280 1400
 Wire Wire Line
-	4750 1400 4750 1500
+	4280 1400 4280 1500
+Connection ~ 4055 1400
 Wire Wire Line
-	4750 1500 4925 1500
-Connection ~ 4525 1400
+	4055 1700 4280 1700
 Wire Wire Line
-	4525 1700 4750 1700
-Wire Wire Line
-	4750 1700 4750 1600
-Wire Wire Line
-	4750 1600 4925 1600
-Connection ~ 4525 1700
-Wire Wire Line
-	5225 1600 5650 1600
+	4280 1700 4280 1600
+Connection ~ 4055 1700
 Wire Wire Line
 	5650 1600 5650 2950
-Wire Wire Line
-	5225 1500 5750 1500
 Wire Wire Line
 	2425 4550 2425 2500
 Wire Wire Line
@@ -1013,10 +975,8 @@ Wire Notes Line
 	2725 5850 2725 5675
 Wire Wire Line
 	5750 1500 6525 1500
-Connection ~ 5750 1500
 Wire Wire Line
 	5650 1600 6525 1600
-Connection ~ 5650 1600
 Text HLabel 6525 1500 2    50   Output ~ 0
 GP16
 Text HLabel 6525 1600 2    50   Output ~ 0
@@ -1041,4 +1001,44 @@ Wire Wire Line
 	4750 6100 3075 6100
 Text HLabel 3075 6100 0    50   Output ~ 0
 A17
+Wire Notes Line
+	4520 1305 5450 1305
+Wire Notes Line
+	5450 1305 5450 1815
+Wire Notes Line
+	5450 1815 4520 1815
+Wire Notes Line
+	4520 1815 4520 1305
+$Comp
+L Device:R R604
+U 1 1 641FFE0F
+P 5050 1500
+F 0 "R604" V 5410 1770 50  0000 C CNN
+F 1 "0603 0R" V 5415 1490 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" V 4980 1500 50  0001 C CNN
+F 3 "~" H 5050 1500 50  0001 C CNN
+	1    5050 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R605
+U 1 1 641FFE15
+P 5050 1600
+F 0 "R605" V 5425 1870 50  0000 C CNN
+F 1 "0603 0R" V 5425 1590 50  0000 C CNN
+F 2 "Samacsys:RESC1608X55N" V 4980 1600 50  0001 C CNN
+F 3 "~" H 5050 1600 50  0001 C CNN
+	1    5050 1600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4280 1600 4900 1600
+Wire Wire Line
+	4280 1500 4900 1500
+Wire Wire Line
+	5750 1500 5200 1500
+Connection ~ 5750 1500
+Wire Wire Line
+	5650 1600 5200 1600
+Connection ~ 5650 1600
 $EndSCHEMATC

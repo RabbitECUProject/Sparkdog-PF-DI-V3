@@ -59,31 +59,6 @@ Text GLabel 6150 4050 2    50   Input ~ 0
 VCCA3V3
 Text GLabel 6150 3600 2    50   Input ~ 0
 VSSA
-Wire Wire Line
-	6000 4050 6150 4050
-Connection ~ 6000 4050
-Wire Wire Line
-	6000 3950 6000 4050
-Wire Wire Line
-	6000 3600 6150 3600
-Connection ~ 6000 3600
-Wire Wire Line
-	6000 3650 6000 3600
-$Comp
-L Device:C CD705
-U 1 1 6064A365
-P 6000 3800
-F 0 "CD705" H 6115 3846 50  0000 L CNN
-F 1 "0603 100nF" H 6115 3755 50  0000 L CNN
-F 2 "Samacsys:RESC1608X55N" H 6038 3650 50  0001 C CNN
-F 3 "~" H 6000 3800 50  0001 C CNN
-	1    6000 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5850 4050 6000 4050
-Wire Wire Line
-	5850 3600 6000 3600
 $Comp
 L Device:L L701
 U 1 1 606486EB
@@ -232,4 +207,8 @@ F 3 "~" H 7925 3875 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8125 3875 9025 3875
+Wire Wire Line
+	5850 4050 6150 4050
+Wire Wire Line
+	5850 3600 6150 3600
 $EndSCHEMATC

@@ -19,7 +19,7 @@ U 1 1 60658028
 P 5100 1750
 F 0 "U400" H 5100 2117 50  0000 C CNN
 F 1 "TLV9052" H 5100 2026 50  0000 C CNN
-F 2 "Samacsys:SOT65P280X110-8N" H 5100 1750 50  0001 C CNN
+F 2 "Samacsys:SOP65P640X120-8N" H 5100 1750 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf" H 5100 1750 50  0001 C CNN
 	1    5100 1750
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 2 1 6065BD11
 P 5250 2500
 F 0 "U400" H 5250 2867 50  0000 C CNN
 F 1 "TLV9052" H 5250 2776 50  0000 C CNN
-F 2 "Samacsys:SOT65P280X110-8N" H 5250 2500 50  0001 C CNN
+F 2 "Samacsys:SOP65P640X120-8N" H 5250 2500 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf" H 5250 2500 50  0001 C CNN
 	2    5250 2500
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 3 1 6065DD7B
 P 6350 2050
 F 0 "U400" H 6308 2096 50  0000 L CNN
 F 1 "TLV9052" H 6308 2005 50  0000 L CNN
-F 2 "Samacsys:SOT65P280X110-8N" H 6350 2050 50  0001 C CNN
+F 2 "Samacsys:SOP65P640X120-8N" H 6350 2050 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf" H 6350 2050 50  0001 C CNN
 	3    6350 2050
 	1    0    0    -1  
@@ -85,7 +85,7 @@ U 1 1 6067BDAF
 P 5400 3900
 F 0 "U401" H 5400 4267 50  0000 C CNN
 F 1 "TLV9052" H 5400 4176 50  0000 C CNN
-F 2 "Samacsys:SOT65P280X110-8N" H 5400 3900 50  0001 C CNN
+F 2 "Samacsys:SOP65P640X120-8N" H 5400 3900 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf" H 5400 3900 50  0001 C CNN
 	1    5400 3900
 	1    0    0    -1  
@@ -96,7 +96,7 @@ U 2 1 6067BDB5
 P 5400 4750
 F 0 "U401" H 5400 5117 50  0000 C CNN
 F 1 "TLV9052" H 5400 5026 50  0000 C CNN
-F 2 "Samacsys:SOT65P280X110-8N" H 5400 4750 50  0001 C CNN
+F 2 "Samacsys:SOP65P640X120-8N" H 5400 4750 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf" H 5400 4750 50  0001 C CNN
 	2    5400 4750
 	1    0    0    -1  
@@ -107,7 +107,7 @@ U 3 1 6067BDBB
 P 6350 4200
 F 0 "U401" H 6308 4246 50  0000 L CNN
 F 1 "TLV9052" H 6308 4155 50  0000 L CNN
-F 2 "Samacsys:SOT65P280X110-8N" H 6350 4200 50  0001 C CNN
+F 2 "Samacsys:SOP65P640X120-8N" H 6350 4200 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8610_8620.pdf" H 6350 4200 50  0001 C CNN
 	3    6350 4200
 	1    0    0    -1  

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 8 8
 Title ""
 Date ""
 Rev ""
@@ -1020,23 +1020,6 @@ F 9 "ZXMS6004DN8-13" H 10175 1750 50  0001 L CNN "Manufacturer_Part_Number"
 	1    9225 2350
 	1    0    0    -1  
 $EndComp
-$Comp
-L SamacSys_Parts:ZXMS6004DN8-13 U512
-U 1 1 6408370F
-P 9225 3100
-F 0 "U512" H 9775 3365 50  0000 C CNN
-F 1 "ZXMS6004DN8-13" H 9775 3274 50  0000 C CNN
-F 2 "SOIC127P600X175-8N" H 10175 3200 50  0001 L CNN
-F 3 "" H 10175 3100 50  0001 L CNN
-F 4 "MOSFET Dual 60V N-Ch FET 500mOhm 1.3A 120mJ" H 10175 3000 50  0001 L CNN "Description"
-F 5 "1.75" H 10175 2900 50  0001 L CNN "Height"
-F 6 "621-ZXMS6004DN8-13" H 10175 2800 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/ZXMS6004DN8-13?qs=W66WzN12R3YH%252BpRyFoT8Rg%3D%3D" H 10175 2700 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Diodes Inc." H 10175 2600 50  0001 L CNN "Manufacturer_Name"
-F 9 "ZXMS6004DN8-13" H 10175 2500 50  0001 L CNN "Manufacturer_Part_Number"
-	1    9225 3100
-	1    0    0    -1  
-$EndComp
 Entry Wire Line
 	8775 850  8875 950 
 Entry Wire Line
@@ -1049,10 +1032,6 @@ Entry Wire Line
 	8775 2350 8875 2450
 Entry Wire Line
 	8775 2550 8875 2650
-Entry Wire Line
-	8775 3100 8875 3200
-Entry Wire Line
-	8775 3300 8875 3400
 Wire Wire Line
 	8875 1700 9225 1700
 Wire Wire Line
@@ -1061,8 +1040,6 @@ Wire Wire Line
 	8875 2450 9225 2450
 Wire Wire Line
 	9225 2650 8875 2650
-Wire Wire Line
-	8875 3200 9225 3200
 Wire Wire Line
 	10325 850  10325 950 
 Wire Wire Line
@@ -1075,10 +1052,6 @@ Wire Wire Line
 	10325 2350 10325 2450
 Wire Wire Line
 	10325 2550 10325 2650
-Wire Wire Line
-	10325 3100 10325 3200
-Wire Wire Line
-	10325 3300 10325 3400
 Wire Wire Line
 	10325 850  10750 850 
 Connection ~ 10325 850 
@@ -1098,30 +1071,12 @@ Wire Wire Line
 	10325 2550 10750 2550
 Connection ~ 10325 2550
 Wire Wire Line
-	10325 3100 10750 3100
-Connection ~ 10325 3100
-Wire Wire Line
-	10325 3300 10750 3300
-Connection ~ 10325 3300
-Wire Wire Line
 	9225 850  9125 850 
 Wire Wire Line
 	9125 850  9125 1050
 Wire Wire Line
-	9225 3300 9125 3300
-Connection ~ 9125 3300
-Wire Wire Line
-	9125 3300 9125 3625
-Wire Wire Line
-	9225 3100 9125 3100
-Connection ~ 9125 3100
-Wire Wire Line
-	9125 3100 9125 3300
-Wire Wire Line
 	9225 2550 9125 2550
 Connection ~ 9125 2550
-Wire Wire Line
-	9125 2550 9125 3100
 Wire Wire Line
 	9225 2350 9125 2350
 Connection ~ 9125 2350
@@ -1156,10 +1111,6 @@ Text Label 8875 2450 0    50   ~ 0
 PIN5
 Text Label 8875 2650 0    50   ~ 0
 PIN6
-Text Label 8875 3200 0    50   ~ 0
-PIN7
-Text Label 8875 3400 0    50   ~ 0
-PIN8
 Wire Wire Line
 	7825 1475 8075 1475
 Wire Wire Line
@@ -1188,10 +1139,6 @@ Entry Wire Line
 	8075 1475 8175 1575
 Entry Wire Line
 	8075 1575 8175 1675
-Entry Wire Line
-	8075 2950 8175 3050
-Entry Wire Line
-	8075 3050 8175 3150
 Text Label 6425 875  0    50   ~ 0
 PIN1
 Text Label 6425 975  0    50   ~ 0
@@ -1206,8 +1153,6 @@ Text Label 7850 1575 0    50   ~ 0
 PIN6
 Text Label 7825 2950 0    50   ~ 0
 PIN7
-Text Label 7825 3050 0    50   ~ 0
-PIN8
 Wire Wire Line
 	6625 1575 6575 1575
 Wire Wire Line
@@ -1675,8 +1620,6 @@ Wire Wire Line
 Text GLabel 2350 925  0    50   Input ~ 0
 VSS
 Wire Wire Line
-	9225 3400 8875 3400
-Wire Wire Line
 	1275 1325 1150 1325
 Wire Wire Line
 	1275 1225 1150 1225
@@ -1708,10 +1651,6 @@ Text HLabel 1000 3275 0    50   Output ~ 0
 IO_PWM5
 Text HLabel 1000 3150 0    50   Output ~ 0
 IO_PWM6
-Text HLabel 1000 3025 0    50   Output ~ 0
-IO_PWM7
-Text HLabel 1000 2900 0    50   Output ~ 0
-IO_PWM8
 Text Label 10425 850  0    50   ~ 0
 PWM1
 Text Label 10425 1050 0    50   ~ 0
@@ -1724,10 +1663,6 @@ Text Label 10425 2350 0    50   ~ 0
 PWM5
 Text Label 10425 2550 0    50   ~ 0
 PWM6
-Text Label 10425 3100 0    50   ~ 0
-PWM7
-Text Label 10425 3300 0    50   ~ 0
-PWM8
 Wire Wire Line
 	1000 3775 1650 3775
 Wire Wire Line
@@ -1740,14 +1675,6 @@ Wire Wire Line
 	1000 3275 1650 3275
 Wire Wire Line
 	1650 3150 1000 3150
-Wire Wire Line
-	1000 3025 1650 3025
-Wire Wire Line
-	1000 2900 1650 2900
-Text Label 1175 2900 0    50   ~ 0
-PWM8
-Text Label 1175 3025 0    50   ~ 0
-PWM7
 Text Label 1175 3150 0    50   ~ 0
 PWM6
 Text Label 1175 3275 0    50   ~ 0
@@ -1761,34 +1688,12 @@ PWM2
 Text Label 1175 3775 0    50   ~ 0
 PWM1
 $Comp
-L Device:D_Zener D511
-U 1 1 663B8A07
-P 1800 2900
-F 0 "D511" H 2125 2925 50  0000 C CNN
-F 1 "D_Zener" H 2400 2925 50  0000 C CNN
-F 2 "" H 1800 2900 50  0001 C CNN
-F 3 "~" H 1800 2900 50  0001 C CNN
-	1    1800 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Zener D512
-U 1 1 663B8F2A
-P 1800 3025
-F 0 "D512" H 2125 3050 50  0000 C CNN
-F 1 "D_Zener" H 2400 3050 50  0000 C CNN
-F 2 "" H 1800 3025 50  0001 C CNN
-F 3 "~" H 1800 3025 50  0001 C CNN
-	1    1800 3025
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Zener D513
 U 1 1 663B9770
 P 1800 3150
 F 0 "D513" H 2125 3175 50  0000 C CNN
 F 1 "D_Zener" H 2400 3175 50  0000 C CNN
-F 2 "" H 1800 3150 50  0001 C CNN
+F 2 "Samacsys:DIOM5127X229N" H 1800 3150 50  0001 C CNN
 F 3 "~" H 1800 3150 50  0001 C CNN
 	1    1800 3150
 	1    0    0    -1  
@@ -1799,7 +1704,7 @@ U 1 1 663B9DFF
 P 1800 3275
 F 0 "D514" H 2125 3300 50  0000 C CNN
 F 1 "D_Zener" H 2400 3300 50  0000 C CNN
-F 2 "" H 1800 3275 50  0001 C CNN
+F 2 "Samacsys:DIOM5127X229N" H 1800 3275 50  0001 C CNN
 F 3 "~" H 1800 3275 50  0001 C CNN
 	1    1800 3275
 	1    0    0    -1  
@@ -1810,7 +1715,7 @@ U 1 1 663BA49D
 P 1800 3400
 F 0 "D515" H 2125 3425 50  0000 C CNN
 F 1 "D_Zener" H 2400 3425 50  0000 C CNN
-F 2 "" H 1800 3400 50  0001 C CNN
+F 2 "Samacsys:DIOM5127X229N" H 1800 3400 50  0001 C CNN
 F 3 "~" H 1800 3400 50  0001 C CNN
 	1    1800 3400
 	1    0    0    -1  
@@ -1821,7 +1726,7 @@ U 1 1 663BAB4F
 P 1800 3525
 F 0 "D516" H 2125 3550 50  0000 C CNN
 F 1 "D_Zener" H 2400 3550 50  0000 C CNN
-F 2 "" H 1800 3525 50  0001 C CNN
+F 2 "Samacsys:DIOM5127X229N" H 1800 3525 50  0001 C CNN
 F 3 "~" H 1800 3525 50  0001 C CNN
 	1    1800 3525
 	1    0    0    -1  
@@ -1832,7 +1737,7 @@ U 1 1 663BB21A
 P 1800 3650
 F 0 "D517" H 2125 3675 50  0000 C CNN
 F 1 "D_Zener" H 2400 3675 50  0000 C CNN
-F 2 "" H 1800 3650 50  0001 C CNN
+F 2 "Samacsys:DIOM5127X229N" H 1800 3650 50  0001 C CNN
 F 3 "~" H 1800 3650 50  0001 C CNN
 	1    1800 3650
 	1    0    0    -1  
@@ -1843,21 +1748,14 @@ U 1 1 663BB8F9
 P 1800 3775
 F 0 "D518" H 2125 3800 50  0000 C CNN
 F 1 "D_Zener" H 2400 3800 50  0000 C CNN
-F 2 "" H 1800 3775 50  0001 C CNN
+F 2 "Samacsys:DIOM5127X229N" H 1800 3775 50  0001 C CNN
 F 3 "~" H 1800 3775 50  0001 C CNN
 	1    1800 3775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1950 3775 1950 3650
-Wire Wire Line
-	1950 2900 1950 2575
-Connection ~ 1950 3025
-Wire Wire Line
-	1950 3025 1950 2900
 Connection ~ 1950 3150
-Wire Wire Line
-	1950 3150 1950 3025
 Connection ~ 1950 3275
 Wire Wire Line
 	1950 3275 1950 3150
@@ -1871,10 +1769,10 @@ Connection ~ 1950 3650
 Wire Wire Line
 	1950 3650 1950 3525
 $Comp
-L Device:R R512
+L Device:R R514
 U 1 1 6653E200
 P 1525 2425
-F 0 "R512" V 1525 2975 50  0000 C CNN
+F 0 "R514" V 1525 2975 50  0000 C CNN
 F 1 "0805 0R" V 1525 3300 50  0000 C CNN
 F 2 "Samacsys:RESC2012X60N" V 1455 2425 50  0001 C CNN
 F 3 "~" H 1525 2425 50  0001 C CNN
@@ -1907,7 +1805,6 @@ Wire Wire Line
 	1750 2575 1950 2575
 Text GLabel 1275 2575 0    50   Input ~ 0
 VSS
-Connection ~ 1950 2900
 Wire Notes Line
 	1700 2300 1700 2675
 Wire Notes Line
@@ -1920,6 +1817,14 @@ Text GLabel 1275 2425 0    50   Input ~ 0
 VCC12VPP
 Text Notes 525  2275 0    50   ~ 0
 Pop one as required for zener voltage limit or reverse for flyback diode
+Wire Wire Line
+	9125 2550 9125 3625
+Wire Wire Line
+	1950 2575 1950 3150
+Text HLabel 1000 3020 0    50   Output ~ 0
+IO_PWM7
+Wire Wire Line
+	1000 3020 1540 3020
 Wire Bus Line
 	5850 1775 5850 2650
 Wire Bus Line
@@ -1946,4 +1851,6 @@ Wire Bus Line
 	5475 1175 5475 1775
 Wire Bus Line
 	3400 675  3400 2525
+Text Label 1180 3020 0    50   ~ 0
+PIN7
 $EndSCHEMATC
